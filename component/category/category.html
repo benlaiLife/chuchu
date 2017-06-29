@@ -1,2 +1,65 @@
-
-<p>category</p>
+<div class="category_wrap">
+	<div class="topbar bgFFF">
+		<ul>
+			<li><a href="javascript:void(0)"></a>男生精选</li>
+			<li><a href="javascript:void(0)"></a>女生精选</li>
+		</ul>
+	</div>
+	<ul class="type_list bgFFF clearfix2">
+		<li ng-repeat="item in arr.categoryList">
+			<span class="bg"></span>
+			<a href="javascript:void(0)">
+				<div class="box">
+					<img src="{{item.imgUrl}}"/>
+					<h2>{{item.title}}</h2>
+					<p>{{item.subTitle}}</p>
+				</div>
+			</a>	
+		</li>	
+	</ul>
+	<div class="bgFFF">
+		<div class="title_wrap">
+			<div class="title_line">
+				<div class="title_box">
+					<i class="lt"></i>
+					<i class="rt"></i>
+					<em>精品推荐</em>
+					<span>New Arrivals</span>
+				</div>
+			</div>
+		</div>
+		<div class="tab_top">
+			<ul class="clearfix2">
+				<li><p>人气</p></li>
+				<li><p>销量</p></li>
+				<li><p>最新</p></li>
+				<li><p>价格<img src="component/category/img/sort.png"/></p></li>
+			</ul>
+		</div>
+		<div class="container">
+			<ul class="clearfix2">
+				<li ng-repeat="item in arr.productList">
+					<div class="bg"></div>
+					<a href="javascript:void(0)">
+						<div class="box">
+							<img src="{{item.imgUrl}}"/>
+							<div class="info">
+								<h2>{{item.title}}</h2>
+								<p class="price_one clearfix2">
+									<em class="small">￥</em>
+									<em class="big">{{item.newPrice}}</em>
+								</p>
+								<p class="price_two clearfix2">
+									<span>
+										<em>￥</em>{{item.oldPrice}}
+									</span>
+									<em class="count">{{item.saleCount}}人已购买</em>
+								</p>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
