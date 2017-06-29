@@ -1,0 +1,298 @@
+[
+  {
+    "banner": {
+      "img": "https://image2.benlailife.com/AppHomePageImage/7f21bd9bfcb74368b5d5db072213cb61.jpg",
+      "itemType": "1",
+      "type": "6",
+      "value": "https://m.benlai.com/zt/0214fruits"
+    },
+    "objList": [
+      {
+        "itemType": "2",
+        "product": {
+          "imageUrl": "https://image5.benlailife.com/ProductImages/000/000/295/944/medium/3a1b68aa-dcf0-4be6-9630-f46bd86bba00.jpg",
+          "isArrivalDay": "0",
+          "isCanDelivery": "1",
+          "isInventory": "1",
+          "price": {
+            "afterNum": ".90",
+            "beforeNum": "29",
+            "hasOrigPrice": "1",
+            "origPrice": 65,
+            "origPriceName": "本来价",
+            "price": 29.9,
+            "priceName": "限时抢购价"
+          },
+          "productName": "百香果20粒（中果·1-1.3kg）",
+          "productSysNo": 295944,
+          "productTag": "",
+          "status": "0"
+        }
+      },
+      {
+        "itemType": "2",
+        "product": {
+          "imageUrl": "https://image.benlailife.com/ProductImages/000/000/294/887/medium/9a9af86e-2ef2-4ee4-ab03-0ea0ff5d8cb6.jpg",
+          "isArrivalDay": "0",
+          "isCanDelivery": "1",
+          "isInventory": "1",
+          "price": {
+            "afterNum": ".00",
+            "beforeNum": "72",
+            "hasOrigPrice": "1",
+            "origPrice": 128,
+            "origPriceName": "本来价",
+            "price": 72,
+            "priceName": "促销价"
+          },
+          "productName": "进口牛油果6粒",
+          "productSysNo": 294887,
+          "productTag": "",
+          "status": "0"
+        }
+      },
+      {
+        "itemType": "2",
+        "product": {
+          "imageUrl": "https://image.benlailife.com//ProductImages/000/000/291/567/medium/4b2de843-a13d-48f1-a252-6d658f1fac78.jpg",
+          "isArrivalDay": "0",
+          "isCanDelivery": "1",
+          "isInventory": "1",
+          "price": {
+            "afterNum": ".00",
+            "beforeNum": "18",
+            "hasOrigPrice": "1",
+            "origPrice": 29,
+            "origPriceName": "本来价",
+            "price": 18,
+            "priceName": "促销价"
+          },
+          "productName": "平谷大桃6粒装（0.9-1.1kg）",
+          "productSysNo": 291567,
+          "productTag": "",
+          "status": "0"
+        }
+      },
+      {
+        "itemType": "2",
+        "product": {
+          "imageUrl": "https://image5.benlailife.com//ProductImages/000/000/286/172/medium/47caf1d0-8d6a-4173-a387-ea8256bca095.jpg",
+          "isArrivalDay": "0",
+          "isCanDelivery": "1",
+          "isInventory": "1",
+          "price": {
+            "afterNum": ".80",
+            "beforeNum": "28",
+            "hasOrigPrice": "1",
+            "origPrice": 50,
+            "origPriceName": "本来价",
+            "price": 28.8,
+            "priceName": "促销价"
+          },
+          "productName": "美国进口橙（夏橙）4粒",
+          "productSysNo": 286172,
+          "productTag": "",
+          "status": "0"
+        }
+      },
+      {
+        "itemType": "2",
+        "product": {
+          "imageUrl": "https://image.benlailife.com/ProductImages/000/000/282/052/medium/3f6406b7-2cee-478b-8c4e-17c6ce6c382e.jpg",
+          "isArrivalDay": "0",
+          "isCanDelivery": "1",
+          "isInventory": "1",
+          "price": {
+            "afterNum": ".80",
+            "beforeNum": "32",
+            "hasOrigPrice": "1",
+            "origPrice": 49,
+            "origPriceName": "本来价",
+            "price": 32.8,
+            "priceName": "促销价"
+          },
+          "productName": "泰国椰青2个装",
+          "productSysNo": 282052,
+          "productTag": "",
+          "status": "0"
+        }
+      },
+      {
+        "itemType": "2",
+        "product": {
+          "imageUrl": "https://image3.benlailife.com/ProductImages/000/000/322/271/medium/50aa9067-e4e2-45ed-b782-ab680c590de5.jpg",
+          "isArrivalDay": "0",
+          "isCanDelivery": "1",
+          "isInventory": "1",
+          "price": {
+            "afterNum": ".00",
+            "beforeNum": "58",
+            "hasOrigPrice": "1",
+            "origPrice": 78,
+            "origPriceName": "本来价",
+            "price": 58,
+            "priceName": "促销价"
+          },
+          "productName": "台湾金钻凤梨2个（单个800g以上）",
+          "productSysNo": 322271,
+          "productTag": "",
+          "status": "0"
+        }
+      },
+      {
+        "itemType": "2",
+        "product": {
+          "imageUrl": "https://image5.benlailife.com//ProductImages/000/000/330/850/medium/92ea57ef-fb9a-4cef-9393-a35852e2cbc7.jpg",
+          "isArrivalDay": "0",
+          "isCanDelivery": "1",
+          "isInventory": "1",
+          "price": {
+            "afterNum": ".00",
+            "beforeNum": "48",
+            "hasOrigPrice": "1",
+            "origPrice": 99,
+            "origPriceName": "本来价",
+            "price": 48,
+            "priceName": "促销价"
+          },
+          "productName": "南汇8424西瓜（单果3kg以上）",
+          "productSysNo": 330850,
+          "productTag": "",
+          "status": "0"
+        }
+      },
+      {
+        "itemType": "2",
+        "product": {
+          "imageUrl": "https://image1.benlailife.com/ProductImages/000/000/052/030/medium/d50f4f2c-f6a3-4c68-a92d-3fe75dff7492.jpg",
+          "isArrivalDay": "0",
+          "isCanDelivery": "1",
+          "isInventory": "1",
+          "price": {
+            "afterNum": ".80",
+            "beforeNum": "23",
+            "hasOrigPrice": "1",
+            "origPrice": 79,
+            "origPriceName": "本来价",
+            "price": 23.8,
+            "priceName": "促销价"
+          },
+          "productName": "大台农芒果 1盒/1kg（4-6粒）",
+          "productSysNo": 52030,
+          "productTag": "",
+          "status": "0"
+        }
+      },
+      {
+        "itemType": "2",
+        "product": {
+          "imageUrl": "https://image5.benlailife.com/ProductImages/000/000/048/505/medium/2190b309-45a0-45fb-943f-ef47bb946611.jpg",
+          "isArrivalDay": "0",
+          "isCanDelivery": "1",
+          "isInventory": "1",
+          "price": {
+            "afterNum": ".80",
+            "beforeNum": "28",
+            "hasOrigPrice": "1",
+            "origPrice": 48,
+            "origPriceName": "本来价",
+            "price": 28.8,
+            "priceName": "促销价"
+          },
+          "productName": "夏黑无核葡萄0.6-0.9kg",
+          "productSysNo": 48505,
+          "productTag": "",
+          "status": "0"
+        }
+      },
+      {
+        "itemType": "2",
+        "product": {
+          "imageUrl": "https://image5.benlailife.com/ProductImages/000/000/026/193/medium/cdf3448b-8701-4cfa-a461-ff5d99c7cb1a.jpg",
+          "isArrivalDay": "0",
+          "isCanDelivery": "1",
+          "isInventory": "1",
+          "price": {
+            "afterNum": ".00",
+            "beforeNum": "45",
+            "hasOrigPrice": "1",
+            "origPrice": 158,
+            "origPriceName": "本来价",
+            "price": 45,
+            "priceName": "促销价"
+          },
+          "productName": "蓝宝实有机蓝莓 4盒装（4*125g）",
+          "productSysNo": 26193,
+          "productTag": "",
+          "status": "0"
+        }
+      },
+      {
+        "itemType": "2",
+        "product": {
+          "imageUrl": "https://image5.benlailife.com/ProductImages/000/000/035/663/medium/3086ec69-d520-487d-9f40-7b8e19a572e6.jpg",
+          "isArrivalDay": "0",
+          "isCanDelivery": "1",
+          "isInventory": "1",
+          "price": {
+            "afterNum": ".90",
+            "beforeNum": "29",
+            "hasOrigPrice": "1",
+            "origPrice": 79,
+            "origPriceName": "本来价",
+            "price": 29.9,
+            "priceName": "促销价"
+          },
+          "productName": "越南红心火龙果 2粒装（大果·1-1.25kg）",
+          "productSysNo": 35663,
+          "productTag": "",
+          "status": "0"
+        }
+      },
+      {
+        "itemType": "2",
+        "product": {
+          "imageUrl": "https://image1.benlailife.com/ProductImages/000/000/000/130/medium/8d9c4bd9-f66c-468f-87c5-6211a71e020e.jpg",
+          "isArrivalDay": "0",
+          "isCanDelivery": "1",
+          "isInventory": "1",
+          "price": {
+            "afterNum": ".80",
+            "beforeNum": "36",
+            "hasOrigPrice": "1",
+            "origPrice": 45,
+            "origPriceName": "本来价",
+            "price": 36.8,
+            "priceName": "促销价"
+          },
+          "productName": "进口香蕉1把装（11-17根）",
+          "productSysNo": 130,
+          "productTag": "",
+          "status": "0"
+        }
+      }
+    ],
+    "sysno": "64628",
+    "title": "热销爆款"
+  },
+  {
+    "sysno": "64629",
+    "title": "新品上线"
+  },
+  {
+    "sysno": "64630",
+    "title": "进口水果"
+  },
+  {
+    "sysno": "64631",
+    "title": "国产水果"
+  },
+  {
+    "sysno": "64922",
+    "title": "水果礼盒"
+  },
+  {
+    "sysno": "64931",
+    "title": "缤纷鲜果"
+  }
+]
