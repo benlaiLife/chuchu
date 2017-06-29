@@ -1,0 +1,144 @@
+.top{
+    width: 100%;
+    height: 29px;
+    background: #FFF;
+    padding: 7px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+.icon{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    width: 19px;
+    height: 20px;
+    background: url(img/search.png) no-repeat;
+    background-size: 19px 20px;
+    display: inline-block;
+}
+.car{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    width: 19px;
+    height: 20px;
+    background: url(img/shopcar.png) no-repeat;
+    background-size: 19px 20px;
+    display: inline-block;
+}
+.nav{
+    width: 160px;
+    height: 25px;
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    border: solid 1px #f99;
+    border-radius: 3px;
+}
+.nav li{
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    float: left;
+    cursor: pointer;
+}
+.nav li a{
+    display: block;
+}
+.active{
+    background: #f99;
+    color: #fff;
+}
+.main{
+    width: 100%;
+    font-size: 16px;
+    margin-top: 43px;
+    background: #F7F7F7 ;
+}
+.main h2{
+    padding: 5px 10px 5px 38px;
+    line-height: 18px;
+    font-size: 16px;
+    color: #f99;
+    background: url(img/time.png) no-repeat 10px center;
+    background-size: 18px 18px;
+    border-bottom: solid 1px #F7F7F7;
+}
+.ul{
+    width: 100%;
+    list-style: none;
+}
+.ul li{
+    width: auto;
+    height: 120px;
+    padding: 10px;
+    background: #FFF;
+    display: block;
+    border-bottom: solid 1px #f7f7f7;
+    position: relative;
+}
+.ul li span{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 5;
+}
+.ul li span img{
+    width: 120px;
+    height: 120px;
+}
+.rg{
+    width: auto;
+    padding-left: 135px;
+}
+.rg h1{
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    margin: 9px 0 2px;
+    display: block;
+    font-size: 16px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.today{
+    height: 18px;
+    line-height: 18px;
+    margin-right: 3px;
+    font-size: 12px;
+    display: inline-block;
+    border: solid 1px #f99;
+    border-radius: 3px;
+    color: #f99;
+    padding: 0 3px;
+    float: left;
+}
+.newprice{
+    height: 14px;
+    line-height: 14px;
+    margin-top: 24px;
+    display: block;
+    font-size: 20px;
+    color: #df3130;
+}
+.oldprice{
+    height: 24px;
+    line-height: 24px;
+    padding: 10px 0 2px;
+    display: block;
+    color: #b0b0b0;
+}
+.old{
+    text-decoration: line-through;
+    font-style: normal;
+}
+.fr{
+    float: right;
+}
