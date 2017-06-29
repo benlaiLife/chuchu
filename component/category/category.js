@@ -1,5 +1,8 @@
+/**
+ * Created by asus on 2017/6/29.
+ */
 define(['uiRouter'],function  () {
-	angular.module("categoryModule",['ui.router'])
+	angular.module("categoryModule",[])
     .config(function ($stateProvider,$urlRouterProvider) {
         $stateProvider
             .state("category",{
@@ -9,6 +12,5 @@ define(['uiRouter'],function  () {
             })
     })
     .controller("categoryCtrl",["$scope",function ($scope) {
-        $scope.title="分类"
     }])
 })

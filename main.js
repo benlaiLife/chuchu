@@ -4,10 +4,10 @@ require.config({
 		'angular': 'js/libs/angular-1.6.4.min',
 		'uiRouter': 'js/libs/angular-ui-router-0.4.2.min',
 		'swiper': 'js/libs/swiper.min',
-		'category': 'component/category/category',
+		'9yuan9': 'component/9yuan9/9yuan9',
 		'home': 'component/home/home',
 		'mine': 'component/mine/mine',
-		'shopcar': 'component/shopcar/shopcar',
+		'category': 'component/category/category',
 		'css':'js/libs/angular-css.min'
 	},
 	shim: {
@@ -19,8 +19,8 @@ require.config({
         },
 		'home':['uiRouter'],
 		'mine':['uiRouter'],
-		'shopcar':['uiRouter'],
-		'category': {
+		'category':['uiRouter'],
+		'9yuan9': {
 			deps: ['uiRouter']
 },
 		'app': {

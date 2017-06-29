@@ -1,24 +1,13 @@
 /*头部*/
-.home_head{    top: 0;  left: 0;  width: 100%;  position: fixed;  z-index: 90;  background-color: #fff;  height: .44rem;display: flex;}
-.home_head_city{    display: block;  padding: 0rem .28rem 0rem .15rem;  background: url(imgs/top.png) right -.105rem no-repeat;  background-size: .23rem 5.37rem;  color: #333;  font: 400 .17rem/0.44rem "黑体";}
-.home_head_search{display: flex;flex: 1;}
-.home_head_input{display: flex;  -webkit-box-flex: 1;  -webkit-flex: 1;  -ms-flex: 1;  flex: 1;position: relative;z-index: 0;}
-.home_head_input a{    position: absolute;  right: 0;  top: 0;  z-index: 20;  height: .44rem;  width: .35rem;  text-align: center;
-    background: url("imgs/login_n_ico05_0e143fe9.png") no-repeat center top;  background-size:.15rem;  margin-top: .14rem;}
-.home_head_input a img{    width: .15rem;  margin-top: .14rem;}
-.home_head_input input{overflow: hidden;  white-space: nowrap;  text-overflow: ellipsis;  height: .3rem;  font: 400 .15rem/0.29rem "黑体";  color: #000;  background: url(imgs/top.png) .1rem -4.23rem no-repeat #fff;  border: 1px solid #e1e1e1;  background-size: .23rem 5.37rem;  width: 100%;  padding: 0rem .35rem 0rem .32rem;  box-sizing: border-box;  margin-top: .07rem;  border-radius: 1rem;}
-.home_head_login a{     display: block;  min-width: .6rem;  font: 400 .15rem/0.44rem "黑体";  color: #abd13e;  text-align: center;  padding: 0rem .1rem;  box-sizing: border-box; }
+.home_head{    width: 100%;
+    height: 0.29rem;
+    background: #FFF;
+    padding: 0.07rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+z-index: 100}
 
-.home_top_menu{    float: left;  width: 100%;  background-color: #fff;  overflow: hidden;  overflow-x: auto;  overflow-y: hidden;  height: .4rem;  margin-top: .44rem;  position: fixed;  z-index: 99;  left: 0;}
-.home_top_menu dl dt a img{    float: left;  width: .74rem;  height: .4rem;  margin-right: .15rem;}
-.home_top_menu dl dd a{    float: left;
-    padding: 0rem .15rem;}
-.home_top_menu dl dd{border-top: 1px solid #e1e1e1}
-.home_top_menu dl dd a span{    font-size: .15rem;
-    line-height: .4rem;
-    height: .4rem;
-    color: #666;
-    box-sizing: border-box;
-    display: block;}
-.active_span{    border-bottom: .02rem solid #abd13e;
-    color: #abd13e;}
+
+
+
