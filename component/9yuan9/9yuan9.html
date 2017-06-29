@@ -1,2 +1,26 @@
-
-<p>9块9</p>
+<div class="top">
+    <a href="" class="icon"></a>
+    <a href="" class="car"></a>
+    <ul class="nav">
+        <li  ng-click="show(0)"><a ng-class="{true: 'active', false: 'inactive'}[isActive]">男生精选</a></li>
+        <li ng-click="show(1)"><a ng-class="{true: 'active', false: 'inactive'}[isActive1]">女生精选</a></li>
+    </ul>
+</div>
+<div class="main">
+    <h2>9块9.每日9点更新</h2>
+    <ul class="ul">
+        <li ng-repeat="item in arr">
+            <span>
+                <img src="{{item.imgUrl}}" alt="">
+            </span>
+            <div class="rg">
+                <h1><b class="today">今日</b>{{item.title}}</h1>
+                <p class="newprice">{{"￥"+item.newPrice}}</p>
+                <p class="oldprice">
+                    <lable>原价：<i class="old">{{item.oldPrice}}</i></lable>
+                    <lable class="fr">{{item.saleCount+"人已买"}}</lable>
+                </p>
+            </div>
+        </li>
+    </ul>
+</div>
