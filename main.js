@@ -1,7 +1,7 @@
 require.config({
 	paths: {
 		'app': 'js/app',
-		'angular': 'js/libs/angular-1.6.4.min',
+		'angular': 'js/libs/angular-1.4.6.min',
 		'uiRouter': 'js/libs/angular-ui-router-0.4.2.min',
 		'swiper': 'js/libs/swiper.min',
 		'9yuan9': 'component/9yuan9/9yuan9',
