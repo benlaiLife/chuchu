@@ -8,10 +8,109 @@ define(['uiRouter'],function  () {
             .state("mine",{
                 url:"/mine",
                 templateUrl:"component/mine/mine.html",
-                controller:"mineCtrl"
+                controller:"mineCtrl",
+                css:"component/mine/mine.css"
             })
     })
     .controller("mineCtrl",["$scope",function ($scope) {
-        $scope.title="我的未来"
+        $scope.title="我的未来";
+        $scope.change = false;
+        $scope.newAccount = function(){
+        	$scope.change = !$scope.change;
+        }
     }])
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
