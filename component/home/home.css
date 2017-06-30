@@ -42,3 +42,8 @@
     top: 9px;
     right: 0;}
 .remain_day{color: blue;font-size: 12px}
+.home_footer{font-size: 12px;
+    padding: 10px 0 24px;text-align: center;width: 100%;background: #f7f7f7;color:  #999;}
+.home_footer>p{    margin-bottom: 5px;}
+.company{    text-align: center;}
+
