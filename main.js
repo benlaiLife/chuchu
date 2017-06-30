@@ -10,7 +10,8 @@ require.config({
 		'category': 'component/category/category',
 		'search': 'component/search/search',
 		'css':'js/libs/angular-css.min',
-		'lazyLoad':'js/libs/me-lazyload'
+		'lazyLoad':'js/libs/me-lazyload',
+        "details":"component/9yuan9/details/details"
 	},
 	shim: {
 		'uiRouter': {
@@ -24,6 +25,7 @@ require.config({
 		'search':['uiRouter'],
 		'mine':['uiRouter'],
 		'category':['uiRouter'],
+        "details":['uiRouter'],
 		'9yuan9': {
 			deps: ['uiRouter']
 },
