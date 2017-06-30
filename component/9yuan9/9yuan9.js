@@ -14,7 +14,8 @@ define(['uiRouter'],function  () {
             $scope.arr=res.data.data.groupList[1].dataList;
             $scope.isActive1=true;
             $scope.isActive=false;
-            $scope.name=true;
+            $scope.isShow=true;
+            $scope.isShow1= false;
             $scope.show=function (x) {
                 if(x==0){
                     $scope.isActive1=false;
@@ -34,7 +35,8 @@ define(['uiRouter'],function  () {
                 $http.get("component/9yuan9/json/detail.json").then(function (ses) {
                     console.log(ses.data.data);
                     console.log(ses.data.data.product.special_list[0].productList);
-                    $scope.name= !$scope.name;
+                    $scope.isShow= false;
+                    $scope.isShow1= true;
                     $scope.arrt=ses.data.data.product.image_urls_head;
                     $scope.arrs=ses.data.data.coupon_tmpl.list;
                     $scope.arr1=ses.data.data.product;

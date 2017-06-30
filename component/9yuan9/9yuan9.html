@@ -1,4 +1,4 @@
-<div ng-show="name">
+<div ng-class="{true: 'block', false: 'none'}[isShow]">
     <div class="top">
         <a href="" class="icon" ui-sref="search"></a>
         <a href="" class="car"></a>
@@ -26,7 +26,8 @@
         </ul>
     </div>
 </div>
-<div ng-hide="{{name}}" class="total">
+<div ng-class="{true: 'block', false: 'none'}[isShow1]">
+<div  class="total">
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide" ng-repeat="items in arrt">
@@ -97,4 +98,5 @@
         <a href="" ><img src="component/9yuan9/img/1.png" alt="">全部商品</a>
         <a href="" ><img src="component/9yuan9/img/2.png" alt="">进入店铺</a>
     </div>
+</div>
 </div>
