@@ -1,0 +1,102 @@
+<div ng-class="{true: 'block', false: 'none'}[isShow]">
+    <div class="top">
+        <a href="" class="icon" ui-sref="search"></a>
+        <a href="" class="car"></a>
+        <ul class="nav">
+            <li  ng-click="show(0)"><a ng-class="{true: 'active', false: 'inactive'}[isActive]">男生精选</a></li>
+            <li ng-click="show(1)"><a ng-class="{true: 'active', false: 'inactive'}[isActive1]">女生精选</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>9块9.每日9点更新</h2>
+        <ul class="ul">
+            <li ng-repeat="item in arr" ng-click="change()">
+            <span>
+                <img src="{{item.imgUrl}}" alt="">
+            </span>
+                <div class="rg">
+                    <h1><b class="today">今日</b>{{item.title}}</h1>
+                    <p class="newprice">{{"￥"+item.newPrice}}</p>
+                    <p class="oldprice">
+                        <lable>原价：<i class="old">{{item.oldPrice}}</i></lable>
+                        <lable class="fr">{{item.saleCount+"人已买"}}</lable>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div ng-class="{true: 'block', false: 'none'}[isShow1]">
+<div  class="total">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" ng-repeat="items in arrt">
+                <img src="{{items}}" alt="">
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<div class="cont">
+    <div class="cont1">
+        <p>{{"￥"+now}}</p>
+    </div>
+    <div class="cont2">
+        <p>
+            <span>{{"￥"+old}}</span>
+            <span>{{buy+"个人购买"}}</span>
+        </p>
+    </div>
+
+</div>
+<div class="til">
+    <p>{{title}}</p>
+</div>
+<div class="part1">
+    <section class="sec1">
+        店铺优惠券(2)
+        <span ng-repeat="x in arrs">{{x.coupon_description}}</span>
+    </section>
+    <section class="sec1"  ng-repeat="x in arr1.activity_info.activity_info_array">
+        <p>{{x.title}}</p>
+    </section>
+</div>
+<div class="part2">
+    <i class="rt"></i>
+    <div class="shop">
+        <div class="lf1">
+            <img src="{{arr1.shop_info.shop_header_image_url}}" alt="">
+        </div>
+        <div class="rg1">
+            <h3>{{arr1.shop_info.cn_name}}</h3>
+            <p>{{arr1.shop_info.delivery}}</p>
+        </div>
+    </div>
+    <ul class="del">
+        <li ng-repeat="y in arr1.service_info_new.service_list">
+            <img src="{{y.icon}}" alt=""><p>{{y.desc}}</p>
+        </li>
+    </ul>
+    <div class="expo">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" ng-repeat="itemy in arr1.special_list[0].productList">
+                    <div class="cat">
+                        <img src="{{itemy.imgUrl}}" alt="">
+                        <p>{{"￥"+itemy.newPrice}}</p>
+                        <h2>{{itemy.title}}</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="tabs">
+        <i class="bor"></i>
+        <a href="" ><img src="component/9yuan9/img/1.png" alt="">全部商品</a>
+        <a href="" ><img src="component/9yuan9/img/2.png" alt="">进入店铺</a>
+    </div>
+</div>
+</div>

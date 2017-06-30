@@ -1,0 +1,369 @@
+.top{
+    width: 100%;
+    height: 29px;
+    background: #FFF;
+    padding: 7px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+.icon{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    width: 19px;
+    height: 20px;
+    background: url(img/search.png) no-repeat;
+    background-size: 19px 20px;
+    display: inline-block;
+}
+.car{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    width: 19px;
+    height: 20px;
+    background: url(img/shopcar.png) no-repeat;
+    background-size: 19px 20px;
+    display: inline-block;
+}
+.nav{
+    width: 160px;
+    height: 25px;
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    border: solid 1px #f99;
+    border-radius: 3px;
+}
+.nav li{
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    float: left;
+    cursor: pointer;
+}
+.nav li a{
+    display: block;
+}
+.active{
+    background: #f99;
+    color: #fff;
+}
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+.main{
+    width: 100%;
+    font-size: 16px;
+    margin-top: 43px;
+    background: #F7F7F7 ;
+}
+.main h2{
+    padding: 5px 10px 5px 38px;
+    line-height: 18px;
+    font-size: 16px;
+    color: #f99;
+    background: url(img/time.png) no-repeat 10px center;
+    background-size: 18px 18px;
+    border-bottom: solid 1px #F7F7F7;
+}
+.ul{
+    width: 100%;
+    list-style: none;
+}
+.ul li{
+    width: auto;
+    height: 120px;
+    padding: 10px;
+    background: #FFF;
+    display: block;
+    border-bottom: solid 1px #f7f7f7;
+    position: relative;
+}
+.ul li span{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 5;
+}
+.ul li span img{
+    width: 120px;
+    height: 120px;
+}
+.rg{
+    width: auto;
+    padding-left: 135px;
+}
+.rg h1{
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    margin: 9px 0 2px;
+    display: block;
+    font-size: 16px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.today{
+    height: 18px;
+    line-height: 18px;
+    margin-right: 3px;
+    font-size: 12px;
+    display: inline-block;
+    border: solid 1px #f99;
+    border-radius: 3px;
+    color: #f99;
+    padding: 0 3px;
+    float: left;
+}
+.newprice{
+    height: 14px;
+    line-height: 14px;
+    margin-top: 24px;
+    display: block;
+    font-size: 20px;
+    color: #df3130;
+}
+.oldprice{
+    height: 24px;
+    line-height: 24px;
+    padding: 10px 0 2px;
+    display: block;
+    color: #b0b0b0;
+}
+.old{
+    text-decoration: line-through;
+    font-style: normal;
+}
+.fr{
+    float: right;
+}
+.total{
+    width:100%;
+}
+.total img{
+    width:100%;
+    display: block;
+}
+.cont{
+    margin-top: 10px;
+    display: flex;
+}
+.cont1{
+    line-height: 32px;
+    font-size: 20px;
+    width:50%;
+    color: #fe3355;
+    text-align: right;
+}
+.cont1>p{
+    border-right: solid 1px #bbb;
+    padding-right: 10px;
+}
+.cont2{
+    font-size: 12px;
+    line-height: 16px;
+    width: 50%;
+    color: #AAA;
+}
+.cont2>p{
+    padding-left: 10px;
+}
+.cont2>p span:nth-of-type(1){
+    font-size: 7px;
+    line-height: 18px;
+    display: block;
+    text-decoration: line-through;
+}
+.cont2>p span:nth-of-type(2){
+    font-size: 7px;
+    display: block;
+}
+.til p{
+    width: 90%;
+    margin: 10px auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #444;
+    font-size: 8px;
+    text-align: center;
+}
+.part1{
+    width:100%;
+    font-size: 14px;
+}
+.part1>.sec1:nth-of-type(1){
+    border-top: solid 1px #ffcc01;
+}
+.sec1{
+
+    border-bottom: solid 1px #EEE;
+    margin: 0 10px;
+    padding:10px 0;
+    background: url("img/rg.png") no-repeat right center;
+    background-size: 6px 10px;
+}
+.sec1>span:nth-of-type(1){
+    padding: 5px 0;
+    line-height: 20px;
+    display: inline-block;
+    background: url("img/bg1.png") no-repeat;
+    background-size: 100% 30px;
+    text-align: center;
+    font-size: 8px;
+    color: #FFF;
+    margin-left: 4px;
+    width: 68px;
+}
+.sec1>span:nth-of-type(2){
+    padding: 5px 0;
+    line-height: 20px;
+    display: inline-block;
+    background: url("img/bg2.png") no-repeat;
+    background-size: 100% 30px;
+    text-align: center;
+    font-size: 8px;
+    color: #FFF;
+    margin-left: 4px;
+    width: 68px;
+}
+.part2{
+    margin: 0 10px 10px;
+    position: relative;
+    border-top: solid 1px #fe5164;
+    background: #FFF;
+    font-size: 8px;
+}
+.rt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: url(img/rt.png) no-repeat;
+    background-size: 100% 100%;
+    z-index:20;
+}
+.shop{
+    padding-top:10px;
+    margin-left:10px;
+    padding-right:10px;
+    height: 65px;
+    position: relative;
+}
+.lf1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 0
+}
+.lf1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.rg1{
+    padding: 3px 10px 0 65px;
+    position: relative;
+}
+.rg1 h3{
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #444;
+}
+.rg1 p{
+    width: 100%;
+    height: 23px;
+    line-height: 23px;
+    padding-top: 3px;
+    color: #AAA;
+}
+.del{
+    margin-bottom: 10px;
+    color: #444;
+    text-align: center;
+    overflow: hidden;
+}
+.del li{
+    width: 31%;
+    float: left;
+}
+.del li p{
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+}
+.del li img{
+    width:18px;
+}
+.expo{
+    width:100%;
+}
+.cat{
+    width: 33.3%;
+    float: left;
+}
+.cat img{
+    width: 100%;
+}
+.cat p{
+    width: 100%;
+    color: #fe3355;
+    font-size: 10px;
+    line-height: 22px;
+    text-align: center;
+}
+.cat h2{
+    line-height: 18px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #444;
+    font-size: 8px;
+}
+.tabs{
+    padding: 15px 0;
+    position: relative;
+    border-top: solid 1px #EEE;
+    text-align: center;
+}
+.bor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -18px 0 0 -1px;
+    width: 1px;
+    height: 36px;
+    background: #DDD;
+}
+.tabs a{
+    width: 36%;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 5%;
+    display: inline-block;
+    color: #444;
+}
+.tabs img{
+    margin: 0 5px 5px 0;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+}

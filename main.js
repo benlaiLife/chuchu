@@ -1,26 +1,30 @@
 require.config({
 	paths: {
 		'app': 'js/app',
-		'angular': 'js/libs/angular-1.6.4.min',
+		'angular': 'js/libs/angular-1.4.6.min',
 		'uiRouter': 'js/libs/angular-ui-router-0.4.2.min',
 		'swiper': 'js/libs/swiper.min',
-		'category': 'component/category/category',
+		'9yuan9': 'component/9yuan9/9yuan9',
 		'home': 'component/home/home',
 		'mine': 'component/mine/mine',
-		'shopcar': 'component/shopcar/shopcar',
-		'css':'js/libs/angular-css.min'
+		'category': 'component/category/category',
+		'search': 'component/search/search',
+		'css':'js/libs/angular-css.min',
+		'lazyLoad':'js/libs/me-lazyload'
 	},
 	shim: {
 		'uiRouter': {
 			deps: ['angular']
 		},
+		'lazyLoad':['angular'],
         'css': {
             deps: ['angular']
         },
 		'home':['uiRouter'],
+		'search':['uiRouter'],
 		'mine':['uiRouter'],
-		'shopcar':['uiRouter'],
-		'category': {
+		'category':['uiRouter'],
+		'9yuan9': {
 			deps: ['uiRouter']
 },
 		'app': {
