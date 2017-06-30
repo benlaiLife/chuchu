@@ -8,16 +8,20 @@ require.config({
 		'home': 'component/home/home',
 		'mine': 'component/mine/mine',
 		'category': 'component/category/category',
-		'css':'js/libs/angular-css.min'
+		'search': 'component/search/search',
+		'css':'js/libs/angular-css.min',
+		'lazyLoad':'js/libs/me-lazyload'
 	},
 	shim: {
 		'uiRouter': {
 			deps: ['angular']
 		},
+		'lazyLoad':['angular'],
         'css': {
             deps: ['angular']
         },
 		'home':['uiRouter'],
+		'search':['uiRouter'],
 		'mine':['uiRouter'],
 		'category':['uiRouter'],
 		'9yuan9': {

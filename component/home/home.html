@@ -1,10 +1,48 @@
-
+<!--头部-->
 <div class="home_head">
-    <a href="javascript:void(0)" class="home_head_search">
-        <img src="component/home/imgs/search.png">
-    </a>
-
-    <div class="home_head_login">
-        <a href="javascript:void(0)"></a>
-    </div>
+    <a href="javascript:void(0)" class="home_head_search" ui-sref='search'></a>
+    <a href="javascript:void(0)" class="home_head_car"></a>
+    <ul class="nav">
+        <li  ng-click="home(1)" ng-class="{true:'activeNav',false:''}[man]">
+            <a href="#" >男生精选</a>
+        </li>
+        <li ng-click="home(0)" ng-class="{true:'activeNav',false:''}[woman]">
+            <a href="#" >女生精选</a>
+        </li>
+    </ul>
+</div>
+<!--主体-->
+<div class="home_main">
+    <h2 class="border_bt">今日特卖·每日9点更新</h2>
+    <ul class="p_shop">
+        <li class="home_goods" ng-repeat="item in homeGoods">
+            <a href="javascript:void(0)">
+                <div class="goods_img clearfix">
+                    <img src="{{item.imgUrl}}" alt="">
+                </div>
+                <div class="goods_info">
+                    <p>{{item.title}}</p><span ng-if="item.status==1">今日上新</span>
+                </div>
+                <p class="remain_day" ng-if="item.status==0">剩余2天</p>
+            </a>
+        </li>
+        <li class="home_goods" ng-repeat="item in homeGoods2">
+            <a href="javascript:void(0)">
+                <div class="goods_img clearfix">
+                    <img lazy-src="{{item.imgUrl}}" animate-visible="true" animate-speed="0.5s" alt="">
+                </div>
+                <div class="goods_info">
+                    <p>{{item.title}}</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+	<div class="home_footer">
+		<p>每天早9点更新，记得来看呀</p>
+		<div class="company">
+			<p>北京醋溜网络科技股份有限公司</p>
+			<p>客服电话 010-56024702</p>
+		</div>
+		
+	</div>
 </div>

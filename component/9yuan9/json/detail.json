@@ -1,0 +1,1379 @@
+{
+  "status": 0,
+  "info": "",
+  "data": {
+    "relevance_list": [
+      {
+        "cn_title": "王者荣耀帽子男童少年太阳帽初中生遮阳凉帽夏天鸭舌帽学生棒球帽",
+        "original_price": "48.80",
+        "sales_price": "19.90",
+        "shop_id": "17430",
+        "product_id": "10017430282",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/fd32286038700eb733a5a46054802acd1498634249_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/b271bfab8ed3e99f2ea224ee2ec1b0cc1498634215_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/b22a9358c6f93b5ad656f989974ced501498634232_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/24330f84cdc498afbc422fe4b160ce681498634227_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/adc6e90107a800250ae4cfda614e26b71498634239_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/fd32286038700eb733a5a46054802acd1498634249_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 12,
+        "id": "10017430282",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/fd32286038700eb733a5a46054802acd1498634249_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 12,
+        "debug_stocks": "21312"
+      },
+      {
+        "cn_title": "【满15元】即送时尚甜美头花",
+        "original_price": "15.00",
+        "sales_price": "5.50",
+        "shop_id": "17430",
+        "product_id": "10017430278",
+        "version": "2",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/23/fc123a3c886daf3e76596731e23815af1498205543_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/23/fc123a3c886daf3e76596731e23815af1498205543_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 81,
+        "id": "10017430278",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/23/fc123a3c886daf3e76596731e23815af1498205543_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 81,
+        "debug_stocks": "9910"
+      },
+      {
+        "cn_title": "韩国字母铁环弯檐棒球帽子男女夏天休闲出游嘻哈帽鸭舌帽",
+        "original_price": "68.00",
+        "sales_price": "19.90",
+        "shop_id": "17430",
+        "product_id": "10017430276",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/aa0024488cd25d8f1ba3e39a3618d84c1497604311_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/f8296e8f2dbec6fc9d0c3c07a6a148ca1497604313_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/fb975bb081af718b14204de4dd09b0a11497604316_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/7d37685e41dc03af00fcabaf2d682c331497604318_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/63af5e3bb3a9d0ae680625e2d2afba901497604320_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/aa0024488cd25d8f1ba3e39a3618d84c1497604311_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 16,
+        "id": "10017430276",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/aa0024488cd25d8f1ba3e39a3618d84c1497604311_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 16,
+        "debug_stocks": "1499"
+      },
+      {
+        "cn_title": "韩版春夏未来太阳刺绣鸭舌帽子男女棒球帽 出游遮阳帽子",
+        "original_price": "68.00",
+        "sales_price": "19.90",
+        "shop_id": "17430",
+        "product_id": "10017430275",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/dccb0b8e369d09777d2d0f18ae4e0ed41497602896_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/b99d9463240ecf69106c045b09d904131497602899_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/80298fbde1692a23bfe1608c0f06f4b11497602901_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/a6db377991faca33bc20404e35c8abf91497602903_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/f54ff5b6a8ace6d081216b38b67e4ea21497602905_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/dccb0b8e369d09777d2d0f18ae4e0ed41497602896_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 15,
+        "id": "10017430275",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/dccb0b8e369d09777d2d0f18ae4e0ed41497602896_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 15,
+        "debug_stocks": "1000"
+      },
+      {
+        "cn_title": "热卖纯色鸭舌帽女韩版夏天小鱼字母休闲甜美可爱百搭出游学生",
+        "original_price": "68.00",
+        "sales_price": "19.90",
+        "shop_id": "17430",
+        "product_id": "10017430274",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/9ccc5c64eafb1cd8ffe329b2d6e81d501497602134_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/7504f818f52946b5ffc385dc42d45c811497602675_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/38bf42fd0a7237d8c146aa20d55875d21497602677_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/abab6e141d9c8fd53e52407b4b336ccd1497602685_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/9dc753a781954d51b01931aa2f30a5dd1497602687_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/9ccc5c64eafb1cd8ffe329b2d6e81d501497602134_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 14,
+        "id": "10017430274",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/9ccc5c64eafb1cd8ffe329b2d6e81d501497602134_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 14,
+        "debug_stocks": "1500"
+      },
+      {
+        "cn_title": " 2017新款韩版标语刺绣鸭舌帽 百搭英文字母设计棒球帽",
+        "original_price": "88.00",
+        "sales_price": "25.00",
+        "shop_id": "17430",
+        "product_id": "10017430272",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/fed3af0b98dba7ec467cfd57702b03a91497601350_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/2e77feff246963d2c76be41571d55f731497601353_750_750.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/c803aedfbc157b44c2106fbaf29b3e3b1497601362_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/0109b308b9fc267d2b4913f87adbad6d1497601365_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/6ae467a7a15e35730d7a3cfe3740accc1497601368_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/fed3af0b98dba7ec467cfd57702b03a91497601350_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 12,
+        "id": "10017430272",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/fed3af0b98dba7ec467cfd57702b03a91497601350_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 12,
+        "debug_stocks": "1000"
+      },
+      {
+        "cn_title": "2017新款秋冬季防晒丝巾长款沙滩巾女围巾两用空调披肩纱巾",
+        "original_price": "78.00",
+        "sales_price": "25.80",
+        "shop_id": "17430",
+        "product_id": "10017430264",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/c756a7cff8b3a1f272d390f07535498b1497596993_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/8adcafcd2eac12430e140444f15114a81497597005_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/fce1b2a31c3b8a4a6bb8750d0c2dbf8a1497597000_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/fdea9dc39c4e4a6c8ce74e4e39428fa11497596996_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/751588a0fa12ba9170bb2184c0018f451497597010_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/c756a7cff8b3a1f272d390f07535498b1497596993_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 14,
+        "id": "10017430264",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/c756a7cff8b3a1f272d390f07535498b1497596993_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 14,
+        "debug_stocks": "1500"
+      },
+      {
+        "cn_title": "夏天女士韩版草帽可折叠遮阳帽花环防晒花朵太阳帽大沿沙滩帽",
+        "original_price": "88.00",
+        "sales_price": "26.00",
+        "shop_id": "17430",
+        "product_id": "10017430233",
+        "version": "6",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/adca38cebaa2403aff4604a3648956301496572149_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/f917abed4b70f59572036a2837df043d1496572151_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/a721420f13cc5392e6eb62abde4484681496572154_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/60c6ba2c58b93d310ed425ee6820166b1496572156_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/adca38cebaa2403aff4604a3648956301496572149_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 15,
+        "id": "10017430233",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/adca38cebaa2403aff4604a3648956301496572149_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 15,
+        "debug_stocks": "1994"
+      },
+      {
+        "cn_title": "夏季遮阳帽女士夏天大沿帽草帽蝴蝶结太阳帽子沙滩帽",
+        "original_price": "79.00",
+        "sales_price": "19.90",
+        "shop_id": "17430",
+        "product_id": "10017430232",
+        "version": "6",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/00f786fc29af6d897c8a27dd4cce926b1496570023_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/376e20b9f170c96b251022d43dbaefa51496570052_800_800.gif?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/7c0fa91028da74d4f6e7737d5be5f61c1496570073_800_800.gif?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/02c84217dd57115e765c0436685fef8f1496570096_800_800.gif?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/32e3acb6e136b1edc95d1f780ec4d02a1496570119_800_800.gif?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/00f786fc29af6d897c8a27dd4cce926b1496570023_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 24,
+        "id": "10017430232",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/04/00f786fc29af6d897c8a27dd4cce926b1496570023_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 24,
+        "debug_stocks": "2975"
+      },
+      {
+        "cn_title": "帽子女春夏天韩版棒球帽 呆萌眼睛笑脸弯檐帽遮阳鸭舌帽男",
+        "original_price": "68.00",
+        "sales_price": "19.90",
+        "shop_id": "17430",
+        "product_id": "10017430226",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/a7f5cbbc6b3278dd16e5fe16a0cdfae11496108862_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/7d01f7dbb5225c7a6d5aac1603af259a1496108867_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/e285c320ff02c4a4b629988bc5fb9cc71496108870_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/cc891904455d751e0caeb379fc0aee791496108872_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/9f529a80e8f3aa6ea608a3dd159bb1311496108875_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/a7f5cbbc6b3278dd16e5fe16a0cdfae11496108862_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 16,
+        "id": "10017430226",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/a7f5cbbc6b3278dd16e5fe16a0cdfae11496108862_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 16,
+        "debug_stocks": "2000"
+      },
+      {
+        "cn_title": "韩版帽子可折叠遮阳帽草帽女太阳帽海边度假沙滩帽大沿防晒帽出游",
+        "original_price": "88.00",
+        "sales_price": "29.90",
+        "shop_id": "17430",
+        "product_id": "10017430225",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/4d77d32d5f2f314118219bef3a653e8e1496108390_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/eebe3321f621d49d28d6dbc97078d4d51496108395_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/b27e31bd3c854e57b55c237aba2d0e0c1496108408_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/c2dcd02e26a837aca81888ba1bd6b3a81496108413_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/904955297add2eec67af2b5c11ffd7f01496108425_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/4d77d32d5f2f314118219bef3a653e8e1496108390_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 15,
+        "id": "10017430225",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/4d77d32d5f2f314118219bef3a653e8e1496108390_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 15,
+        "debug_stocks": "4996"
+      },
+      {
+        "cn_title": "太阳帽女夏天防晒遮阳帽骑车遮脸线潮帽子空顶帽可折叠太阳帽",
+        "original_price": "88.00",
+        "sales_price": "35.90",
+        "shop_id": "17430",
+        "product_id": "10017430224",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/915161562ecb7adaa9a8736fe702e0f41496108029_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/596bb178eaf9ba7ed8b0d1062dc527cb1496108037_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/0e89d22c3c522a2b1ec1c60d74a09ca71496108044_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/69b775453ba2af2ba09220aa50cf94fe1496108046_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/0545d2a6357da354aa7cec1bc10fa7d11496108048_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/915161562ecb7adaa9a8736fe702e0f41496108029_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 14,
+        "id": "10017430224",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/915161562ecb7adaa9a8736fe702e0f41496108029_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 14,
+        "debug_stocks": "2000"
+      },
+      {
+        "cn_title": "围巾男女士春秋超长款秋冬季百搭纯色披肩两用学生纱巾大丝巾",
+        "original_price": "28.80",
+        "sales_price": "7.90",
+        "shop_id": "17430",
+        "product_id": "10017430280",
+        "version": "3",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/8cc5d00536aa808a70045839588526d21498624240_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/157f3d481fc1dd227e8e4e1fc7d8b7ae1498625151_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/f8cb88332e1c11cc21615d3773c46e8e1498624220_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/a79f585e013db012102de01b9935645d1498624230_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/3a4f53f3f8aa6bb400e5408f362be8b81498624244_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/8cc5d00536aa808a70045839588526d21498624240_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 10,
+        "id": "10017430280",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/28/8cc5d00536aa808a70045839588526d21498624240_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 10,
+        "debug_stocks": "219978"
+      },
+      {
+        "cn_title": "【只送不卖】 满50元免费送优质纯色沙滩巾空调披肩   请勿单拍",
+        "original_price": "88.00",
+        "sales_price": "88.00",
+        "shop_id": "17430",
+        "product_id": "10017430277",
+        "version": "2",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/21/252aebf4e0c976a4118d0b862499af321498041616_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/21/6218792fff3a9f1f95157da6519456d61498041664_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/21/148d15b78504774ffeff0c9b35725ce51498040276_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/21/aab38d5985a54ea46975c1e5fb55135a1498041700_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/21/b04b87f8619e0342ec117c3acce57ead1498040292_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/21/252aebf4e0c976a4118d0b862499af321498041616_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 17,
+        "id": "10017430277",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/21/252aebf4e0c976a4118d0b862499af321498041616_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 17,
+        "debug_stocks": "998"
+      },
+      {
+        "cn_title": "2017韩版长雪纺丝巾春秋冬季新款女士围巾两用沙滩巾纱巾大披肩",
+        "original_price": "78.00",
+        "sales_price": "25.80",
+        "shop_id": "17430",
+        "product_id": "10017430273",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/5821c918d6e0cbc1384b7fcd38d22e341497601593_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/31df267fd67216cf5084e489626284751497601596_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/3560916719b3775574d6c5f30a7d0b2c1497601598_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/ae7e95be1d4c718b910e2adc7ecf15321497601600_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/2f0a35e3aa1a1ee5d07cb55743109dad1497601603_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/5821c918d6e0cbc1384b7fcd38d22e341497601593_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 13,
+        "id": "10017430273",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/5821c918d6e0cbc1384b7fcd38d22e341497601593_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 13,
+        "debug_stocks": "1999"
+      },
+      {
+        "cn_title": "韩版超长春季雪纺女丝巾薄款防晒沙滩巾夏天装饰冰围巾两用大披肩",
+        "original_price": "88.00",
+        "sales_price": "27.80",
+        "shop_id": "17430",
+        "product_id": "10017430271",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/b832311606259f39d5b62a9a693cd1481497601027_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/37e0077fb066bf950050b4d2dbd3a8161497601031_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/b3060984b9292bac39e0ad33fc4bd0e21497601034_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/dafda55b666d5b713ed50682be85e88b1497601037_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/f9d180d68dfd99ed4d86e204e0c9249a1497601040_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/b832311606259f39d5b62a9a693cd1481497601027_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 11,
+        "id": "10017430271",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/b832311606259f39d5b62a9a693cd1481497601027_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 11,
+        "debug_stocks": "1000"
+      },
+      {
+        "cn_title": "2017春夏季骑车防晒围巾空调披肩雪纺丝巾长款沙滩巾女秋冬新款",
+        "original_price": "88.00",
+        "sales_price": "25.80",
+        "shop_id": "17430",
+        "product_id": "10017430270",
+        "version": "2",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/a7a305bf77e4f0528dba7cfce86325361497599800_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/e3eeb4fc18c8c227b1a4a8bfab0802421497599804_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/6f68caa305ebc392485252d3803505071497599807_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/8fa6999b6debd2ce2c17f91d115c4cba1497599793_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/21c69280351b52bb90e263a96584f75a1497599796_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/a7a305bf77e4f0528dba7cfce86325361497599800_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 10,
+        "id": "10017430270",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/a7a305bf77e4f0528dba7cfce86325361497599800_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 10,
+        "debug_stocks": "2000"
+      },
+      {
+        "cn_title": "春夏时尚女防晒披肩雪纺丝巾长款围巾女拼色遮阳沙滩巾披纱",
+        "original_price": "89.00",
+        "sales_price": "26.80",
+        "shop_id": "17430",
+        "product_id": "10017430267",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/a579364b286a5ad5c93401786df86b5a1497597610_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/7443b73e71f24fb2b5995bacd7b5fa811497597617_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/43ea01b18d5b9fa82565e2b1ad04e09b1497597619_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/99a3342fe85a8f9801d137acca27a3491497597623_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/a579364b286a5ad5c93401786df86b5a1497597610_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 17,
+        "id": "10017430267",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/16/a579364b286a5ad5c93401786df86b5a1497597610_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 17,
+        "debug_stocks": "1500"
+      },
+      {
+        "cn_title": "韩国春秋新款女士仿真丝超长薄丝巾超大夏季防晒大披肩围巾沙滩巾",
+        "original_price": "128.00",
+        "sales_price": "27.80",
+        "shop_id": "17430",
+        "product_id": "10017430235",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/13/7a0d6972fc50a9e0322f524eaf971dcd1497340031_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/13/6128ab1fed036e6a3e0579d0cf75dbf81497340039_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201706/13/b410ce71a656ea8c6a1a455e6849fbd01497340033_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/13/7a0d6972fc50a9e0322f524eaf971dcd1497340031_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 15,
+        "id": "10017430235",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201706/13/7a0d6972fc50a9e0322f524eaf971dcd1497340031_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 15,
+        "debug_stocks": "1500"
+      },
+      {
+        "cn_title": "2017韩版雪纺碎花丝巾女长款春秋女围巾夏季防晒空调披肩纱巾",
+        "original_price": "88.00",
+        "sales_price": "25.80",
+        "shop_id": "17430",
+        "product_id": "10017430231",
+        "version": "1",
+        "product_type": "0",
+        "image_urls_head": [
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/765c85c344ddbdfe3194d1131822e9e91496112110_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/054d8df3f3f13238c827911616cc63761496112108_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/ca4c6916d2992d1e5012418d699f4f751496112113_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/d2c38e9c5b0fbd504b6d63a3a69fa2471496112116_800_800.jpg?imageView2/2/w/480",
+          "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/d87ef0a0ea9da689cf3b6d167bda17831496112118_800_800.jpg?imageView2/2/w/480"
+        ],
+        "imgUrl": "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/765c85c344ddbdfe3194d1131822e9e91496112110_800_800.jpg?imageView2/2/w/480",
+        "acc_cnt": 11,
+        "id": "10017430231",
+        "image_url_head": "https://image-shop.chuchujie.com/culiu.cdn/image/201705/30/765c85c344ddbdfe3194d1131822e9e91496112110_800_800.jpg?imageView2/2/w/480",
+        "buy_num": 11,
+        "debug_stocks": "2999"
+      }
+    ],
+    "goodscheck": {},
+    "brandscheck": {},
+    "qualityCheck": null,
+    "coupon_tmpl": {
+      "count": 2,
+      "list": [
+        {
+          "user_id": "",
+          "coupon_sn": "",
+          "status": 0,
+          "for_orders_status": 0,
+          "draw_time": 0,
+          "shop_id": "17430",
+          "title": "",
+          "face_value": 5,
+          "start_time": 1496937600,
+          "end_time": 1498838399,
+          "limit_description_price": "满59可用",
+          "limit_description_range": "指定店铺",
+          "limit_description": "满59可用",
+          "coupon_description": "满59减5",
+          "id": 326860,
+          "shop_title": null,
+          "accpted": 0,
+          "message": "点击领取"
+        },
+        {
+          "user_id": "",
+          "coupon_sn": "",
+          "status": 0,
+          "for_orders_status": 0,
+          "draw_time": 0,
+          "shop_id": "17430",
+          "title": "",
+          "face_value": 3,
+          "start_time": 1498665600,
+          "end_time": 1501257599,
+          "limit_description_price": "满25可用",
+          "limit_description_range": "指定店铺",
+          "limit_description": "满25可用",
+          "coupon_description": "满25减3",
+          "id": 332954,
+          "shop_title": null,
+          "accpted": 0,
+          "message": "点击领取"
+        }
+      ]
+    },
+    "product": {
+      "product_id": "1001743034",
+      "taobao_id": "0",
+      "cid": "302910",
+      "title": "帽子女夏天鸭舌帽韩版百搭春秋甜美休闲棒球帽户外遮阳帽潮太阳帽",
+      "product_referred": "帽子女夏天鸭舌帽韩版百搭春秋甜美休闲棒球帽户外遮阳帽潮太阳帽",
+      "is_shipping": 0,
+      "status": "1",
+      "shop_id": "17430",
+      "description": "http://image-shop.chuchujie.com/culiu.cdn/shop_staticHtml/detail/17/8/1001743034_detail.html?v=14985300232",
+      "original_price": "68",
+      "sales_price": "13.8",
+      "image_urls_head": [
+        "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58cca8f403645.jpg?imageView2/2/w/720",
+        "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58cca8f66fa75.jpg?imageView2/2/w/720",
+        "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58cca8f916eb6.jpg?imageView2/2/w/720",
+        "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58cca8fb829ee.jpg?imageView2/2/w/720",
+        "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58cca8fe5915a.jpg?imageView2/2/w/720"
+      ],
+      "version": "5",
+      "productTitle": "帽子女夏天鸭舌帽韩版百搭春秋甜美休闲棒球帽户外遮阳帽潮太阳帽",
+      "attr_keys": [
+        {
+          "id": "20509",
+          "name": "尺码",
+          "is_color_prop": "0",
+          "attr_values": [
+            {
+              "id": "4054751",
+              "name": "可调节",
+              "sort_order": 0
+            }
+          ],
+          "sort_order": 0
+        },
+        {
+          "id": "1627207",
+          "name": "颜色分类",
+          "is_color_prop": "1",
+          "attr_values": [
+            {
+              "id": "$1493115078589",
+              "name": "NYC白色",
+              "sort_order": 0
+            },
+            {
+              "id": "$1493115074142",
+              "name": "NYC酒红",
+              "sort_order": 1
+            },
+            {
+              "id": "$1493115180263",
+              "name": "NYC蓝色",
+              "sort_order": 2
+            },
+            {
+              "id": "$1493115080869",
+              "name": "NYC灰色",
+              "sort_order": 3
+            },
+            {
+              "id": "$1493115081967",
+              "name": "NYC浅蓝色",
+              "sort_order": 4
+            },
+            {
+              "id": "$1493115083087",
+              "name": "NYC黑色",
+              "sort_order": 5
+            },
+            {
+              "id": "$1493115178982",
+              "name": "NYC咖啡",
+              "sort_order": 6
+            },
+            {
+              "id": "$1493115214974",
+              "name": "NYC玫红",
+              "sort_order": 7
+            },
+            {
+              "id": "$1493115223842",
+              "name": "NYC粉色",
+              "sort_order": 8
+            },
+            {
+              "id": "$1493115086174",
+              "name": "NYC米色",
+              "sort_order": 9
+            },
+            {
+              "id": "$1493115084918",
+              "name": "NYC姜黄",
+              "sort_order": 10
+            }
+          ],
+          "sort_order": 1
+        }
+      ],
+      "sales_price_real": 13.8,
+      "salesPrice_backUp": "16.80",
+      "low_price": 13.8,
+      "high_price": 13.8,
+      "sku_array": [
+        {
+          "sku_id": "49299445",
+          "stock": 496,
+          "price": 13.8,
+          "original_price": 16.8,
+          "paid_stock": 0,
+          "completed_stock": 3,
+          "code": "",
+          "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/acc9931639f1bccbb1cff14ee900ff2d_1493115315.jpg",
+          "buy_limit": 0,
+          "attrs": {
+            "20509": "4054751",
+            "1627207": "$1493115084918"
+          },
+          "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/acc9931639f1bccbb1cff14ee900ff2d_1493115315.jpg",
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+13积分"
+        },
+        {
+          "sku_id": "49299446",
+          "stock": 471,
+          "price": 13.8,
+          "original_price": 16.8,
+          "paid_stock": 0,
+          "completed_stock": 20,
+          "code": "",
+          "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/9363dcc874641f30d8c2eb0d4f720db8_1493115310.jpg",
+          "buy_limit": 0,
+          "attrs": {
+            "20509": "4054751",
+            "1627207": "$1493115086174"
+          },
+          "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/9363dcc874641f30d8c2eb0d4f720db8_1493115310.jpg",
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+13积分"
+        },
+        {
+          "sku_id": "49299447",
+          "stock": 464,
+          "price": 13.8,
+          "original_price": 16.8,
+          "paid_stock": 0,
+          "completed_stock": 28,
+          "code": "",
+          "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/3935798880680d07c1544b1368a605de_1493115305.jpg",
+          "buy_limit": 0,
+          "attrs": {
+            "20509": "4054751",
+            "1627207": "$1493115223842"
+          },
+          "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/3935798880680d07c1544b1368a605de_1493115305.jpg",
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+13积分"
+        },
+        {
+          "sku_id": "49299448",
+          "stock": 490,
+          "price": 13.8,
+          "original_price": 16.8,
+          "paid_stock": 0,
+          "completed_stock": 6,
+          "code": "",
+          "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/0d6efb03cf5b7422914a7e505f641070_1493115301.jpg",
+          "buy_limit": 0,
+          "attrs": {
+            "20509": "4054751",
+            "1627207": "$1493115214974"
+          },
+          "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/0d6efb03cf5b7422914a7e505f641070_1493115301.jpg",
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+13积分"
+        },
+        {
+          "sku_id": "49299449",
+          "stock": 497,
+          "price": 13.8,
+          "original_price": 16.8,
+          "paid_stock": 0,
+          "completed_stock": 3,
+          "code": "",
+          "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/238cb8c7fcb519a7456b3c60e7e616c8_1493115294.jpg",
+          "buy_limit": 0,
+          "attrs": {
+            "20509": "4054751",
+            "1627207": "$1493115178982"
+          },
+          "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/238cb8c7fcb519a7456b3c60e7e616c8_1493115294.jpg",
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+13积分"
+        },
+        {
+          "sku_id": "49299450",
+          "stock": 487,
+          "price": 13.8,
+          "original_price": 16.8,
+          "paid_stock": 0,
+          "completed_stock": 9,
+          "code": "",
+          "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/ae5eb73933b71c017fff737b832960f1_1493115291.jpg",
+          "buy_limit": 0,
+          "attrs": {
+            "20509": "4054751",
+            "1627207": "$1493115083087"
+          },
+          "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/ae5eb73933b71c017fff737b832960f1_1493115291.jpg",
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+13积分"
+        },
+        {
+          "sku_id": "49299451",
+          "stock": 492,
+          "price": 13.8,
+          "original_price": 16.8,
+          "paid_stock": 0,
+          "completed_stock": 6,
+          "code": "",
+          "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/a54d31fe4160513169b63f9794a0c5cb_1493115271.jpg",
+          "buy_limit": 0,
+          "attrs": {
+            "20509": "4054751",
+            "1627207": "$1493115081967"
+          },
+          "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/a54d31fe4160513169b63f9794a0c5cb_1493115271.jpg",
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+13积分"
+        },
+        {
+          "sku_id": "49299452",
+          "stock": 469,
+          "price": 13.8,
+          "original_price": 16.8,
+          "paid_stock": 0,
+          "completed_stock": 27,
+          "code": "",
+          "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/0a8de953cf90848dea87060077890171_1493115268.jpg",
+          "buy_limit": 0,
+          "attrs": {
+            "20509": "4054751",
+            "1627207": "$1493115080869"
+          },
+          "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/0a8de953cf90848dea87060077890171_1493115268.jpg",
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+13积分"
+        },
+        {
+          "sku_id": "49299453",
+          "stock": 496,
+          "price": 13.8,
+          "original_price": 16.8,
+          "paid_stock": 0,
+          "completed_stock": 3,
+          "code": "",
+          "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/595dc6982443fab15b6b393f38cc32f6_1493115258.jpg",
+          "buy_limit": 0,
+          "attrs": {
+            "20509": "4054751",
+            "1627207": "$1493115180263"
+          },
+          "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/595dc6982443fab15b6b393f38cc32f6_1493115258.jpg",
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+13积分"
+        },
+        {
+          "sku_id": "49299454",
+          "stock": 492,
+          "price": 13.8,
+          "original_price": 16.8,
+          "paid_stock": 0,
+          "completed_stock": 6,
+          "code": "",
+          "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/ffb41a66f71b325a53c2ae21b3ecea57_1493115255.jpg",
+          "buy_limit": 0,
+          "attrs": {
+            "20509": "4054751",
+            "1627207": "$1493115074142"
+          },
+          "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/ffb41a66f71b325a53c2ae21b3ecea57_1493115255.jpg",
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+13积分"
+        },
+        {
+          "sku_id": "49299455",
+          "stock": 356,
+          "price": 13.8,
+          "original_price": 16.8,
+          "paid_stock": 0,
+          "completed_stock": 109,
+          "code": "",
+          "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/e6928d437dfd365e2440373a606f96fc_1493115250.jpg",
+          "buy_limit": 0,
+          "attrs": {
+            "20509": "4054751",
+            "1627207": "$1493115078589"
+          },
+          "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201704/e6928d437dfd365e2440373a606f96fc_1493115250.jpg",
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+13积分"
+        }
+      ],
+      "stocks": 5210,
+      "cargo_src": "",
+      "cargo_src_name": "",
+      "brand_id": "0",
+      "delivery_type": "0",
+      "product_type": "normal",
+      "is_oversea_product": "0",
+      "rect_head_url": [],
+      "max_version": "5",
+      "time_limited_buying": {
+        "tlb_status": 0,
+        "tlb_restriction_status": 2,
+        "tlb_countdown_time": 254602,
+        "second_kill_price": "13.8",
+        "server_time": 1498788997,
+        "restriction_max_number": -1,
+        "status": 2,
+        "type": 3,
+        "activity_icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201612/22/8323d5b65fcc9594ca974eb00df54aa61482403524_110_42.png",
+        "foreground_color": "#fa215f",
+        "foreground_font_color": "#ffffff",
+        "foreground_desc": "特卖价",
+        "background_color": "#ffef5e",
+        "background_font_color": "#fa215f",
+        "activity_desc": "",
+        "style_type": 0,
+        "activity_banner": {
+          "url": "",
+          "width": "",
+          "height": "",
+          "imgScale": ""
+        },
+        "price": "16.80",
+        "tlb_recommend_wap_url": "http://wx.chuchujie.com/index.php?s=/Product/product_detail/product_id/1001743034",
+        "singleTime": 1499043599,
+        "isMs": 0
+      },
+      "param_description": "",
+      "descriptionImgJson": "https://image-shop.chuchujie.com/culiu.cdn/shop_staticHtml/detailJsonCCJ/17/13/1001743034_detail.json?v=1498530023",
+      "descriptionShopJson": "https://image-shop.chuchujie.com/culiu.cdn/shop_staticHtml/cct_template_json/23/55/1001743034_cct_template.json?v=1498752000",
+      "edit_mode": 1,
+      "simple_edit_info": {
+        "image_text_array": [
+          {
+            "type": 3,
+            "content": "穿着效果"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/a51f4d8b86684f0f6616428e9f0809ff_1489807870.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/4c7ad67e692dfe4af6ff383532c2c8ed_1489807871.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/b26e0d5c4680b4b1d67a57edca57c884_1489808049.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/03a52e7e7c9d85e76eabf1830ecb396c_1489808050.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/d448e5b51dd66258ac0a5ae38e6e5ce8_1489808069.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/a4f24f683289ee220f7ef3d8209ce2e1_1489808069.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/0121689b3469f7200df5d3b4d899217c_1489808070.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/971f7cde334af161082bf2de6a254d14_1489808071.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 3,
+            "content": "整体款式"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/3aaf78c9da3c20550e67cd8298731cab_1489808089.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/758fec9835d13df45b437497d8ca12fa_1489808108.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/f45759824fba7fb97e7e5fb32b6dc89b_1489808122.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/7f127ffb98d059be802be825e041b369_1489808131.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/9e798f2ef968c4ef96d20ef1d648ffa3_1489808132.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/4aae5850455a01a7937f39eb33335ff9_1489808145.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/3bdfc8d7dac36613018af3a164520e92_1489808146.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/b422b36f33baf98a895ea4fd48199674_1489808146.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 3,
+            "content": "细节做工"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/8564f56528f509dba2e7a355ad96576d_1489808168.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/3b5fbbb3074b34c10921149d5f9bff34_1489808168.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/521b2f58aa44c6b5d3d161cb7b737110_1489808182.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/d76e137ef4ef5596094ae3450e997029_1489808183.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/8f32980980e2ab06e6647dc3d9c95a9d_1489808184.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/3f20b5baf18113f772c42b2c91dab81f_1489808185.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 3,
+            "content": "产品介绍"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/11312a97a8a51c497888bbaa46cda6cf_1489808209.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/8e8cde75fde9f7c681574f57c623a6c7_1489808209.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/815f98eec2615bf51e78fdcefc6689de_1489808210.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/ffac09860c8475216ee540bd2ff6e44d_1489808211.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/6f65b1c815bf56b60d2f390fc42535aa_1489808212.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/188eb6b2fa054d8bda4777c6dbed1159_1489808212.jpg?imageView2/2/w/620"
+          },
+          {
+            "type": 2,
+            "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201703/2099a87aaade823abef90ee6cd43fc30_1489808213.jpg?imageView2/2/w/620"
+          }
+        ]
+      },
+      "productSummaryInfo": {
+        "infoList": [
+          {
+            "title": "品牌",
+            "content": "CNXU",
+            "underLine": 0
+          },
+          {
+            "title": "生产地区",
+            "content": "浙江",
+            "underLine": 0
+          },
+          {
+            "title": "快递方式",
+            "content": "默认申通快递",
+            "underLine": 0
+          }
+        ]
+      },
+      "size_params": [],
+      "image_urls_head_for_ios_share": "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58cca8f403645.jpg?imageView2/2/w/160",
+      "share_url": "https://m.chuchujie.com/details/detail.html?id=1001743034",
+      "share_url_args": "#share_uid/0",
+      "product_offline_time": "",
+      "product_sale_image": "",
+      "product_sale_text": "",
+      "commission": {
+        "title": "分享赚佣金",
+        "content": "分享赚佣金: ¥ 0.41元",
+        "description": "分享赚: ¥ 0.41元",
+        "value": 0.41
+      },
+      "is_validated_shop": 1,
+      "is_no_reason_return": 1,
+      "is_fast_delivery": 1,
+      "is_tested": 0,
+      "product_des": "楚楚街商城,完美的购物体验，你值得拥有!",
+      "is_show_but": 1,
+      "is_qualified": 1,
+      "is_compensated": 1,
+      "brand_commitment_url": "http://huodong.chuchujie.com/notice/brand.html",
+      "commitment_type": 2,
+      "commitment_url": "http://shopcdn.chuchujie.com/Uploads/desc/201507/143643287339684.png",
+      "product_service_info": [
+        "9天无理由退货",
+        "24小时发货",
+        "交易保障"
+      ],
+      "service_info_new": {
+        "item": {
+          "icon": "",
+          "imgHeight": "",
+          "imageWidth": "",
+          "template": "",
+          "query": "",
+          "imgScale": ""
+        },
+        "service_list": [
+          {
+            "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/f7d810cd1924d31bd35ed63984dd6ca91490337760_40_40.png",
+            "imgHeight": "40",
+            "imageWidth": "40",
+            "imgScale": "1.0",
+            "desc": "9天无理由退货",
+            "desc_detail": "买家满足9天无理由退货申请条件，可以申请“9天无理由退货”"
+          },
+          {
+            "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/f7d810cd1924d31bd35ed63984dd6ca91490337760_40_40.png",
+            "imgHeight": "40",
+            "imageWidth": "40",
+            "imgScale": "1.0",
+            "desc": "24小时发货",
+            "desc_detail": "卖家承诺，买家付款成功后24小时内发货"
+          },
+          {
+            "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/f7d810cd1924d31bd35ed63984dd6ca91490337760_40_40.png",
+            "imgHeight": "40",
+            "imageWidth": "40",
+            "imgScale": "1.0",
+            "desc": "交易保障",
+            "desc_detail": ""
+          }
+        ]
+      },
+      "high_price_points": 6,
+      "low_price_points": 6,
+      "points": "购买可返6积分",
+      "points_desc": "1、只限登录用户,未登录用户购买将不会获得积分\n2、积分在购买宝贝经过退款期以后可以使用",
+      "category": {
+        "first_category_id": "-3",
+        "first_category_name": "配饰",
+        "second_category_id": "50010404",
+        "second_category_name": "服饰配件/皮带/帽子/围巾",
+        "third_category_id": "302910",
+        "third_category_name": "帽子",
+        "fourth_category_id": "",
+        "fourth_category_name": ""
+      },
+      "buy_num": 378,
+      "question": {
+        "is_show": 1,
+        "list": [
+          {
+            "question_id": "1706180908306041774085",
+            "question_content": "几天可以到货",
+            "answer_count": 1,
+            "answer_content": "三天",
+            "product_id": ""
+          }
+        ],
+        "count": 1,
+        "tips": ""
+      },
+      "activity_info": {
+        "activity_info_array": [
+          {
+            "title": "满30减5，满50减10，满100减20",
+            "subTitle": " ",
+            "tag": "#333333",
+            "template": "MSSHOPFULLCUT",
+            "query": "{\"method\":\"get_fullcut_list\",\"actId\":\"68065\",\"actName\":\"阶梯满减\",\"shopId\":\"17430\",\"static_id\":29}",
+            "imgUrl": "",
+            "imgScale": 1,
+            "priority": 0,
+            "styleTagList": [
+              {
+                "tag": "满减",
+                "backgroundColor": "#ffaf61",
+                "fontColor": "#ffffff"
+              }
+            ]
+          },
+          {
+            "title": "全店满送，满￥15即可获赠价值￥5.50宝贝",
+            "subTitle": " ",
+            "tag": "#333333",
+            "template": "MSSHOPBUYGIVE",
+            "query": "{\"method\":\"get_buy_give_list\",\"activityId\":\"68089\",\"discountType\":4,\"shopId\":\"17430\",\"statics_id\":8,\"shopName\":\"\"}",
+            "imgUrl": "",
+            "imgScale": 1,
+            "buyGive": 1,
+            "priority": 1,
+            "styleTagList": [
+              {
+                "tag": "满赠",
+                "backgroundColor": "#ff8968",
+                "fontColor": "#ffffff"
+              }
+            ]
+          }
+        ]
+      },
+      "best_comment": {
+        "total_num": 295,
+        "comment_list": [
+          {
+            "user_id": 76965344,
+            "head_img": "",
+            "nick_name": "1***3",
+            "content": "超喜欢，发货速度也特别快",
+            "comment_img": []
+          }
+        ]
+      },
+      "btnCtrlShow": {
+        "cartBtn": true,
+        "commissionBtn": true
+      },
+      "installment_info": {
+        "installment_icon": "",
+        "installment_content": "",
+        "installment_url": ""
+      },
+      "is_hb": false,
+      "shop_sign_info": {
+        "activity_info_array": [],
+        "activity_info_array_new": []
+      },
+      "special_list": [
+        {
+          "specialInfo": {
+            "title": "热卖产品",
+            "subTitle": "热卖产品",
+            "description": "",
+            "imgUrl": "",
+            "imgWidth": "0",
+            "imgHeight": "0",
+            "imgScale": 0,
+            "shopId": "17430",
+            "tag": "专题"
+          },
+          "productList": [
+            {
+              "status": 0,
+              "template": "CHUCHUITEM",
+              "query": "{\"productId\":\"100174307\",\"shopId\":\"17430\",\"trackId\":\"\",\"static_id\":28}",
+              "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201702/58a3c7c459499.jpg?imageView2/2/w/400",
+              "imgWidth": 480,
+              "imgHeight": 480,
+              "title": "夏季雪纺纯色防晒丝巾海边沙滩巾春秋披肩女纱巾围巾秋冬季",
+              "saleCount": 260,
+              "stock": 100,
+              "oldPrice": "86.00",
+              "newPrice": "9.90",
+              "discount": "0.11",
+              "description": "",
+              "subTitle": "楚楚街",
+              "tags": [
+                "包邮"
+              ],
+              "product_type": "0",
+              "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100174307",
+              "limited_buy": "",
+              "coupon_grant_title": "",
+              "debug_stocks": "11739"
+            },
+            {
+              "status": 0,
+              "template": "CHUCHUITEM",
+              "query": "{\"productId\":\"100174309\",\"shopId\":\"17430\",\"trackId\":\"\",\"static_id\":28}",
+              "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201702/58a534b71b505.jpg?imageView2/2/w/400",
+              "imgWidth": 480,
+              "imgHeight": 480,
+              "title": "韩版新款围巾职业商务领巾夏季时尚装饰百搭春秋夏季小丝巾",
+              "saleCount": 19,
+              "stock": 100,
+              "oldPrice": "38.00",
+              "newPrice": "14.60",
+              "discount": "0.38",
+              "description": "",
+              "subTitle": "楚楚街",
+              "tags": [
+                "包邮"
+              ],
+              "product_type": "0",
+              "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100174309",
+              "limited_buy": "",
+              "coupon_grant_title": "",
+              "debug_stocks": "4390"
+            },
+            {
+              "status": 0,
+              "template": "CHUCHUITEM",
+              "query": "{\"productId\":\"100174305\",\"shopId\":\"17430\",\"trackId\":\"\",\"static_id\":28}",
+              "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201702/58a304887dd32.jpg?imageView2/2/w/400",
+              "imgWidth": 480,
+              "imgHeight": 480,
+              "title": "帽子女夏遮阳帽可折叠凉帽防紫外线大檐帽沙滩太阳帽韩版潮防嗮帽",
+              "saleCount": 58,
+              "stock": 100,
+              "oldPrice": "78.00",
+              "newPrice": "15.80",
+              "discount": "0.20",
+              "description": "",
+              "subTitle": "楚楚街",
+              "tags": [
+                "包邮"
+              ],
+              "product_type": "0",
+              "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100174305",
+              "limited_buy": "",
+              "coupon_grant_title": "",
+              "debug_stocks": "3742"
+            },
+            {
+              "status": 0,
+              "template": "CHUCHUITEM",
+              "query": "{\"productId\":\"100174304\",\"shopId\":\"17430\",\"trackId\":\"\",\"static_id\":28}",
+              "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201702/58a2ff894647e.jpg?imageView2/2/w/400",
+              "imgWidth": 480,
+              "imgHeight": 480,
+              "title": "户外遮脸骑车遮阳帽夏季女士防晒帽防紫外线太阳帽子电动车大檐帽",
+              "saleCount": 65,
+              "stock": 100,
+              "oldPrice": "99.00",
+              "newPrice": "28.80",
+              "discount": "0.29",
+              "description": "",
+              "subTitle": "楚楚街",
+              "tags": [
+                "包邮"
+              ],
+              "product_type": "0",
+              "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100174304",
+              "limited_buy": "",
+              "coupon_grant_title": "",
+              "debug_stocks": "735"
+            },
+            {
+              "status": 0,
+              "template": "CHUCHUITEM",
+              "query": "{\"productId\":\"100174303\",\"shopId\":\"17430\",\"trackId\":\"\",\"static_id\":28}",
+              "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201702/589ff3f60cd8a.jpg?imageView2/2/w/400",
+              "imgWidth": 480,
+              "imgHeight": 480,
+              "title": "薄款雪纺防晒丝巾披巾海边沙滩巾冬季围巾披肩两用长款超大女纱巾",
+              "saleCount": 43,
+              "stock": 100,
+              "oldPrice": "128.00",
+              "newPrice": "16.80",
+              "discount": "0.13",
+              "description": "",
+              "subTitle": "楚楚街",
+              "tags": [
+                "包邮"
+              ],
+              "product_type": "0",
+              "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100174303",
+              "limited_buy": "",
+              "coupon_grant_title": "",
+              "debug_stocks": "11457"
+            },
+            {
+              "status": 0,
+              "template": "CHUCHUITEM",
+              "query": "{\"productId\":\"100174301\",\"shopId\":\"17430\",\"trackId\":\"\",\"static_id\":28}",
+              "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201702/589eb4f174acc.jpg?imageView2/2/w/400",
+              "imgWidth": 480,
+              "imgHeight": 480,
+              "title": "真丝丝巾围巾女士春秋百搭长款桑蚕丝雪纺披肩夏季纱巾两用",
+              "saleCount": 11,
+              "stock": 100,
+              "oldPrice": "699.00",
+              "newPrice": "98.00",
+              "discount": "0.14",
+              "description": "",
+              "subTitle": "楚楚街",
+              "tags": [
+                "包邮"
+              ],
+              "product_type": "0",
+              "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100174301",
+              "limited_buy": "",
+              "coupon_grant_title": "",
+              "debug_stocks": "268"
+            },
+            {
+              "status": 0,
+              "template": "CHUCHUITEM",
+              "query": "{\"productId\":\"1001743010\",\"shopId\":\"17430\",\"trackId\":\"\",\"static_id\":28}",
+              "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201702/58a5390dc8c67.jpg?imageView2/2/w/400",
+              "imgWidth": 480,
+              "imgHeight": 480,
+              "title": "防晒丝巾披巾海边沙滩巾冬季围巾披肩两用长款加大女纱巾",
+              "saleCount": 20,
+              "stock": 100,
+              "oldPrice": "98.00",
+              "newPrice": "18.80",
+              "discount": "0.19",
+              "description": "",
+              "subTitle": "楚楚街",
+              "tags": [
+                "包邮"
+              ],
+              "product_type": "0",
+              "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=1001743010",
+              "limited_buy": "",
+              "coupon_grant_title": "",
+              "debug_stocks": "18609"
+            }
+          ],
+          "page": 1,
+          "hasNext": false,
+          "totalCount": 7
+        }
+      ],
+      "shop_info": {
+        "cn_name": "cnxu旗舰店",
+        "shop_header_image_url": "http://shopcdn.chuchujie.com/Uploads/shop_head/201702/1486727793.jpg?imageView2/2/w/400",
+        "shop_header": "http://shopcdn.chuchujie.com/Uploads/shop_head/201702/1486727793.jpg?imageView2/2/w/400",
+        "shop_description": "",
+        "brand_story": "",
+        "service_qq": [
+          "2850746712"
+        ],
+        "service_im_h5": "http://m.chuchujie.com/details/webIm.html",
+        "level": 0,
+        "delivery": "浙江省金华市",
+        "perfact_scale": "93%",
+        "desc_scale": 9.6,
+        "ship_scale": 9.6,
+        "serv_scale": 9.6,
+        "all_product_quantity": 0,
+        "shop_type": 2,
+        "isFav": false,
+        "brandStory": {},
+        "chat_url": "http://m.chuchujie.com/im/kefuIM.html?mcc=1&shopId=17430",
+        "service_type": 2,
+        "chat_native": 17430
+      }
+    },
+    "faillist": {
+      "total": 295,
+      "with_img_count": 13,
+      "great_count": 275,
+      "general_count": 19,
+      "bad_count": 1,
+      "positive_rate": "",
+      "comment_tip": "剩余194条为无评论内容好评"
+    }
+  }
+}

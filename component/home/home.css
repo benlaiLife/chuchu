@@ -1,13 +1,49 @@
 /*头部*/
-.home_head{    width: 100%;
-    height: 0.29rem;
+.home_head{    width: 100%;  height: 0.29rem;  background: #FFF;  padding: 0.07rem 0;  position: fixed;  top: 0;  left: 0;  z-index: 100}
+.home_head_search{    position: absolute;  top: 12px;  left: 20px;  width: 19px;  height: 20px;  background: url(imgs/search.png) no-repeat;  background-size: 19px 20px;  display: inline-block;}
+.home_head_car{    position: absolute;  top: 12px;  right: 20px;  width: 19px;  height: 20px;  background: url(imgs/shopcar.png) no-repeat; background-size: 19px 20px;  display: inline-block;}
+.nav{width: 160px;  height: 25px;  position: absolute;  left: 50%;  margin-left: -80px;  border: solid 1px #f99;  border-radius: 3px;}
+.nav li{    width: 80px;  height: 25px;  line-height: 25px;  text-align: center;  display: inline-block;  font-size: 12px;  float: left; cursor: pointer;}
+.nav li a{    color: #444;}
+.activeNav{background: #f99;}
+.nav .activeNav a{    color: #FFF;}
+
+
+/*主体*/
+.home_main{margin-top: 40px;width: 100%;}
+.border_bt{     padding: 5px 10px 5px 38px;
+    line-height: 18px;
+    font-size: 16px;
+    color: #f99;
+    background:#F7F7F7 url(imgs/flower.png) no-repeat 10px center;
+    background-size: 18px 18px;border-bottom: solid 1px #F7F7F7;font-weight: 400;  }
+.p_shop{width: 100%;}
+.home_goods{padding: 10px;
     background: #FFF;
-    padding: 0.07rem 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-z-index: 100}
-
-
-
+    display: block;
+    border-bottom: solid 1px #f7f7f7;}
+.home_goods a{display: block}
+.goods_img{width: 100%;
+    position: relative;}
+.goods_img img{  width: 100%; float: left;}
+.goods_info{        padding: 8px 60px 0 0;
+    position: relative;}
+.goods_info p{    line-height: 20px;
+    display: block;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    color:#444;}
+.goods_info span{    font-size: 14px;
+    color: #df3130;
+    position: absolute;
+    top: 9px;
+    right: 0;}
+.remain_day{color: blue;font-size: 12px}
+.home_footer{font-size: 12px;
+    padding: 10px 0 24px;text-align: center;width: 100%;background: #f7f7f7;color:  #999;}
+.home_footer>p{    margin-bottom: 5px;}
+.company{    text-align: center;}
 

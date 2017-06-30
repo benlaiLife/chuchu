@@ -1,26 +1,39 @@
-<div class="top">
-    <a href="" class="icon"></a>
-    <a href="" class="car"></a>
-    <ul class="nav">
-        <li  ng-click="show(0)"><a ng-class="{true: 'active', false: 'inactive'}[isActive]">男生精选</a></li>
-        <li ng-click="show(1)"><a ng-class="{true: 'active', false: 'inactive'}[isActive1]">女生精选</a></li>
-    </ul>
-</div>
-<div class="main">
-    <h2>9块9.每日9点更新</h2>
-    <ul class="ul">
-        <li ng-repeat="item in arr">
+<div ng-show="name">
+    <div class="top">
+        <a href="" class="icon" ui-sref="search"></a>
+        <a href="" class="car"></a>
+        <ul class="nav">
+            <li  ng-click="show(0)"><a ng-class="{true: 'active', false: 'inactive'}[isActive]">男生精选</a></li>
+            <li ng-click="show(1)"><a ng-class="{true: 'active', false: 'inactive'}[isActive1]">女生精选</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>9块9.每日9点更新</h2>
+        <ul class="ul">
+            <li ng-repeat="item in arr" ng-click="change()">
             <span>
                 <img src="{{item.imgUrl}}" alt="">
             </span>
-            <div class="rg">
-                <h1><b class="today">今日</b>{{item.title}}</h1>
-                <p class="newprice">{{"￥"+item.newPrice}}</p>
-                <p class="oldprice">
-                    <lable>原价：<i class="old">{{item.oldPrice}}</i></lable>
-                    <lable class="fr">{{item.saleCount+"人已买"}}</lable>
-                </p>
+                <div class="rg">
+                    <h1><b class="today">今日</b>{{item.title}}</h1>
+                    <p class="newprice">{{"￥"+item.newPrice}}</p>
+                    <p class="oldprice">
+                        <lable>原价：<i class="old">{{item.oldPrice}}</i></lable>
+                        <lable class="fr">{{item.saleCount+"人已买"}}</lable>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div ng-hide="{{name}}">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" ng-repeat="items in arrt">
+                <img src="{{items}}" alt="">
             </div>
-        </li>
-    </ul>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
 </div>
