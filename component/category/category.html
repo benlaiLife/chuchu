@@ -1,8 +1,8 @@
 <div class="category_wrap">
 	<div class="topbar bgFFF">
 		<ul>
-			<li><a href="javascript:void(0)"></a>男生精选</li>
-			<li><a href="javascript:void(0)"></a>女生精选</li>
+			<li ng-click="show(0)" ng-class="{true: 'active', false: 'inactive'}[isActiveMan]"><a href="javascript:void(0)" ></a>男生精选</li>
+			<li ng-click="show(1)" ng-class="{true: 'active', false: 'inactive'}[isActiveWoman]"><a href="javascript:void(0)"></a>女生精选</li>
 		</ul>
 	</div>
 	<ul class="type_list bgFFF clearfix2">
@@ -30,15 +30,15 @@
 		</div>
 		<div class="tab_top">
 			<ul class="clearfix2">
-				<li><p>人气</p></li>
-				<li><p>销量</p></li>
-				<li><p>最新</p></li>
-				<li><p>价格<img src="component/category/img/sort.png"/></p></li>
+				<li ng-click="sort(0)" ><p ng-class="{true: 'activeBot', false: 'inactive'}[isActive1]">人气</p></li>
+				<li ng-click="sort(1)" ><p ng-class="{true: 'activeBot', false: 'inactive'}[isActive2]">销量</p></li>
+				<li ng-click="sort(2)" ><p ng-class="{true: 'activeBot', false: 'inactive'}[isActive3]">最新</p></li>
+				<li ng-click="sort(3)" ><p ng-class="{true: 'activeBot', false: 'inactive'}[isActive4]">价格<img src="component/category/img/sort.png"/></p></li>
 			</ul>
 		</div>
 		<div class="container">
 			<ul class="clearfix2">
-				<li ng-repeat="item in arr.productList">
+				<li ng-repeat="item in arr.productList | orderBy:xyz">
 					<div class="bg"></div>
 					<a href="javascript:void(0)">
 						<div class="box">

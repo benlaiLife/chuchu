@@ -25,7 +25,7 @@ h1,h2,h3,strong,em,i {
     top: 0;
     left: 0;
     z-index: 20;
-    border-bottom: solid 1px #F7F7F7;
+    border-bottom:0.01rem solid #F7F7F7;
 }
 
 
@@ -36,11 +36,7 @@ h1,h2,h3,strong,em,i {
     left: 50%;
     margin-left: -0.8rem;
     border: solid 0.01rem #f99;
-    border-radius: 0.03px;
-}
-.topbar ul li:nth-of-type(2) {
-    background: #f99;
-    color:#fff;
+    border-radius: 0.03rem;
 }
 
 .topbar ul li{
@@ -52,6 +48,10 @@ h1,h2,h3,strong,em,i {
     font-size: 0.12rem;
     float: left;
     cursor: pointer;
+}
+.active{
+	background: #f99;
+    color:#fff;
 }
 .type_list{
 	width: 100%;
@@ -128,23 +128,20 @@ h1,h2,h3,strong,em,i {
     background-size: 100% 100%;
 }
 .title_line .title_box i.lt{
-	margin-left: 3px;
+	margin-left: 0.03rem;
     float: left;
 }
 .title_line .title_box i.rt{
-	margin-right: 3px;
+	margin-right: 0.03rem;
     float: right;
 }
 .title_line .title_box em,.title_line .title_box span{
 	display: block;
-    line-height: 18px;
+    line-height: 0.18rem;
 }
 .title_line .title_box em{
 	color: #df3130;
-    font-size: 0.16rem;
-    font-style: normal;
-    font-weight: 400;
-  
+    font-size: 0.16rem;  
 }
 .title_line .title_box span{
 	color: #ebebeb;
@@ -180,12 +177,6 @@ h1,h2,h3,strong,em,i {
     height: 0.3rem;
     line-height: 0.3rem;
 }
-.tab_top ul li:nth-of-type(1) p{
-	height: 28px;
-    line-height: 28px;
-    color: #df3130;
-    border-bottom: solid 2px #df3130;
-}
 
 .tab_top ul li p img{
 	width: 0.06rem;
@@ -211,7 +202,7 @@ h1,h2,h3,strong,em,i {
     margin-bottom: -0.05rem;
 }
 .container ul li .box .info{
-	    padding: 0.05rem;
+	padding: 0.05rem;
 }
 .container ul li .box .info h2{
 	font-size: .15rem;
@@ -249,4 +240,10 @@ h1,h2,h3,strong,em,i {
 }
 .container ul li .box .info .price_two .count{
 	float: right;
+}
+.activeBot{
+	height: 28px;
+    line-height: 28px;
+    color: #df3130;
+    border-bottom: solid 2px #df3130;
 }
