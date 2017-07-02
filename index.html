@@ -13,10 +13,11 @@
 	<script src="js/libs/require-2.3.3.min.js" data-main = "main"></script>
 	<link rel="stylesheet" href="css/index.css" />
 	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="component/home/home.css"/>
 </head>
 <body>
-	<div id="content" ui-view></div>
-    <div id="tab">
+	<div id="content"  ui-view></div>
+    <div id="tab" ng-class="{true: 'block', false: 'none'}[isShow]">
         <ul>
             <li ui-sref="home"><i><img src="images/home1.png" alt=""></i><a href="">首页</a></li>
             <li ui-sref="9yuan9"><i><img src="images/categroy.png" alt=""></i><a href="">9块9</a></li>

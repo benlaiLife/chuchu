@@ -1,19 +1,57 @@
 <div id="searchContains">
 	<div class="search_main">
 		<div class="back clearfix">
-			<img src="component/search/imgs/back.png" class="backImg" ng-click="back()"/>
+			<img src="component/search/imgs/arrows.png" class="backImg" ng-click="back()"/>
 			<div class="put clearfix">
-				<input type="text" placeholder="请输入商品关键字" />
+				<input type="text" placeholder="请输入商品关键字" value="{{searchVal}}" ng-model="sear"/>
 			</div>
-			<a href="javascript:void(0)" class="searchBtn">搜索</a>
+			<a href="javascript:void(0)" class="searchBtn" ng-click="search()">搜索</a>
 		</div>
 	</div>
-	<div class="search_keyword">
+	<div ng-class='{true:"search_keyword",false:"search_keyword_no"}[keyword]'>
 		<h2>热门搜索</h2>
+		<div class="search_item clearfix">
+		<span ng-repeat="item in searctItems" ng-click="itemSearch(item.title)">{{item.title}}</span>
 	</div>
-	
-	<!--<div ng-repeat="(key,item) in obj">
-		<p style="font-size: 12px;">{{item.title}}</p>
+	</div>
+	<!--<div style="font-size: 12px;">{{obj}}</div>-->
+	<div ng-class='{true:"search_res",false:"search_res_no"}[searchRes]'>
+		<div class="search_sort">
+			<ul>
+				<li ng-click="sortGoods(0);orderStyle=''"><p ng-class="{true:'activeP',false:''}[state[0]]">人气</p></li>
+				<li ng-click="sortGoods(1);orderStyle='-saleCount'"><p ng-class="{true:'activeP',false:''}[state[1]]">销量</p></li>
+				<li ng-click="sortGoods(2);orderStyle=''"><p ng-class="{true:'activeP',false:''}[state[2]]">最新</p></li>
+				<li ng-click="sortGoods(3);orderStyle='newPrice'"><p ng-class="{true:'activeP',false:''}[state[3]]">价格</p></li>
+			</ul>
+		</div>
+		<ul class="goods_contain">
+			<li ng-repeat="item in obj | orderBy:orderStyle">
+				<div class="goods_box">
+					<a href="javascirpt:void(0)">
+						<div class="goods_box_img">
+							<img src="{{item.imgUrl}}"/>
+						</div>
+						<div class="goods_box_info">
+							<h2>{{item.title}}</h2>
+							<p class="goods_price clearfix">
+								<span>￥{{item.newPrice}}</span>
+							</p>
+							<p class="goods_count">
+								<em>￥{{item.oldPrice}}</em>
+								<i>销量:{{item.saleCount}}</i>
+							</p>
+						</div>
+					</a>
+				</div>
+			</li>
+		</ul>
+		<!--<div ng-repeat="(key,item) in obj">-->
+		<!--<p style="font-size: 12px;">{{item.title}}</p>
+		<p style="font-size: 12px;">原价:{{item.oldPrice}}</p>
+		<p style="font-size: 12px;">现价:{{item.newPrice}}</p>
+		<p style="font-size: 12px;">销量:{{item.saleCount}}</p>
 		<img src="{{item.imgUrl}}"/>
 	</div>-->
+	</div>
+	
 </div>
