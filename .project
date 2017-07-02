@@ -40,10 +40,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
 			<id>1498735154209</id>
-=======
-			<id>1498736260336</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -53,7 +50,6 @@
 		</filter>
 		<filter>
 			<id>1498737640725</id>
->>>>>>> c92fb0b63af90817c6e1bd5b576abf0bf8932c5c
 			<name></name>
 			<type>26</type>
 			<matcher>
