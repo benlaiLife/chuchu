@@ -14,7 +14,6 @@ define(['uiRouter'], function() {
         })
         .controller("detailsCtrl",["$scope","$http",function ($scope,$http) {
             $http.get("component/9yuan9/json/detail.json").then(function (mes) {
-                console.log(mes.data.data.product.productSummaryInfo.infoList);
                 $scope.product=mes.data.data.product.productSummaryInfo.infoList;
                 $scope.shows=mes.data.data.product.simple_edit_info.image_text_array;
                 $scope.likes=mes.data.data.relevance_list;
