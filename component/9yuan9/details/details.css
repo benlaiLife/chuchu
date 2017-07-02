@@ -1,0 +1,48 @@
+.titl{
+    width:100%;
+    text-align: center;
+}
+.shows{
+    width: 100%;
+}
+.shows img{
+    width: 100%;
+    display: block;
+}
+.bt{
+    width:100%;
+}
+.like{
+    width:100%;
+}
+.like ul{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.like ul li{
+    width:48%;
+}
+.like ul li img{
+    width:100%;
+}
+.like ul li h2{
+    font-size: 14px;
+    color: #444;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.price{
+    color: #df3130;
+    padding-top: 6px;
+    font-size: 16px;
+}
+.num{
+    font-style: normal;
+    float: right;
+    margin-top: 6px;
+    font-size: 12px;
+}

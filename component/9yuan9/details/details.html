@@ -1,1 +1,30 @@
-<p>details</p>
+<div class="titl">
+    <ul>
+        <li ng-repeat="item in product">
+            <span>{{item.content}}</span>
+            <p>{{item.title}}</p>
+        </li>
+    </ul>
+</div>
+<div class="shows">
+    <img src="{{img.content}}" alt="" ng-repeat="img in shows">
+</div>
+<div class="bt">
+    <div></div>
+    <div class="like">
+        <ul>
+            <li ng-repeat="lee in likes">
+                <div>
+                    <img src="{{lee.image_url_head}}" alt="">
+                </div>
+                <div>
+                    <h2>{{lee.cn_title}}</h2>
+                    <p>
+                        <span class="price">{{"￥"+lee.sales_price}}</span>
+                        <em class="num">{{lee.buy_num+"人已购买"}}</em>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -31,15 +31,15 @@ define(['uiRouter'], function() {
 				$scope.isActive4 = false;
 				$scope.show = function(x) {
 					if(x == 0) {
-						$scope.isActiveWoman = !$scope.isActiveWoman;
-						$scope.isActiveMan = !$scope.isActiveMan;
+						$scope.isActiveWoman = false;
+						$scope.isActiveMan = true;
 						getData.get('component/category/category_man.json').then(function(res) {
 							$scope.arr = res.data.data;
 							
 						})
 					} else {
-						$scope.isActiveWoman = !$scope.isActiveWoman;
-						$scope.isActiveMan = !$scope.isActiveMan;
+						$scope.isActiveWoman = true;
+						$scope.isActiveMan = false;
 						getData.get('component/category/category_woman.json').then(function(res) {
 							$scope.arr = res.data.data;
 						})
@@ -48,7 +48,7 @@ define(['uiRouter'], function() {
 				
 				$scope.sort = function(num) {					
 					if(num == 0) {						
-						$scope.isActive1 = !$scope.isActive1;
+						$scope.isActive1 = true;
 						$scope.isActive2 = false;
 						$scope.isActive3 = false;
 						$scope.isActive4 = false;
@@ -56,20 +56,20 @@ define(['uiRouter'], function() {
 						
 					} else if(num == 1) {	
 						console.log(num);
-						$scope.isActive2 = !$scope.isActive2;
+						$scope.isActive2 = true;
 						$scope.isActive1 = false;
 						$scope.isActive3 = false;
 						$scope.isActive4 = false;
 						$scope.xyz='-saleCount';
 						
 					} else if(num == 2) {					
-						$scope.isActive3 = !$scope.isActive3;
+						$scope.isActive3 = true;
 						$scope.isActive2 = false;
 						$scope.isActive1 = false;
 						$scope.isActive4 = false;
 						$scope.xyz='-chuchuShopId';
 					} else if(num == 3) {					
-						$scope.isActive4 = !$scope.isActive4;
+						$scope.isActive4 = true;
 						$scope.isActive2 = false;
 						$scope.isActive3 = false;
 						$scope.isActive1 = false;
