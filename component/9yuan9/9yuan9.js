@@ -34,7 +34,6 @@ define(['uiRouter'],function  () {
             $scope.change=function () {
                 $http.get("component/9yuan9/json/detail.json").then(function (ses) {
                     console.log(ses.data.data);
-                    console.log(ses.data.data.product.special_list[0].productList);
                     $scope.isShow= false;
                     $scope.isShow1= true;
                     $scope.arrt=ses.data.data.product.image_urls_head;

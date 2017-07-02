@@ -56,9 +56,11 @@
 }
 .block{
     display: block;
+    padding-bottom: 0.49rem;
 }
 .none{
     display: none;
+    padding-bottom: 0.49rem;
 }
 .main{
     width: 100%;
@@ -366,4 +368,25 @@
     vertical-align: middle;
     width: 18px;
     height: 18px;
+}
+.part3{
+    font-size: 12px;
+}
+.part3{
+    font-size: 12px;
+}
+.part3 ul{
+    width: 100%;
+    border-bottom: solid 1px #ddd;
+    border-top: solid 1px #EEE;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+.part3 ul li{
+    width: 33%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: solid 2px #fff;
+    text-align: center;
 }
