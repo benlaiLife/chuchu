@@ -21,8 +21,8 @@ define(['uiRouter'], function() {
 				$scope.searchRes=true;
 				$scope.name=item;
 				var url = "https://api.chuchujie.com/api/?client={%22ageGroup%22:%22QD_web_webkit%22,%22channel%22:%22QD_web_webkit%22,%22deviceId%22:%220%22,%22gender%22:%221%22,%22imei%22:%220%22,%22packageName%22:%22com.culiu.purchase%22,%22platform%22:%22wap%22,%22sessionId%22:%220%22,%22shopToken%22:%220%22,%22userId%22:%220%22,%22version%22:%221.0%22,%22xingeToken%22:%22%22}&query={%22module%22:%22search%22,%22function%22:%22keyword%22,%22q%22:%22" + $scope.name + "%22,%22page%22:%221%22}&sort=favcount_desc"
-				$http.get(url).success(function  (res) {
-				$scope.obj = res.data.productList;
+				$http.get(url).then(function  (res) {
+				$scope.obj = res.data.data.productList;
 			})
 			}
 			$scope.back = function() {
@@ -46,8 +46,8 @@ define(['uiRouter'], function() {
 				$scope.name = toUnicode($scope.name);
 			}
 //			搜索关键字
-			$http.get('component/search/json/searchKey.json').success(function  (res) {
-				$scope.searctItems=res.data.bannerGroupList["0"].bannerList;
+			$http.get('component/search/json/searchKey.json').then(function  (res) {
+				$scope.searctItems=res.data.data.bannerGroupList["0"].bannerList;
 			})
 			
 		}])
