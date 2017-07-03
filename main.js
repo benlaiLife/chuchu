@@ -8,6 +8,7 @@ require.config({
 		'home': 'component/home/home',
 		'mine': 'component/mine/mine',
 		'category': 'component/category/category',
+		'classfiy':'component/category/classfiy/classfiy',
 		'search': 'component/search/search',
 		'css':'js/libs/angular-css.min',
 		'lazyLoad':'js/libs/me-lazyload',
@@ -30,6 +31,7 @@ require.config({
         "details":['uiRouter'],
         "evaluate":['uiRouter'],
         "recommend":['uiRouter'],
+        "classfiy":['uiRouter'],      
 		'9yuan9': {
 			deps: ['uiRouter']
 },

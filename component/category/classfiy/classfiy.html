@@ -1,22 +1,23 @@
-<div class="category_wrap" ui-view>
-	<div class="topbar bgFFF">
-		<ul>
-			<li ng-click="show(1)" ng-class="{true: 'active', false: 'inactive'}[isActiveMan]"><a href="javascript:void(0)" ></a>男生精选</li>
-			<li ng-click="show(0)" ng-class="{true: 'active', false: 'inactive'}[isActiveWoman]"><a href="javascript:void(0)"></a>女生精选</li>
-		</ul>
+<div class="classfiyShow">
+	<div class="classfiytopBar clearfix2">
+		<img src="component/category/classfiy/img/leftArrow.png" ng-click="back()"/>
+		<div class="clearfix2 put">
+			<input type="text" placeholder="输入商品关键词" class="icon" readonly="readonly"/>
+		</div>
 	</div>
-	<ul class="type_list bgFFF clearfix2">
-		<li ng-repeat="item in arr.categoryList" ui-sref=".classfiy" ng-click="getSex()">
-			<span class="bg"></span>
-			<a href="javascript:void(0)">
-				<div class="box">
-					<img src="{{item.imgUrl}}"/>
-					<h2>{{item.title}}</h2>
-					<p>{{item.subTitle}}</p>
-				</div>
-			</a>	
-		</li>	
-	</ul>
+	<div class="classfiyShowBanner">
+		<div class="bgFFF mb10" ng-repeat="item in arr.bannerGroupList">
+			<h2 class="hot_biaoti">{{item.title}}</h2>	
+			<ul class="f_hot clearfix2">
+				<li ng-repeat="items in item.bannerList">
+					<div class="item">
+						<img src="{{items.imgUrl}}" />
+						<p>{{items.title}}</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
 	<div class="bgFFF">
 		<div class="title_wrap">
 			<div class="title_line">
