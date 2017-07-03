@@ -11,6 +11,8 @@ define(['uiRouter'], function() {
 		})
 	.controller('shopCarCtrl',['$scope','$http',function ($scope,$http) {
 //		$http.
+		$scope.shopInfo=JSON.parse(localStorage.getItem('aaaa'));
+		console.log(JSON.parse(localStorage.getItem('aaaa')))
 		$scope.goodsNum=[1,1];
 		$scope.goodsChose=[false,false];
 		$scope.allChose=false;
@@ -48,21 +50,29 @@ define(['uiRouter'], function() {
 			}
 		}
 //		增加数量
-		$scope.add=function (n) {
+		$scope.add=function (n,key) {
+			var ooo=JSON.parse(localStorage.getItem('aaaa'));
+			delete ooo[key];
+			console.log(ooo);
 			for (var i = 0; i < $scope.goodsNum.length; i++) {
 				if(i==n){
 					$scope.goodsNum[i]++;
+					$scope.shopInfo[key].num=$scope.goodsNum[i];
+					localStorage.setItem('aaaa',JSON.stringify($scope.shopInfo));
 				}
 			}
+			
 		}
 		//减少数量
-		$scope.dec=function (n) {
+		$scope.dec=function (n,key) {
 			for (var i = 0; i < $scope.goodsNum.length; i++) {
 				if(i==n){
 					$scope.goodsNum[i]--;
 					if($scope.goodsNum[i]<=1){
 						$scope.goodsNum[i]=1;
 					}
+					$scope.shopInfo[key].num=$scope.goodsNum[i];
+					localStorage.setItem('aaaa',JSON.stringify($scope.shopInfo));
 				}
 			}
 		}
