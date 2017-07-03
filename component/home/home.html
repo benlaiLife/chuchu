@@ -1,7 +1,7 @@
 <!--头部-->
 <div class="home_head">
     <a href="javascript:void(0)" class="home_head_search" ui-sref='search'></a>
-    <a href="javascript:void(0)" class="home_head_car"></a>
+    <a href="javascript:void(0)" class="home_head_car" ui-sref='shopCar'></a>
     <ul class="nav">
         <li  ng-click="home(1)" ng-class="{true:'activeNav',false:''}[man]">
             <a href="#" >男生精选</a>
@@ -18,7 +18,7 @@
         <li class="home_goods" ng-repeat="item in homeGoods">
             <a href="javascript:void(0)">
                 <div class="goods_img clearfix">
-                    <img src="{{item.imgUrl}}" alt="">
+                    <img lazy-src="{{item.imgUrl}}" alt=""animate-visible="true" animate-speed="0.5s">
                 </div>
                 <div class="goods_info">
                     <p>{{item.title}}</p><span ng-if="item.status==1">今日上新</span>
