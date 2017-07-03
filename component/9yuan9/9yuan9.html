@@ -79,19 +79,11 @@
         </li>
     </ul>
     <div class="expo">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" ng-repeat="itemy in arr1.special_list[0].productList">
-                    <div class="cat">
-                        <img src="{{itemy.imgUrl}}" alt="">
-                        <p>{{"￥"+itemy.newPrice}}</p>
-                        <h2>{{itemy.title}}</h2>
-                    </div>
-                </div>
+            <div class="cat"  ng-repeat="itemy in arr1.special_list[0].productList">
+                <img src="{{itemy.imgUrl}}" alt="">
+                <p>{{"￥"+itemy.newPrice}}</p>
+                <h2>{{itemy.title}}</h2>
             </div>
-            <!-- 如果需要分页器 -->
-            <div class="swiper-pagination"></div>
-        </div>
     </div>
     <div class="tabs">
         <i class="bor"></i>
@@ -123,8 +115,8 @@
             </div>
         </diiv>
         <span>
-            <a href="" class="alf">加入购物车</a>
-            <a href="" class="arg">立即购买</a>
+            <a href="" class="alf" ng-click="addShopCar(arr1)">加入购物车</a>
+            <a href="" class="arg" ng-click="sale()">立即购买</a>
         </span>
     </div>
 </div>
