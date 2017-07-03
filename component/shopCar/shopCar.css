@@ -1,0 +1,242 @@
+#content {
+	height: 100%;
+	background: #fefefe;
+	z-index: 100001;
+	position: absolute;
+	background: #F7F7F7;
+}
+
+.shopCar_no {
+	width: 100%;
+	text-align: center;
+	height: 135px;
+	position: absolute;
+	top: 50%;
+	margin-top: -68px;
+	left: 0;
+	font-size: 0px;
+}
+
+.shopCar_no img {
+	width: 80px;
+	height: 80px;
+}
+
+.shopCar_no p {
+	line-height: 35px;
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+}
+
+.shopCar_no a {
+	color: #333;
+	font-size: 12px;
+	padding: 3px 12px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+.shop_box {
+	margin-bottom: 50px;
+}
+
+.shop_container {
+	background: #FFF;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.shop_name {
+	padding: 10px 25% 10px 35px;
+	height: 20px;
+	border-bottom: solid 1px #DDD;
+	border-radius: 3px 3px 0 0;
+	position: relative;
+}
+
+.shop_name span {
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	top: 10px;
+	left: 10px;
+	display: block;
+	border-radius: 50%;
+	background: #fff;
+	border: solid 2px #999;
+}
+
+.goto_shop {
+	width: 90%;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 35px;
+	display: block;
+	background: url(imgs/dpimg.png) no-repeat left center;
+	background-size: 25px 22px;
+	font-size: 16px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.dpin_content {
+	margin: 0 10px;
+	min-height: 100px;
+	border-bottom: solid 1px #DDD;
+	background: #fff;
+	position: relative;
+}
+
+.dpin_content span {
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 0;
+	top: 35px;
+	border-radius: 50%;
+	background: #fff;
+	border: solid 2px #999;
+}
+
+.shop_img {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 25px;
+	top: 10px;
+	font-size: 0;
+}
+
+.shop_img img {
+	width: 85px;
+	height: 85px;
+}
+
+.dpin_content ul {
+	width: auto;
+	padding: 10px 0 0 115px;
+}
+
+.dpin_content ul li {
+	line-height: 20px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.min_height {
+	min-height: 80px;
+}
+
+.min_height h1 {
+	width: 70%;
+	height: 25px;
+	line-height: 20px;
+	display: block;
+	font-size: 14px;
+	overflow: hidden;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.min_height p {
+	color: #aaa;
+	font-size: 12px;
+	width: 80%;
+	padding: 2px 18px 2px 2px;
+	border: 1px solid #fff;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.addPro{    position: absolute;
+    left: 112px;
+    top: 56px;
+    display: inline-block;
+    text-align: center;
+    height: 28px;
+    border-radius: 3px;
+    padding: 5px;}
+
+.p_num{    width: auto;
+    height: 28px;
+    padding: 6px 10px 3px 0;}
+    .num_btn_dec,.num_btn_add{    width: 30px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+    background: #FFF;
+    color: #aaa;
+    cursor: pointer;
+    border: solid 1px #CCC;
+    float: left;	font-size: 20px;}
+    .num_txt{    width: 40px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: solid 1px #CCC;
+    color: #333;
+    background: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    float: left;
+    border-right: 0;
+    border-left: 0;}
+    .num_txt input{    width: 38px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: .8rem;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 0;
+    border-bottom: 0;
+    background: 0 0;
+    float: left;font-size: 12px;outline: none;}
+    .shop_price{    position: absolute;font-style: normal;
+    right: 5px;
+    top: 6px;
+    font-size: 14px;
+    color: #5d5d5d;}
+.shop_price i{font-size: 16px;font-weight: 400;font-style: normal;}
+.anniu{position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;}
+.anniu_bot{    width: 100%;
+    height: 40px;
+    background: #fff;}
+.anniu_bot li{    height: 40px;
+    width: 33%;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #212121;}
+.qxuan{margin-left: 10px;
+    position: relative;
+    text-align: left;
+    padding-left: 25px;}
+.qxuan span{position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 0;
+    top: 10px;
+    border-radius: 50%;
+    background: #fff;    border: solid 2px #999;}
+  .anniu_bot  .all_price{width: 37%;}
+.all_price em{color: #fe5164;
+    font-size: 16px;font-style: normal;
+    font-weight: 400;}
+  .anniu_bot  .pay{color: #fff;
+    background: #fe5164;
+    width: 30%;}
+.qxuan .span_active,.shop_name .span_active,.dpin_content .span_active{    width: 20px;
+    height: 20px;
+    background: url(imgs/yesxz.png) no-repeat left center;
+    background-size: 20px 20px;
+    border: 0;}

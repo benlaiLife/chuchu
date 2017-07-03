@@ -8,12 +8,14 @@ require.config({
 		'home': 'component/home/home',
 		'mine': 'component/mine/mine',
 		'category': 'component/category/category',
+		'classfiy':'component/category/classfiy/classfiy',
 		'search': 'component/search/search',
 		'shopCar':'component/shopCar/shopCar',
 		'css':'js/libs/angular-css.min',
 		'lazyLoad':'js/libs/me-lazyload',
         "details":"component/9yuan9/details/details",
         "evaluate":"component/9yuan9/evaluate/evaluate",
+        "pay":"component/pay/pay",
         "recommend":"component/9yuan9/recommend/recommend"
 	},
 	shim: {
@@ -32,6 +34,8 @@ require.config({
         "details":['uiRouter'],
         "evaluate":['uiRouter'],
         "recommend":['uiRouter'],
+        "pay":['uiRouter'],
+        "classfiy":['uiRouter'],      
 		'9yuan9': {
 			deps: ['uiRouter']
 },

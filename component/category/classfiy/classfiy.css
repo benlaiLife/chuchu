@@ -1,0 +1,233 @@
+.clearfix2:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.clearfix2{
+    zoom:1;
+}
+h1,h2,h3,strong,em,i {
+	font-style: normal;
+    font-weight: 400;
+}
+.classfiyShow{
+	background: #F7F7F7;
+}
+.classfiytopBar{
+	padding: 0.05rem 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: #464e55;
+    border-bottom: solid 0.01rem #EEE;
+    background: #FFF;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.classfiytopBar img{
+	position: absolute;
+    top: 0.12rem;
+    left: 0.1rem;
+    width: 0.22rem;
+    height: 0.2rem;
+}
+.classfiytopBar .put{
+	height: 0.25rem;
+    margin: 0 0.5rem;
+    padding: 0.04rem 0.1rem 0.04rem 0.35rem;
+    border: solid 0.01rem #DDD;
+    border-radius: 0.3rem;
+    background: #FFF url(img/zoom.png) no-repeat 0.1rem center;
+    background-size: 0.16rem 0.16rem;
+}
+.classfiytopBar .put input{
+	width: 95%;
+    height: 0.25rem;
+    padding: 0;
+    font-size: 0.14rem;
+    color: #CCC;
+    border: 0;
+    background: 0 0;
+    float: left;
+}
+.bgFFF{
+	background:#FFF;
+}
+.mb10{
+	margin-bottom: 0.1rem;
+}
+.hot_biaoti{
+	padding: 0.1rem;
+    font-size: 0.16rem;
+    color: #666;
+}
+.f_hot{
+	padding: 0 0.05rem;
+	font-size: .14rem;
+}
+.f_hot li{
+	width: 25%;
+    margin-bottom: 0.1rem;
+    float: left;
+}
+.f_hot li .item{
+	margin: 0 0.05rem;
+}
+.f_hot li .item img{
+	width: 100%;
+}
+.f_hot li .item p{
+    text-align: center;
+    margin-top: -0.1rem;
+    color: #83797c;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.title_wrap{
+	padding: 0.3rem 0.1rem;
+}
+.title_line{
+	height: 0.01rem;
+    background: #eaeaea;
+    position: relative;
+}    
+.title_box{
+	position: absolute;
+    top: -0.1rem;
+    left: 50%;
+    margin-left: -0.7rem;
+    width: 1.4rem;
+    text-align: center;
+}
+.title_line .title_box i{
+	width: 0.19rem;
+    height: 0.05rem;
+    margin-top: 0.08rem;
+    display: inline-block;
+    background: url(img/flower.png) no-repeat;
+    background-size: 100% 100%;
+}
+.title_line .title_box i.lt{
+	margin-left: 0.03rem;
+    float: left;
+}
+.title_line .title_box i.rt{
+	margin-right: 0.03rem;
+    float: right;
+}
+.title_line .title_box em,.title_line .title_box span{
+	display: block;
+    line-height: 0.18rem;
+}
+.title_line .title_box em{
+	color: #df3130;
+    font-size: 0.16rem;  
+}
+.title_line .title_box span{
+	color: #ebebeb;
+    font-size: 0.16rem;
+}
+.tab_top{
+	width: 100%;
+    height: 0.33rem;
+    font-size: .14rem;
+    background: #FFF;
+    position: relative;
+    top: 0px;
+    z-index: 9999;
+}
+.tab_top ul{
+	width: 100%;
+    height: 0.3rem;
+    position: absolute;
+    top: 0.03rem;
+    left: 0;
+    z-index: 800;
+}
+.tab_top ul li{
+	width: 25%;
+    text-align: center;
+    color: #83797b;
+    cursor: pointer;
+    float: left;
+}
+
+.tab_top ul li p{
+	display: inline-block;
+    height: 0.3rem;
+    line-height: 0.3rem;
+}
+
+.tab_top ul li p img{
+	width: 0.06rem;
+    height: 0.1rem;
+    margin-left: 0.02rem;
+    vertical-align: middle;
+}
+.container{
+	margin-bottom: 50px;
+	width: 100%;
+}
+.container ul li{
+	width: 50%;
+    position: relative;
+    border-bottom: solid 1px #EEE;
+    float: left;
+}
+.container ul li .box{
+	padding:0.1rem 0.1rem 0.04rem;
+}
+.container ul li .box img{
+	width: 100%;
+    margin-bottom: -0.05rem;
+}
+.container ul li .box .info{
+	padding: 0.05rem;
+}
+.container ul li .box .info h2{
+	font-size: .15rem;
+    color: #444;
+    height: 0.4rem;
+    line-height: 0.2rem;
+    overflow: hidden;
+    word-break: break-all
+}
+.container ul li .box .info .price_one{
+	font-size: .16rem;
+    padding-top: 0.06rem;
+    color: #df3130;
+}
+.container ul li .box .info .price_one em{
+	color: #df3130;
+    float: left;
+}
+.container ul li .box .info .price_one em.small{
+	margin-top: 0.06rem;
+}
+.container ul li .box .info .price_one em.big{
+	font-size:0.24rem;
+}
+.container ul li .box .info .price_two{
+	color: #aaa;
+    font-size: .16rem
+}
+.container ul li .box .info .price_two span{
+	float: left;
+	text-decoration: line-through;
+}
+.container ul li .box .info .price_two span em{
+	font-size:0.16rem;
+}
+.container ul li .box .info .price_two .count{
+	float: right;
+}
+.activeBot{
+	height: 28px;
+    line-height: 28px;
+    color: #df3130;
+    border-bottom: solid 2px #df3130;
+}
