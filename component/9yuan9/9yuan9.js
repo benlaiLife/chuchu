@@ -31,8 +31,17 @@ define(['uiRouter'],function  () {
                     })
                 }
             }
-            $scope.change=function () {
-                $http.get("component/9yuan9/json/detail.json").then(function (ses) {
+            $scope.change=function (num) {
+                if(num==0){
+                    shops("component/9yuan9/json/detail.json");
+                }else if(num==1){
+                    shops("component/9yuan9/json/shop1.json")
+                }else if(num==2){
+                    shops("component/9yuan9/json/shop2.json")
+                }
+            }
+            function shops(json) {
+                $http.get(json).then(function (ses) {
                     $scope.isShow= false;
                     $scope.isShow1= true;
                     $scope.arrt=ses.data.data.product.image_urls_head;

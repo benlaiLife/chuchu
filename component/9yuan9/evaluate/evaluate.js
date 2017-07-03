@@ -46,3 +46,4 @@ define(['uiRouter'], function() {
             })
         }])
     })
+
