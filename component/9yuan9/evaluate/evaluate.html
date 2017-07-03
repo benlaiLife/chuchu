@@ -1,1 +1,19 @@
-<p>evaluate</p>
+<div>
+    <div class="hed">
+        <ul>
+            <li ng-click="chang(1)"><a href="">全部<i></i></a></li>
+            <li ng-click="chang(2)"><a href="">有图<i></i></a></li>
+            <li ng-click="chang(3)"><a href="">好评<i></i></a></li>
+            <li ng-click="chang(4)"><a href="">中评<i></i></a></li>
+            <li ng-click="chang(5)"><a href="">差评<i></i></a></li>
+        </ul>
+    </div>
+    <div class="eval">
+        <ul ng-repeat=" item in conment">
+            <li><div><span>{{"用户:"+item.nick}}<i class="border"></i></span><i>{{item.rate_date}}</i></div></li>
+            <li>{{item.rate_content}}</li>
+            <li ><img ng-repeat="items in item.rate_imgs" src="{{items}}" alt=""></li>
+            <li>{{item.sku_values}}</li>
+        </ul>
+    </div>
+</div>

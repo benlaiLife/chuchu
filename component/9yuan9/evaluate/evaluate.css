@@ -1,0 +1,90 @@
+.hed{
+    padding-top: 10px;
+}
+.hed ul{
+    border-radius: 3px;
+    margin: 0 10px;
+    border: solid 1px #CCC;
+    overflow: hidden;
+    font-size: 16px;
+}
+.hed ul li{
+     width: 20%;
+     text-align: center;
+     height: 32px;
+     line-height: 22px;
+     padding-top: 3px;
+     float: left;
+     position: relative;
+ }
+.hed ul li a i{
+    display: block;
+    width: 1px;
+    height: 35px;
+    background: #CCC;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+.eval{
+    width: 100%;
+    font-size: 12px;
+}
+.eval ul{
+    padding-bottom: 8px;
+    border-bottom: solid 1px #e2e2e2;
+}
+.eval ul li{
+    width: 100%;
+    padding: 0 10px;
+}
+.eval ul li span{
+    position: relative;
+    float: left;
+}
+.eval ul li i{
+    float: right;
+    font-style: normal;
+}
+.eval ul li img{
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    margin-right: 5px;
+    float: left;
+}
+.border{
+    width: 1px;
+    height: 10px;
+    background: #DDD;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    margin-top: -5px;
+}
+.eval ul li:nth-of-type(1){
+    overflow: hidden;
+    display: block;
+    padding-top: 8px;
+}
+.eval ul li:nth-of-type(2){
+    padding: 5px 10px 0;
+    line-height: 20px;
+    color: #666;
+}
+.eval ul li:nth-of-type(3){
+    padding: 0 10px;
+    display: block;
+}
+.eval ul li:nth-of-type(4){
+    padding: 5px 10px 0;
+    line-height: 20px;
+    color: #CCC;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

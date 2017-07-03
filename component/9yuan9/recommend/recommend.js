@@ -8,16 +8,13 @@ define(['uiRouter'], function() {
                 .state("9yuan9.recommend", {
                     url: "/recommend",
                     templateUrl: "component/9yuan9/recommend/recommend.html",
-                    // controller: "detailsCtrl",
+                    controller: "recommendCtrl",
                     css: ["component/9yuan9/details/details.css","component/9yuan9/9yuan9.css","component/9yuan9/swiper.min.css"]
                 })
         })
-    // .controller("detailsCtrl",["$scope","$http",function ($scope,$http) {
-    //     $http.get("component/9yuan9/json/detail.json").then(function (mes) {
-    //         console.log(mes.data.data.product.productSummaryInfo.infoList);
-    //         $scope.product=mes.data.data.product.productSummaryInfo.infoList;
-    //         $scope.shows=mes.data.data.product.simple_edit_info.image_text_array;
-    //         $scope.likes=mes.data.data.relevance_list;
-    //     })
-    // }])
+    .controller("recommendCtrl",["$scope","$http",function ($scope,$http) {
+        $http.get("component/9yuan9/json/conment.json").then(function (mes) {
+            console.log(mes);
+        })
+    }])
 })
