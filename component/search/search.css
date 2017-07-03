@@ -117,3 +117,7 @@
 .goods_count em{    color: #cfcfcf;
     text-decoration: line-through;font-style: normal;}
     .goods_count i{float: right;font-style: normal;}
+.search_sort ul li p img{    width: 6px;
+    height: 10px;
+    margin-left: 2px;
+    vertical-align: middle;}
