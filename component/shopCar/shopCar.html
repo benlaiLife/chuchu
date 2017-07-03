@@ -1,1 +1,77 @@
-<p>购物车</p>
+
+<div class="shopCar_no" style="display: none;">
+	<img src="component/shopCar/imgs/shop_cart.png"/>
+	<p>购物车空空</p>
+	<a href="javascirpt:void(0)" ui-sref='home'>去逛逛</a>
+</div>
+
+
+<div class="shop_box">
+	<div class="shop_container">
+		<div class="shop">
+			<div class="shop_name">
+				<span ng-class="{true:'span_active',false:''}[storeChose]"ng-click="store()"></span>
+				<p class="goto_shop">店铺名</p>
+			</div>
+		</div>
+		<div class="dpin">
+			<div class="dpin_content">
+				<span ng-class="{true:'span_active',false:''}[goodsChose[0]]"ng-click="storeItem(0)"></span>
+				<div class="shop_img">
+					<img src="component/shopCar/imgs/580dd37211392.jpg"/>
+				</div>
+				<ul>
+					<li>
+						<div class="min_height">
+							<h1>商品标题</h1>
+							<p>商品信息</p>
+						</div>
+						<div class="addPro">
+							<div class="p_num clearfix">
+								<div class="num_btn_dec">-</div>
+								<div class="num_txt">
+									<input type="text" name="" id="" value="1" />
+								</div>
+								<div class="num_btn_add">+</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<em class="shop_price">￥ <i> 价格</i></em>
+			</div>
+		</div>
+		<div class="dpin">
+			<div class="dpin_content">
+				<span ng-class="{true:'span_active',false:''}[goodsChose[1]]"ng-click="storeItem(1)"></span>
+				<div class="shop_img">
+					<img src="component/shopCar/imgs/580dd37211392.jpg"/>
+				</div>
+				<ul>
+					<li>
+						<div class="min_height">
+							<h1>商品标题</h1>
+							<p>商品信息</p>
+						</div>
+						<div class="addPro">
+							<div class="p_num clearfix">
+								<div class="num_btn_dec">-</div>
+								<div class="num_txt">
+									<input type="text" name="" id="" value="1" />
+								</div>
+								<div class="num_btn_add">+</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<em class="shop_price">￥ <i> 价格</i></em>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="anniu">
+	<ul class="anniu_bot">
+		<li><p class="qxuan"><span class="span_active"></span>全选</p></li>
+		<li class="all_price">合计: 	<em>￥0.00</em></li>
+		<li class="pay">去支付</li>
+	</ul>
+</div>
