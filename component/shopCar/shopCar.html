@@ -9,10 +9,10 @@
 <div class="shop_box">
 	<div class="shop_container">
 		<div class="shop">
-			<div class="shop_name">
+			<!--<div class="shop_name">
 				<span ng-class="{true:'span_active',false:''}[storeChose]"ng-click="store()"></span>
 				<p class="goto_shop">店铺名</p>
-			</div>
+			</div>-->
 		</div>
 		<div class="dpin">
 			<div class="dpin_content">
@@ -28,11 +28,11 @@
 						</div>
 						<div class="addPro">
 							<div class="p_num clearfix">
-								<div class="num_btn_dec">-</div>
+								<div class="num_btn_dec" ng-click="dec(0)">-</div>
 								<div class="num_txt">
-									<input type="text" name="" id="" value="1" />
+									<input type="text" name="" id="" value="1" ng-model="goodsNum[0]"/>
 								</div>
-								<div class="num_btn_add">+</div>
+								<div class="num_btn_add" ng-click='add(0)'>+</div>
 							</div>
 						</div>
 					</li>
@@ -54,11 +54,11 @@
 						</div>
 						<div class="addPro">
 							<div class="p_num clearfix">
-								<div class="num_btn_dec">-</div>
+								<div class="num_btn_dec" ng-click="dec(1)">-</div>
 								<div class="num_txt">
-									<input type="text" name="" id="" value="1" />
+									<input type="text" name="" id="" value="1" ng-model="goodsNum[1]"/>
 								</div>
-								<div class="num_btn_add">+</div>
+								<div class="num_btn_add" ng-click='add(1)'>+</div>
 							</div>
 						</div>
 					</li>
@@ -70,8 +70,8 @@
 </div>
 <div class="anniu">
 	<ul class="anniu_bot">
-		<li><p class="qxuan"><span class="span_active"></span>全选</p></li>
+		<li><p class="qxuan"><span ng-class="{true:'span_active',false:''}[allChose]"ng-click="choseAll()"></span>全选</p></li>
 		<li class="all_price">合计: 	<em>￥0.00</em></li>
-		<li class="pay">去支付</li>
+		<li class="pay" ui-sref='pay'>去支付</li>
 	</ul>
 </div>
