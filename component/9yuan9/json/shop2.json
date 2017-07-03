@@ -1,0 +1,357 @@
+{
+  "status": 0,
+  "info": "",
+  "data": {
+    "relevance_list": [],
+    "goodscheck": {},
+    "brandscheck": {},
+    "qualityCheck": null,
+    "coupon_tmpl": {},
+    "product": {
+      "product_id": "10003929248",
+      "taobao_id": "0",
+      "cid": "50010368",
+      "title": "范冰冰同款2017新款女明星款显瘦百搭大框太阳镜优雅圆脸墨镜",
+      "product_referred": "",
+      "is_shipping": 0,
+      "status": "1",
+      "shop_id": "3929",
+      "description": "http://image-shop.chuchujie.com/culiu.cdn/shop_staticHtml/detail/17/71/10003929248_detail.html?v=14982869022",
+      "original_price": "58",
+      "sales_price": "9.9",
+      "image_urls_head": [
+        "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58d5cfaa511d5.jpg?imageView2/2/w/720",
+        "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58d5cfad50b47.jpg?imageView2/2/w/720",
+        "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58d5cfb05d3a8.jpg?imageView2/2/w/720",
+        "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58d5cfb396f7a.jpg?imageView2/2/w/720",
+        "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58d5cfb61f65f.jpg?imageView2/2/w/720"
+      ],
+      "version": "5",
+      "productTitle": "范冰冰同款2017新款女明星款显瘦百搭大框太阳镜优雅圆脸墨镜",
+      "attr_keys": [
+        {
+          "id": "1627975",
+          "name": "颜色",
+          "is_color_prop": "0",
+          "attr_values": [
+            {
+              "id": "$1490407405432",
+              "name": "亮黑色",
+              "sort_order": 0
+            },
+            {
+              "id": "$1490407419053",
+              "name": "渐进茶",
+              "sort_order": 1
+            },
+            {
+              "id": "$1490407428810",
+              "name": "酒红色",
+              "sort_order": 2
+            },
+            {
+              "id": "$1490407438245",
+              "name": "白色",
+              "sort_order": 3
+            }
+          ],
+          "sort_order": 0
+        }
+      ],
+      "sales_price_real": 9.9,
+      "salesPrice_backUp": "16.90",
+      "low_price": 9.9,
+      "high_price": 9.9,
+      "sku_array": [
+        {
+          "sku_id": "46664748",
+          "stock": 7725,
+          "price": 9.9,
+          "original_price": 16.9,
+          "paid_stock": 0,
+          "completed_stock": 1048,
+          "code": "",
+          "sku_picture": "",
+          "buy_limit": 0,
+          "attrs": {
+            "1627975": "$1490407405432"
+          },
+          "sku_pic": null,
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+9积分"
+        },
+        {
+          "sku_id": "46664749",
+          "stock": 8730,
+          "price": 9.9,
+          "original_price": 16.9,
+          "paid_stock": 0,
+          "completed_stock": 141,
+          "code": "",
+          "sku_picture": "",
+          "buy_limit": 0,
+          "attrs": {
+            "1627975": "$1490407419053"
+          },
+          "sku_pic": null,
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+9积分"
+        },
+        {
+          "sku_id": "46664750",
+          "stock": 8715,
+          "price": 9.9,
+          "original_price": 16.9,
+          "paid_stock": 0,
+          "completed_stock": 157,
+          "code": "",
+          "sku_picture": "",
+          "buy_limit": 0,
+          "attrs": {
+            "1627975": "$1490407428810"
+          },
+          "sku_pic": null,
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+9积分"
+        },
+        {
+          "sku_id": "46664751",
+          "stock": 8861,
+          "price": 9.9,
+          "original_price": 16.9,
+          "paid_stock": 0,
+          "completed_stock": 25,
+          "code": "",
+          "sku_picture": "",
+          "buy_limit": 0,
+          "attrs": {
+            "1627975": "$1490407438245"
+          },
+          "sku_pic": null,
+          "sku_pic_tinysize": "?imageView2/2/w/120",
+          "sku_pic_bigsize": "?imageView2/2/w/720",
+          "points": "+9积分"
+        }
+      ],
+      "stocks": 34031,
+      "cargo_src": "",
+      "cargo_src_name": "",
+      "brand_id": "0",
+      "delivery_type": "0",
+      "product_type": "normal",
+      "is_oversea_product": "0",
+      "rect_head_url": [],
+      "max_version": "5",
+      "time_limited_buying": {
+        "tlb_status": 0,
+        "tlb_restriction_status": 2,
+        "tlb_countdown_time": 236028,
+        "second_kill_price": "9.9",
+        "server_time": 1499066771,
+        "restriction_max_number": -1,
+        "status": 2,
+        "type": 3,
+        "activity_icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201612/22/8323d5b65fcc9594ca974eb00df54aa61482403524_110_42.png",
+        "foreground_color": "#fa215f",
+        "foreground_font_color": "#ffffff",
+        "foreground_desc": "特卖价",
+        "background_color": "#ffef5e",
+        "background_font_color": "#fa215f",
+        "activity_desc": "",
+        "style_type": 0,
+        "activity_banner": {
+          "url": "",
+          "width": "",
+          "height": "",
+          "imgScale": ""
+        },
+        "price": "16.90",
+        "tlb_recommend_wap_url": "http://wx.chuchujie.com/index.php?s=/Product/product_detail/product_id/10003929248",
+        "singleTime": 1499302799,
+        "isMs": 0
+      },
+      "param_description": "",
+      "descriptionImgJson": "https://image-shop.chuchujie.com/culiu.cdn/shop_staticHtml/detailJsonCCJ/17/76/10003929248_detail.json?v=1498286902",
+      "descriptionShopJson": "https://image-shop.chuchujie.com/culiu.cdn/shop_staticHtml/cct_template_json/24/18/10003929248_cct_template.json?v=1499011200",
+      "edit_mode": 1,
+      "simple_edit_info": {
+        "image_text_array": null
+      },
+      "productSummaryInfo": {
+        "infoList": null
+      },
+      "size_params": [],
+      "image_urls_head_for_ios_share": "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58d5cfaa511d5.jpg?imageView2/2/w/160",
+      "share_url": "https://m.chuchujie.com/details/detail.html?id=10003929248",
+      "share_url_args": "#share_uid/0",
+      "product_offline_time": "",
+      "product_sale_image": "",
+      "product_sale_text": "",
+      "commission": {
+        "title": "分享赚佣金",
+        "content": "分享赚佣金: ¥ 0.3元",
+        "description": "分享赚: ¥ 0.3元",
+        "value": 0.3
+      },
+      "is_validated_shop": 1,
+      "is_no_reason_return": 1,
+      "is_fast_delivery": 1,
+      "is_tested": 0,
+      "product_des": "楚楚街商城,完美的购物体验，你值得拥有!",
+      "is_show_but": 1,
+      "is_qualified": 1,
+      "is_compensated": 1,
+      "brand_commitment_url": "http://huodong.chuchujie.com/notice/brand.html",
+      "commitment_type": 2,
+      "commitment_url": "http://shopcdn.chuchujie.com/Uploads/desc/201507/143643287339684.png",
+      "product_service_info": [
+        "9天无理由退货",
+        "24小时发货",
+        "交易保障"
+      ],
+      "service_info_new": {
+        "item": {
+          "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/16/755851e717b89908129b2ceab6667c471489630183_750_68.png",
+          "imgHeight": "68",
+          "imageWidth": "750",
+          "template": "",
+          "query": "",
+          "imgScale": "11.0"
+        },
+        "service_list": [
+          {
+            "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/c3663161f0d657465e86f9ef7ab054271490337434_40_40.png",
+            "imgHeight": "40",
+            "imageWidth": "40",
+            "imgScale": "1.0",
+            "desc": "9天无理由退货",
+            "desc_detail": "买家满足9天无理由退货申请条件，可以申请“9天无理由退货”"
+          },
+          {
+            "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/92fa4ace544bea87bf2948260e57faf91490337666_46_40.png",
+            "imgHeight": "40",
+            "imageWidth": "46",
+            "imgScale": "1.1",
+            "desc": "24小时发货",
+            "desc_detail": "卖家承诺，买家付款成功后24小时内发货"
+          },
+          {
+            "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/08a6a454425718a52bd8ea0d6301b2a01490337722_40_40.png",
+            "imgHeight": "40",
+            "imageWidth": "40",
+            "imgScale": "1.0",
+            "desc": "交易保障",
+            "desc_detail": ""
+          }
+        ]
+      },
+      "high_price_points": 4,
+      "low_price_points": 4,
+      "points": "购买可返4积分",
+      "points_desc": "1、只限登录用户,未登录用户购买将不会获得积分\n2、积分在购买宝贝经过退款期以后可以使用",
+      "category": {
+        "first_category_id": "-3",
+        "first_category_name": "配饰",
+        "second_category_id": "28",
+        "second_category_name": "ZIPPO/瑞士军刀/眼镜",
+        "third_category_id": "50010368",
+        "third_category_name": "太阳眼镜",
+        "fourth_category_id": "",
+        "fourth_category_name": ""
+      },
+      "buy_num": 1493,
+      "question": {
+        "is_show": 1,
+        "list": null,
+        "count": 0,
+        "tips": "还在犹豫不决？问问买过的人吧！"
+      },
+      "activity_info": {
+        "activity_info_array": []
+      },
+      "best_comment": {
+        "total_num": 1282,
+        "comment_list": [
+          {
+            "user_id": 43497303,
+            "head_img": "http://shopcdn.chuchujie.com/Uploads/comment/201604/b8441cf014c953a812406ec3e86c9ae2.jpg",
+            "nick_name": "魔***星",
+            "content": "宝贝收到了，很喜欢，我家小宝儿也喜欢；一拿到宝儿就抢着要带！卖家也很好，给送了眼睛袋和眼睛布；服务也很好，直接给送到了家门口！",
+            "comment_img": []
+          }
+        ]
+      },
+      "btnCtrlShow": {
+        "cartBtn": true,
+        "commissionBtn": true
+      },
+      "installment_info": {
+        "installment_icon": "",
+        "installment_content": "",
+        "installment_url": ""
+      },
+      "is_hb": false,
+      "shop_sign_info": {
+        "activity_info_array": [
+          {
+            "title": "",
+            "subTitle": "时尚配饰",
+            "tag": "#222222",
+            "template": "SHOP",
+            "query": "{\"shopId\":\"3929\"}",
+            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/shop_deco/201508/078a0857a65d4ea4cdaae5a3f52c885a_1438568831.png",
+            "imgScale": "3.95"
+          }
+        ],
+        "activity_info_array_new": [
+          {
+            "title": "",
+            "subTitle": "时尚配饰",
+            "tag": "#222222",
+            "template": "SHOP",
+            "query": "{\"shopId\":\"3929\"}",
+            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/shop_deco/201508/078a0857a65d4ea4cdaae5a3f52c885a_1438568831.png",
+            "imgScale": "3.95"
+          }
+        ]
+      },
+      "special_list": [],
+      "shop_info": {
+        "cn_name": "月光石专卖店",
+        "shop_header_image_url": "http://shopcdn.chuchujie.com/Uploads/shop_head/201702/1487818376.gif?imageView2/2/w/400",
+        "shop_header": "http://shopcdn.chuchujie.com/Uploads/shop_head/201702/1487818376.gif?imageView2/2/w/400",
+        "shop_description": "",
+        "brand_story": "",
+        "service_qq": [
+          "2850746712"
+        ],
+        "service_im_h5": "http://m.chuchujie.com/details/webIm.html",
+        "level": 0,
+        "delivery": "浙江省台州市",
+        "perfact_scale": "95%",
+        "desc_scale": 9.7,
+        "ship_scale": 9.7,
+        "serv_scale": 9.7,
+        "all_product_quantity": 0,
+        "shop_type": 2,
+        "isFav": false,
+        "brandStory": {},
+        "chat_url": "http://m.chuchujie.com/im/kefuIM.html?mcc=1&shopId=3929",
+        "service_type": 2,
+        "chat_native": 3929
+      }
+    },
+    "faillist": {
+      "total": 1282,
+      "with_img_count": 20,
+      "great_count": 1210,
+      "general_count": 64,
+      "bad_count": 8,
+      "positive_rate": "",
+      "comment_tip": "剩余839条为无评论内容好评"
+    }
+  }
+}

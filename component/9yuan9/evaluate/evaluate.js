@@ -8,16 +8,42 @@ define(['uiRouter'], function() {
                 .state("9yuan9.evaluate", {
                     url: "/evaluate",
                     templateUrl: "component/9yuan9/evaluate/evaluate.html",
-                    // controller: "detailsCtrl",
-                    css: ["component/9yuan9/details/details.css","component/9yuan9/9yuan9.css","component/9yuan9/swiper.min.css"]
+                    controller: "devaluateCtrl",
+                    css: ["component/9yuan9/evaluate/evaluate.css","component/9yuan9/details/details.css","component/9yuan9/9yuan9.css","component/9yuan9/swiper.min.css"]
                 })
         })
-        // .controller("detailsCtrl",["$scope","$http",function ($scope,$http) {
-        //     $http.get("component/9yuan9/json/detail.json").then(function (mes) {
-        //         console.log(mes.data.data.product.productSummaryInfo.infoList);
-        //         $scope.product=mes.data.data.product.productSummaryInfo.infoList;
-        //         $scope.shows=mes.data.data.product.simple_edit_info.image_text_array;
-        //         $scope.likes=mes.data.data.relevance_list;
-        //     })
-        // }])
-})
+        .controller("devaluateCtrl",["$scope","$http",function ($scope,$http) {
+            $http.get("component/9yuan9/json/conment.json").then(function (mes) {
+                $scope.conment=mes.data.data.list;
+                console.log(mes.data.data.list)
+                $scope.chang=function (x) {
+                    if(x==2){
+                        for (var i = 0; i <  $scope.conment.length; i++) {
+                            if($scope.conment[i].has_img==0){
+                                $scope.conment.splice(i,1);
+                            }
+                        }
+                    }else if(x==3){
+                        for (var i = 0; i <  $scope.conment.length; i++) {
+                            if($scope.conment[i].score<=400){
+                                $scope.conment.splice(i,1);
+                            }
+                        }
+                    }else if(x==4){
+                        for (var i = 0; i <  $scope.conment.length; i++) {
+                            if($scope.conment[i].score>400 &&$scope.conment[i].score<=350){
+                                $scope.conment.splice(i,1);
+                            }
+                        }
+                    }else if(x==5){
+                        for (var i = 0; i <  $scope.conment.length; i++) {
+                            if($scope.conment[i].score>350){
+                                $scope.conment.splice(i,1);
+                            }
+                        }
+                    }
+                }
+            })
+        }])
+    })
+
