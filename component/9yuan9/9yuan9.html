@@ -10,7 +10,7 @@
     <div class="main">
         <h2>9块9.每日9点更新</h2>
         <ul class="ul">
-            <li ng-repeat="item in arr" ng-click="change()">
+            <li ng-repeat="item in arr" ng-click="change($index)">
             <span>
                 <img src="{{item.imgUrl}}" alt="">
             </span>
@@ -26,7 +26,7 @@
         </ul>
     </div>
 </div>
-<div ng-class="{true: 'block', false: 'none'}[isShow1]">
+<div ng-class="{true: 'block', false: 'none'}[isShow1]" class="big">
 <div  class="total">
     <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -79,19 +79,11 @@
         </li>
     </ul>
     <div class="expo">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" ng-repeat="itemy in arr1.special_list[0].productList">
-                    <div class="cat">
-                        <img src="{{itemy.imgUrl}}" alt="">
-                        <p>{{"￥"+itemy.newPrice}}</p>
-                        <h2>{{itemy.title}}</h2>
-                    </div>
-                </div>
+            <div class="cat"  ng-repeat="itemy in arr1.special_list[0].productList">
+                <img src="{{itemy.imgUrl}}" alt="">
+                <p>{{"￥"+itemy.newPrice}}</p>
+                <h2>{{itemy.title}}</h2>
             </div>
-            <!-- 如果需要分页器 -->
-            <div class="swiper-pagination"></div>
-        </div>
     </div>
     <div class="tabs">
         <i class="bor"></i>
@@ -113,4 +105,18 @@
         </ul>
     </div>
     <div style="font-size: 12px" ui-view></div>
+    <div class="addshopcar">
+        <diiv class="service">
+            <div class="pop">
+                <a href="">
+                <img src="component/9yuan9/img/kf.png" alt=""><br>
+                客服
+                </a>
+            </div>
+        </diiv>
+        <span>
+            <a href="" class="alf" ng-click="addShopCar(arr1)">加入购物车</a>
+            <a href="" class="arg" ng-click="sale()">立即购买</a>
+        </span>
+    </div>
 </div>

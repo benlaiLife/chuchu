@@ -8,14 +8,20 @@ require.config({
 		'home': 'component/home/home',
 		'mine': 'component/mine/mine',
 		'category': 'component/category/category',
+		'classfiy':'component/category/classfiy/classfiy',
 		'search': 'component/search/search',
 		'shopCar':'component/shopCar/shopCar',
 		'css':'js/libs/angular-css.min',
 		'lazyLoad':'js/libs/me-lazyload',
         "details":"component/9yuan9/details/details",
         "evaluate":"component/9yuan9/evaluate/evaluate",
+<<<<<<< HEAD
         "recommend":"component/9yuan9/recommend/recommend",
         "collection":"component/mine/collection/collection"
+=======
+        "pay":"component/pay/pay",
+        "recommend":"component/9yuan9/recommend/recommend"
+>>>>>>> 2ee015f22ac5a914d86ae2c7d56496626b757be6
 	},
 	shim: {
 		'uiRouter': {
@@ -33,7 +39,12 @@ require.config({
         "details":['uiRouter'],
         "evaluate":['uiRouter'],
         "recommend":['uiRouter'],
+<<<<<<< HEAD
         'collection':['uiRouter'],
+=======
+        "pay":['uiRouter'],
+        "classfiy":['uiRouter'],      
+>>>>>>> 2ee015f22ac5a914d86ae2c7d56496626b757be6
 		'9yuan9': {
 			deps: ['uiRouter']
 },

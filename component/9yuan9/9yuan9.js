@@ -16,6 +16,32 @@ define(['uiRouter'],function  () {
             $scope.isActive=false;
             $scope.isShow=true;
             $scope.isShow1= false;
+            $scope.addShopCar=function (a) {
+                if(!window.localStorage){
+                    alert("浏览器支持localstorage");
+                    return false;
+                }else{
+                    console.log(a);
+                    var obj2 = JSON.parse(localStorage.getItem('aaaa'));
+                    //如果之前错过东西,那么这个obj就不为空,就直接往obj里面添加新的键值对
+                    if(obj2){
+                        //如果当前要存的值已经存过了,只需要加数量就行
+                        if(obj2[a.product_id]){
+                            obj2[a.product_id].num += 1;
+                        }else{
+                            a.num = 1;
+                            obj2[a.product_id] = a;
+                        }
+                    }else{
+                        //如果obj是空的,就证明这是第一次存值,就要新建一个obj
+                        obj2 = {};
+                        a.num = 1;
+                        obj2[a.product_id] = a;
+                    }
+                    console.log(obj2);
+                    localStorage.setItem('aaaa',JSON.stringify(obj2));
+                }
+            }
             $scope.show=function (x) {
                 if(x==0){
                     $scope.isActive1=false;
@@ -31,9 +57,17 @@ define(['uiRouter'],function  () {
                     })
                 }
             }
-            $scope.change=function () {
-                $http.get("component/9yuan9/json/detail.json").then(function (ses) {
-                    console.log(ses.data.data);
+            $scope.change=function (num) {
+                if(num==0){
+                    shops("component/9yuan9/json/detail.json");
+                }else if(num==1){
+                    shops("component/9yuan9/json/shop1.json")
+                }else if(num==2){
+                    shops("component/9yuan9/json/shop2.json")
+                }
+            }
+            function shops(json) {
+                $http.get(json).then(function (ses) {
                     $scope.isShow= false;
                     $scope.isShow1= true;
                     $scope.arrt=ses.data.data.product.image_urls_head;

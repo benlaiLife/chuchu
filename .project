@@ -41,6 +41,8 @@
 		</filter>
 		<filter>
 			<id>1498735154209</id>
+			<id>1498736260336</id>
+
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -50,6 +52,15 @@
 		</filter>
 		<filter>
 			<id>1498737640725</id>
+			<name></name>
+			<type>26</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-node_modules</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1498974613321</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
