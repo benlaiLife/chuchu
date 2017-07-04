@@ -4,7 +4,19 @@
 	position: absolute;
 	background: #F7F7F7;
 }
-
+.shopCar_no_none{display: none;}
+.shop{text-align: center;font-size: 16px;color: #DF3130;height: 30px;line-height: 30px;border-bottom: 1px solid #999999;}
+.allGoods{width: 100%;
+    height: 40px;
+    color: #212121;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;}
+    .allGoods em{color: #fe5164;
+    font-size: 16px;font-style: normal;
+    font-weight: 400;}
+    .allGoods_no{display: none;}
+.deleteBox{position: absolute;bottom: 5px;right: 5px;color: red;font-size: 14px;}
 .shopCar_no {
 	width: 100%;
 	text-align: center;
