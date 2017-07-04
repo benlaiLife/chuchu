@@ -14,58 +14,33 @@
 				<p class="goto_shop">店铺名</p>
 			</div>-->
 		</div>
-		<div class="dpin">
+		<div class="dpin" ng-repeat="(key,item) in shopInfo">
 			<div class="dpin_content">
-				<span ng-class="{true:'span_active',false:''}[goodsChose[0]]"ng-click="storeItem(0)"></span>
+				<span ng-class="{true:'span_active',false:''}[goodsChose[$index]]"ng-click="storeItem($index)"></span>
 				<div class="shop_img">
-					<img src="component/shopCar/imgs/580dd37211392.jpg"/>
+					<img src="{{item.image_urls_head[0]}}"/>
 				</div>
 				<ul>
 					<li>
 						<div class="min_height">
-							<h1>商品标题</h1>
-							<p>商品信息</p>
+							<h1>{{item.productTitle}}</h1>
+							<p></p>
 						</div>
 						<div class="addPro">
 							<div class="p_num clearfix">
-								<div class="num_btn_dec" ng-click="dec(0)">-</div>
+								<div class="num_btn_dec" ng-click="dec($index,key)">-</div>
 								<div class="num_txt">
-									<input type="text" name="" id="" value="1" ng-model="goodsNum[0]"/>
+									<input type="text" name="" id="" value="1" ng-model="shopInfo[key].num"/>
 								</div>
-								<div class="num_btn_add" ng-click='add(0)'>+</div>
+								<div class="num_btn_add" ng-click='add($index,key)'>+</div>
 							</div>
 						</div>
 					</li>
 				</ul>
-				<em class="shop_price">￥ <i> 价格</i></em>
+				<em class="shop_price">￥ <i> {{item.sales_price}}</i></em>
 			</div>
 		</div>
-		<div class="dpin">
-			<div class="dpin_content">
-				<span ng-class="{true:'span_active',false:''}[goodsChose[1]]"ng-click="storeItem(1)"></span>
-				<div class="shop_img">
-					<img src="component/shopCar/imgs/580dd37211392.jpg"/>
-				</div>
-				<ul>
-					<li>
-						<div class="min_height">
-							<h1>商品标题</h1>
-							<p>商品信息</p>
-						</div>
-						<div class="addPro">
-							<div class="p_num clearfix">
-								<div class="num_btn_dec" ng-click="dec(1)">-</div>
-								<div class="num_txt">
-									<input type="text" name="" id="" value="1" ng-model="goodsNum[1]"/>
-								</div>
-								<div class="num_btn_add" ng-click='add(1)'>+</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<em class="shop_price">￥ <i> 价格</i></em>
-			</div>
-		</div>
+		
 	</div>
 </div>
 <div class="anniu">
