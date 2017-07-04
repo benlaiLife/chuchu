@@ -15,13 +15,10 @@ require.config({
 		'lazyLoad':'js/libs/me-lazyload',
         "details":"component/9yuan9/details/details",
         "evaluate":"component/9yuan9/evaluate/evaluate",
-<<<<<<< HEAD
         "recommend":"component/9yuan9/recommend/recommend",
-        "collection":"component/mine/collection/collection"
-=======
+        "collection":"component/mine/collection/collection",
         "pay":"component/pay/pay",
         "recommend":"component/9yuan9/recommend/recommend"
->>>>>>> 2ee015f22ac5a914d86ae2c7d56496626b757be6
 	},
 	shim: {
 		'uiRouter': {
@@ -39,12 +36,9 @@ require.config({
         "details":['uiRouter'],
         "evaluate":['uiRouter'],
         "recommend":['uiRouter'],
-<<<<<<< HEAD
         'collection':['uiRouter'],
-=======
         "pay":['uiRouter'],
-        "classfiy":['uiRouter'],      
->>>>>>> 2ee015f22ac5a914d86ae2c7d56496626b757be6
+        "classfiy":['uiRouter'],
 		'9yuan9': {
 			deps: ['uiRouter']
 },
