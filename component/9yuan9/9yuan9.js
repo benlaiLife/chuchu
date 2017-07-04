@@ -23,9 +23,9 @@ define(['uiRouter'],function  () {
             $scope.add=function () {
                 $scope.numm++;
             }
-            $scope.col=function (color) {
-                $scope.col=color;
-                console.log($scope.col);
+            $scope.col=function (coco) {
+                $scope.color=coco;
+                console.log($scope.color);
             }
             $scope.recd=function () {
                 $scope.numm--;
