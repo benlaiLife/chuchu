@@ -25,7 +25,6 @@ define(['uiRouter'],function  () {
             }
             $scope.col=function (coco) {
                 $scope.color=coco;
-                console.log($scope.color);
             }
             $scope.recd=function () {
                 $scope.numm--;
@@ -35,18 +34,6 @@ define(['uiRouter'],function  () {
                     alert("浏览器支持localstorage");
                     return false;
                 }else{
-                    console.log(a,a1,b,c,d,e);
-                    // var storage=window.localStorage;
-                    // var data={
-                    //     title:c,
-                    //     img:a,
-                    //     price:d,
-                    //     color:e,
-                    //     num:b
-                    // };
-                    // var d=JSON.stringify(data);
-                    // storage.setItem("data",d);
-                    // console.log(storage.data);
                     var obj2 = JSON.parse(localStorage.getItem('aaaa'));
                     //如果之前错过东西,那么这个obj就不为空,就直接往obj里面添加新的键值对
                     if(obj2){
