@@ -12,12 +12,24 @@ define(['uiRouter'],function  () {
                 css:"component/mine/mine.css"
             })
     })
-    .controller("mineCtrl",["$scope",function ($scope) {
-        $scope.title="我的未来";
+    .controller("mineCtrl",["$scope","$state","$state",function ($scope,$state,$state) {
         $scope.change = false;
+        $scope.changer = false;
         $scope.newAccount = function(){
+        	$scope.changer = !$scope.changer;
         	$scope.change = !$scope.change;
         }
+        $scope.myInput1="";
+        $scope.myInput2="";
+        $scope.myBtn = function(){
+        	if($scope.myInput1=='1' && $scope.myInput2=='1'){
+        		$state.go("mine.collection");
+        		$scope.change = true;
+        		$scope.changer = false;
+        	}else{
+
+        	}
+       	}
     }])
 })
 

@@ -1,0 +1,110 @@
+div{background: #f3f3f3;overflow: hidden;}
+#collection_head{width: 100%;position: relative;height: 1.7rem;overflow: hidden;}
+#collection_head img:first-child{width: 100%;display: block;}
+#collection_head a:nth-of-type(1){display: block;width: 0.6rem;height: 0.6rem;position: absolute;top: 50%;left: 50%;margin: -0.31rem 0 0 -0.31rem;    border: solid 3px rgba(255,255,255,.3);}
+#collection_head p{position: absolute;top: 50%;width: 100%;font-size: 0.13rem;margin-top: 0.45rem;color: white;text-align: center;}
+#collection_head a:nth-of-type(2){display: block;width: 0.3rem;height: 0.3rem;position: absolute;top: 0.3rem;right: 0.2rem;}
+#collection_head a:nth-of-type(2) img{width: 100%;height: 100%;}
+#collection_nav1{width: 100%;background: white;}
+#collection_nav1 ul{width: 100%;overflow: hidden;}
+#collection_nav1 ul li{float: left;width: 33.33%;text-align: center;font-size: 0.58rem;}
+#collection_nav1 ul li a{display: block;width: 100%;}
+#collection_nav1 ul li img{width: 0.5rem;}
+#collection_nav1 ul li p{font-size: 0.13rem;line-height: 0.18rem;color: #AAA;}
+#collection_nav2{width: 100%;margin-top: 0.1rem;background: white;}
+#collection_nav2>p{padding: 0 0.15rem;}
+#collection_nav2>p a{display: block;font-size: 0.14rem;line-height: 0.45rem;background: url(https://m.chuchujie.com/img/icon_jt_1.png) no-repeat right center;    background-size: 0.05rem 0.09rem;}
+#collection_nav2 ul{font-size: 0.67rem;width: 100%;border-top: solid 0.01rem #f3f3f3;}
+#collection_nav2 ul li{float: left;width: 20%;text-align: center;background: white;}
+#collection_nav2 ul li a{display: block;width: 100%;font-size: 0.4rem;}
+#collection_nav2 ul li p{font-size: 0.12rem;;color: #AAA;}
+#collection_nav2 ul li img{width: 0.26rem;}
+#collection_bottom{width: 100%;margin-top: 0.1rem;}
+#collection_bottom ul{background: white;}
+#collection_bottom ul li{padding: 0 0.15rem;font-size: 0.4rem;border-bottom: solid 0.01rem #EEE;background: url(https://m.chuchujie.com/img/icon_jt_1.png) no-repeat 3.55rem center;    background-size: 0.05rem 0.09rem;}
+#collection_bottom ul li a{font-size: 0.14rem;line-height: 0.4rem;}
+/*#content{position: relative;}*/
+.collectioner{width: 100%;height: 6.67rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
