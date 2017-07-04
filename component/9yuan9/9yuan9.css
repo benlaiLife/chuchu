@@ -576,7 +576,7 @@
     padding: 5px 15%;
     border-top: solid 1px #DDD;
     background: #FFF;
-    z-index: 2001;
+    z-index: 400000;
 }
 .button a{
     width: 100%;
