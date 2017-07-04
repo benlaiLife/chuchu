@@ -1,4 +1,52 @@
+<div class="layer"></div>
 <div class="pay_page">
+	
+	<div class="chose_addres">
+		<div class="chose_cont">
+			<div class="d_add">
+				<ul>
+					<li class="add">
+						<label for="">收货人姓名:</label>
+						<input type="text" name="" id="" value="" />
+					</li>
+					<li class="add">
+						<label for="">电话号码:</label>
+						<input type="tel" name="" id="" value="" />
+					</li>
+					<li class="add clearfix">
+						<label for="">所在地区:</label>
+						<div class='consignee'>
+							<select ng-change="citie(citieName)" ng-model="citieName">
+								<!--<option>请选择</option>-->
+								<option ng-repeat="item in cities">{{item.name}}</option>
+							</select>
+						</div>
+						<div class='consignee'>
+							<select ng-change="town(townName)" ng-model="townName">
+								<option>请选择</option>
+								<option ng-repeat="item1 in urban" ng-if="$index>0">{{item1.name }}</option>
+							</select>
+						</div>
+						<div class='consignee'>
+							<select ng-model="areaName">
+								<option>请选择</option>
+								<option ng-repeat='item2 in region' ng-if="$index>0">{{item2.name}}</option>
+							</select>
+						</div>
+					</li>
+					<li>
+						<label for="">街道地址:</label>
+						<textarea name="" rows="" cols=""></textarea>
+					</li>
+				</ul>
+			</div>
+			<div class="chose_btn">
+				<div class="btn">
+					保存
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="pay_contain">
 		<div class="addres">
 			<div class="dizhi clearfix">
@@ -6,7 +54,7 @@
 			</div>
 			<div class="add_addres clearfix">
 				请准确填写您的地址
-				<img src="component/pay/imgs/rtjt_new.png"/>
+				<img src="component/pay/imgs/rtjt_new.png" />
 			</div>
 		</div>
 		<div class="pay_chose">
@@ -14,37 +62,37 @@
 			<ul>
 				<li class="wechat">
 					<i class="pay_icon"></i>
-					<img src="component/pay/imgs/weixin.png"/>
+					<img src="component/pay/imgs/weixin.png" />
 					<em>微信支付</em>
 				</li>
 				<li class="alipay">
 					<i class="pay_icon"></i>
-					<img src="component/pay/imgs/zfb.png"/>
+					<img src="component/pay/imgs/zfb.png" />
 					<em>支付宝支付</em>
 				</li>
 				<li class="unionpay">
 					<i class="pay_icon"></i>
-					<img src="component/pay/imgs/unionpay.png"/>
+					<img src="component/pay/imgs/unionpay.png" />
 					<em>银联支付</em>
 				</li>
 			</ul>
-		</div>		
-		<div class="shop_info">
+		</div>
+		<div class="shop_info" ng-repeat="item in goodsInfo">
 			<ul class="pay_shop">
 				<li>
 					<a href="javascript:void(0)" class="pay_shop_info">
-						<img src="component/pay/imgs/580dd37211392.jpg"/>
+						<img src="{{item.image_urls_head[0]}}" />
 						<p class="pay_shop_price">
-							<span class="p">￥<em>8.8</em></span>
-							<span class="p_count">x<em>6</em>件</span>
+							<span class="p">￥<em>{{item.sales_price}}</em></span>
+							<span class="p_count">x<em>{{item.num}}</em>件</span>
 						</p>
-						<h2>10个装 会亮耳勺电子发光耳勺挖耳器耳挖儿童掏耳勺带灯</h2>
-						<p class="goods_classify">颜色分类: 10个装【颜色随机】;</p>
+						<h2>{{item.productTitle}}</h2>
+						<p class="goods_classify">类型~</p>
 					</a>
 				</li>
 			</ul>
 			<div class="sum_price">
-				<p>商品总价:￥<span>52.8</span></p>
+				<p>商品总价:￥<span>{{item.goodsPrice}}</span></p>
 				<div class="message">
 					<textarea name="" placeholder="给卖家留言"></textarea>
 				</div>
@@ -52,7 +100,9 @@
 		</div>
 	</div>
 	<div class="pay_foot">
-		<p>合计 : <span>￥100</span></p>
-		<div class="pay_btn"><a href="">去支付</a></div>
+		<p>合计 : <span>{{all}}</span></p>
+		<div class="pay_btn">
+			<a href="">去支付</a>
+		</div>
 	</div>
 </div>
