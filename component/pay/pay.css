@@ -68,3 +68,49 @@
     text-align: right;    font-size: 12px;}
 .p_count em{    font-size:14px;
     padding-left: 4px;}
+.pay_shop_info h2{height: 36px;
+    line-height: 18px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    overflow: hidden;
+    color: #666;font-style: normal;
+    font-weight: 400;}
+.goods_classify{    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;    color: #CCC;}
+.sum_price{    padding: 10px;    background: #FFF;    font-size: 14px;margin: 1px 0;}
+.sum_price p{width: 100%;}
+.sum_price span{    color: #fe3355;}
+.message{background: #f7f7f7;
+    padding: 10px 10px 0;    margin-top: 10px;}
+    .message textarea{    width: 89%;
+    height: 25px;
+    background: url(imgs/srwb.png) no-repeat left 2px;
+    background-size: 12px 12px;
+    color: #CCC;
+    padding: 0 5px 5px 18px;    border: 0;
+    line-height: 20px;font-size: 14px;resize: none;outline: none;}
+.pay_foot{    width: 100%;
+    padding: 5px 0;
+    border-top: solid 1px #DDD;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99;background: white;}
+    .pay_foot>p{line-height: 40px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #83797c;}
+  .pay_foot>p span{color: #fe3355;}
+.pay_btn{    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    background: #df3130;
+    font-size: 16px;text-align: center;}
+.pay_btn a{    display: block;
+    color: #fff;}

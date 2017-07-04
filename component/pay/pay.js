@@ -5,8 +5,11 @@ define(['uiRouter'], function() {
 				.state("pay", {
 					url: "/pay",
 					templateUrl: "component/pay/pay.html",
-//					controller: "payCtrl",
+					controller: "payCtrl",
 					css: 'component/pay/pay.css'
 				})
 		})
+		.controller('payCtrl',['$scope',function  ($scope) {
+			
+		}])
 		})
