@@ -1,12 +1,12 @@
 define(['uiRouter'], function() {
-	angular.module("classfiyModule", [])
+	angular.module("summerNewModule", [])
 		.config(function($stateProvider, $urlRouterProvider) {
 			$stateProvider
-				.state("category.classfiy", {
-					url: "/classfiy/:num",
-					templateUrl: "component/category/classfiy/classfiy.html",
-					controller: "classfiyCtrl",
-					css: "component/category/classfiy/classfiy.css"
+				.state("category.classfiy.summerNew", {
+					url: "/summerNew/:num",
+					templateUrl: "component/category/classfiy/summerNew/summerNew.html",
+					controller: "summerNewCtrl",
+					css: "component/category/classfiy/summerNew/summerNew.css"
 				})
 		})
 	.service('getData', ['$http', function($http) {
@@ -15,24 +15,23 @@ define(['uiRouter'], function() {
 
 			}
 		}])
-		.controller("classfiyCtrl", ["$scope", 'getData','$stateParams', '$state',function($scope, getData,$stateParams,$state) {
+		.controller("summerNewCtrl", ["$scope", 'getData','$state','$stateParams', function($scope, getData,$state,$stateParams) {
 			$scope.back = function() {
 				window.history.go(-1);
 			}
 			if($stateParams.num==0){
-				getData.get('component/category/classfiy/classfiyF.json').then(function(res) {
+				getData.get('component/category/classfiy/summerNew/summerNewF.json').then(function(res) {
+					console.log(res);
 					$scope.arr = res.data.data;	
-					$scope.getSex = function () {
-	       			 	$state.go('category.classfiy',{num: 0});
-	    			};		
 				})
-			}else if($stateParams.num==1){		
-				getData.get('component/category/classfiy/classfiyM.json').then(function(res) {
-					$scope.arr = res.data.data;	
-					$scope.getSex = function () {
-	       			 	$state.go('category.classfiy',{num: 1});
-	    			};		
+			}else if($stateParams.num==1){
+				getData.get('component/category/classfiy/summerNew/summerNewM.json').then(function(res) {
+					console.log(res);
+					$scope.arr = res.data.data;			
 				})
+			}
+			$scope.goDetails = function(){
+				$state.go('/9yuan9',{flag: 0,jsonUrl: 'component/category/classfiy/summerNew/detail/detailF.json'});
 			}
 				$scope.isActive1 = true;
 				$scope.isActive2 = false;

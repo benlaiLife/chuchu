@@ -1,0 +1,45 @@
+<div class="summerNewShow">
+	<div class="summerNewHeader">
+		<div class="classfiytopBar clearfix2">
+			<img src="component/category/classfiy/img/leftArrow.png" ng-click="back()"/>
+			<div class="clearfix2 put" ui-sref='search'>
+				<input type="text" placeholder="输入商品关键词" class="icon" readonly="readonly"/>
+			</div>
+		</div>
+		<div class="tab_top">
+				<ul class="clearfix2">
+					<li ng-click="sort(0)" ><p ng-class="{true: 'activeBot', false: 'inactive'}[isActive1]">人气</p></li>
+					<li ng-click="sort(1)" ><p ng-class="{true: 'activeBot', false: 'inactive'}[isActive2]">销量</p></li>
+					<li ng-click="sort(2)" ><p ng-class="{true: 'activeBot', false: 'inactive'}[isActive3]">最新</p></li>
+					<li ng-click="sort(3)" ><p ng-class="{true: 'activeBot', false: 'inactive'}[isActive4]">价格<img src="component/category/img/sort.png"/></p></li>
+				</ul>
+		</div>
+	</div>
+	<div class="bgFFF">	
+		<div class="container">
+			<ul class="clearfix2">
+				<li ng-repeat="item in arr.productList | orderBy:xyz" ng-click="goDetails()">
+					<div class="bg"></div>
+					<a href="javascript:void(0)">
+						<div class="box">
+							<img src="{{item.imgUrl}}"/>
+							<div class="info">
+								<h2>{{item.title}}</h2>
+								<p class="price_one clearfix2">
+									<em class="small">￥</em>
+									<em class="big">{{item.newPrice}}</em>
+								</p>
+								<p class="price_two clearfix2">
+									<span>
+										<em>￥</em>{{item.oldPrice}}
+									</span>
+									<em class="count">销量:{{item.saleCount}}</em>
+								</p>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

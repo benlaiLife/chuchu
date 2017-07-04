@@ -9,6 +9,7 @@ require.config({
 		'mine': 'component/mine/mine',
 		'category': 'component/category/category',
 		'classfiy':'component/category/classfiy/classfiy',
+		'summerNew':'component/category/classfiy/summerNew/summerNew',
 		'search': 'component/search/search',
 		'shopCar':'component/shopCar/shopCar',
 		'css':'js/libs/angular-css.min',
@@ -33,7 +34,8 @@ require.config({
         "details":['uiRouter'],
         "evaluate":['uiRouter'],
         "recommend":['uiRouter'],
-        "classfiy":['uiRouter'],      
+        "classfiy":['uiRouter'],
+        "summerNew":['uiRouter'],
 		'9yuan9': {
 			deps: ['uiRouter']
 },

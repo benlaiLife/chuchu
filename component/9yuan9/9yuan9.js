@@ -31,6 +31,7 @@ define(['uiRouter'],function  () {
                     })
                 }
             }
+         
             $scope.change=function (num) {
                 if(num==0){
                     shops("component/9yuan9/json/detail.json");

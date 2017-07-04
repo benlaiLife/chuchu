@@ -1,0 +1,617 @@
+{
+    "status": 0,
+    "info": "",
+    "data": {
+        "relevance_list": [],
+        "goodscheck": {},
+        "brandscheck": {},
+        "qualityCheck": null,
+        "coupon_tmpl": {
+            "count": 2,
+            "list": [
+                {
+                    "user_id": "",
+                    "coupon_sn": "",
+                    "status": 0,
+                    "for_orders_status": 0,
+                    "draw_time": 0,
+                    "shop_id": "15201",
+                    "title": "",
+                    "face_value": 5,
+                    "start_time": 1498665600,
+                    "end_time": 1501171199,
+                    "limit_description_price": "满110可用",
+                    "limit_description_range": "指定店铺",
+                    "limit_description": "满110可用",
+                    "coupon_description": "满110减5",
+                    "id": 332891,
+                    "shop_title": null,
+                    "accpted": 0,
+                    "message": "点击领取"
+                },
+                {
+                    "user_id": "",
+                    "coupon_sn": "",
+                    "status": 0,
+                    "for_orders_status": 0,
+                    "draw_time": 0,
+                    "shop_id": "15201",
+                    "title": "",
+                    "face_value": 3,
+                    "start_time": 1498665600,
+                    "end_time": 1501171199,
+                    "limit_description_price": "满88可用",
+                    "limit_description_range": "指定店铺",
+                    "limit_description": "满88可用",
+                    "coupon_description": "满88减3",
+                    "id": 332890,
+                    "shop_title": null,
+                    "accpted": 0,
+                    "message": "点击领取"
+                }
+            ]
+        },
+        "product": {
+            "product_id": "1001520129",
+            "taobao_id": "0",
+            "cid": "50010850",
+            "title": "2016夏新款韩版女装显瘦A字修身印花复古优雅夏装雪纺连衣裙新品",
+            "product_referred": "",
+            "is_shipping": 0,
+            "status": "-1",
+            "shop_id": "15201",
+            "description": "http://image-shop.chuchujie.com/culiu.cdn/shop_staticHtml/detail/17/6/1001520129_detail.html?v=14809159172",
+            "original_price": "198",
+            "sales_price": 49,
+            "image_urls_head": [
+                "http://shopcdn.chuchujie.com/Uploads/detail_url/201603/56fd1ed4c8dee.jpg?imageView2/2/w/720",
+                "http://shopcdn.chuchujie.com/Uploads/detail_url/201603/56fd1eec65ed8.jpg?imageView2/2/w/720",
+                "http://shopcdn.chuchujie.com/Uploads/detail_url/201603/56fd1ef2ade6b.jpg?imageView2/2/w/720",
+                "http://shopcdn.chuchujie.com/Uploads/detail_url/201603/56fd1ef83a5ca.jpg?imageView2/2/w/720",
+                "http://shopcdn.chuchujie.com/Uploads/detail_url/201603/56fd1f00e3059.jpg?imageView2/2/w/720"
+            ],
+            "version": "1",
+            "productTitle": "2016夏新款韩版女装显瘦A字修身印花复古优雅夏装雪纺连衣裙新品",
+            "attr_keys": [
+                {
+                    "id": "20509",
+                    "name": "尺码",
+                    "is_color_prop": "0",
+                    "attr_values": [
+                        {
+                            "id": "28314",
+                            "name": "S",
+                            "sort_order": 0
+                        },
+                        {
+                            "id": "28315",
+                            "name": "M",
+                            "sort_order": 1
+                        }
+                    ],
+                    "sort_order": 0
+                },
+                {
+                    "id": "1627207",
+                    "name": "颜色",
+                    "is_color_prop": "1",
+                    "attr_values": [
+                        {
+                            "id": "$1459429524160",
+                            "name": "红色印花",
+                            "sort_order": 0
+                        },
+                        {
+                            "id": "$1459429529136",
+                            "name": "黑色印花",
+                            "sort_order": 1
+                        }
+                    ],
+                    "sort_order": 1
+                }
+            ],
+            "sales_price_real": "49.00",
+            "salesPrice_backUp": "49.00",
+            "low_price": 49,
+            "high_price": 49,
+            "sku_array": [
+                {
+                    "sku_id": "21526686",
+                    "stock": 15,
+                    "price": 49,
+                    "original_price": 198,
+                    "paid_stock": 0,
+                    "completed_stock": 0,
+                    "code": "",
+                    "sku_picture": "",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "28314",
+                        "1627207": "$1459429524160"
+                    },
+                    "sku_pic": null,
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+49积分"
+                },
+                {
+                    "sku_id": "21526688",
+                    "stock": 1,
+                    "price": 49,
+                    "original_price": 198,
+                    "paid_stock": 0,
+                    "completed_stock": 0,
+                    "code": "",
+                    "sku_picture": "",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "28314",
+                        "1627207": "$1459429529136"
+                    },
+                    "sku_pic": null,
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+49积分"
+                },
+                {
+                    "sku_id": "21526687",
+                    "stock": 9,
+                    "price": 49,
+                    "original_price": 198,
+                    "paid_stock": 0,
+                    "completed_stock": 1,
+                    "code": "",
+                    "sku_picture": "",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "28315",
+                        "1627207": "$1459429524160"
+                    },
+                    "sku_pic": null,
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+49积分"
+                },
+                {
+                    "sku_id": "21526689",
+                    "stock": 0,
+                    "price": 49,
+                    "original_price": 198,
+                    "paid_stock": 0,
+                    "completed_stock": 0,
+                    "code": "",
+                    "sku_picture": "",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "28315",
+                        "1627207": "$1459429529136"
+                    },
+                    "sku_pic": null,
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+49积分"
+                }
+            ],
+            "stocks": 25,
+            "cargo_src": "",
+            "cargo_src_name": "",
+            "brand_id": "0",
+            "delivery_type": "0",
+            "product_type": "normal",
+            "is_oversea_product": "0",
+            "rect_head_url": [],
+            "max_version": "1",
+            "time_limited_buying": {
+                "tlb_status": 0,
+                "tlb_restriction_status": 0,
+                "tlb_countdown_time": 0,
+                "second_kill_price": "0",
+                "server_time": 1499133850,
+                "restriction_max_number": -1,
+                "status": 0,
+                "type": 0,
+                "price": "0",
+                "tlb_recommend_wap_url": "http://wx.chuchujie.com/index.php?s=/Product/product_detail/product_id/1001520129",
+                "isMs": 0
+            },
+            "param_description": "",
+            "descriptionImgJson": "https://image-shop.chuchujie.com/culiu.cdn/shop_staticHtml/detailJsonCCJ/17/11/1001520129_detail.json?v=1480915917",
+            "descriptionShopJson": "https://image-shop.chuchujie.com/culiu.cdn/shop_staticHtml/cct_template_json/23/53/1001520129_cct_template.json?v=1499097600",
+            "edit_mode": 1,
+            "simple_edit_info": {
+                "image_text_array": [
+                    {
+                        "type": 3,
+                        "content": "穿着效果"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/f51f1a8893c2cc3b34501f1ffda66354_1459429729.jpg?imageView2/2/w/620"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/40eaadf7c8bdf39f183a406267b944c9_1459429732.jpg?imageView2/2/w/620"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/7550bfcc6b0c58f4d9d81a897cb4e0fa_1459429734.jpg?imageView2/2/w/620"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/5af65a6b8e4b265d2c490ada4080711c_1459429737.jpg?imageView2/2/w/620"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/be8b827529edd90ec0700bf82df43505_1459429742.jpg?imageView2/2/w/620"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/55d4582fda6b9ee124a6b0b95447fba6_1459429744.jpg?imageView2/2/w/620"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/98f7050113bf5e7cadf2f4954aaf27de_1459429749.jpg?imageView2/2/w/620"
+                    },
+                    {
+                        "type": 3,
+                        "content": "整体款式"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/6b29713238580dc137ac2a20a1093a98_1459429808.jpg?imageView2/2/w/620"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/f6eac173c0a7c5a9323bd055b4c65bad_1459429810.jpg?imageView2/2/w/620"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/b86c815877f2cb7c2161ea67e5cd558c_1459429815.jpg?imageView2/2/w/620"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/82672e4a3ddf0343aa976ae59647fc1a_1459429823.jpg?imageView2/2/w/620"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/3bcb53ff07582ee3564c9b510736e9e2_1459429844.jpg?imageView2/2/w/620"
+                    },
+                    {
+                        "type": 2,
+                        "content": "http://shopcdn.chuchujie.com/Uploads/wap_description/201603/fc3f50f8a3bc176fda7aaf046cbf73c9_1459429847.jpg?imageView2/2/w/620"
+                    }
+                ]
+            },
+            "productSummaryInfo": {
+                "infoList": [
+                    {
+                        "title": "品牌",
+                        "content": "纤衣楚楚",
+                        "underLine": 0
+                    },
+                    {
+                        "title": "生产地区",
+                        "content": "杭州",
+                        "underLine": 0
+                    },
+                    {
+                        "title": "快递方式",
+                        "content": "申通",
+                        "underLine": 0
+                    }
+                ]
+            },
+            "size_params": [],
+            "image_urls_head_for_ios_share": "http://shopcdn.chuchujie.com/Uploads/detail_url/201603/56fd1ed4c8dee.jpg?imageView2/2/w/160",
+            "share_url": "https://m.chuchujie.com/details/detail.html?id=1001520129",
+            "share_url_args": "#share_uid/0",
+            "product_offline_time": "",
+            "product_sale_image": "",
+            "product_sale_text": "",
+            "commission": {
+                "title": "分享赚佣金",
+                "content": "分享赚佣金: ¥ 1.47元",
+                "description": "分享赚: ¥ 1.47元",
+                "value": 1.47
+            },
+            "is_validated_shop": 1,
+            "is_no_reason_return": 1,
+            "is_fast_delivery": 1,
+            "is_tested": 0,
+            "product_des": "楚楚街商城,完美的购物体验，你值得拥有!",
+            "is_show_but": 1,
+            "is_qualified": 1,
+            "is_compensated": 1,
+            "brand_commitment_url": "http://huodong.chuchujie.com/notice/brand.html",
+            "commitment_type": 2,
+            "commitment_url": "http://shopcdn.chuchujie.com/Uploads/desc/201507/143643287339684.png",
+            "product_service_info": [
+                "9天无理由退货",
+                "24小时发货",
+                "交易保障"
+            ],
+            "service_info_new": {
+                "item": {
+                    "icon": "",
+                    "imgHeight": "",
+                    "imageWidth": "",
+                    "template": "",
+                    "query": "",
+                    "imgScale": ""
+                },
+                "service_list": [
+                    {
+                        "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/f7d810cd1924d31bd35ed63984dd6ca91490337760_40_40.png",
+                        "imgHeight": "40",
+                        "imageWidth": "40",
+                        "imgScale": "1.0",
+                        "desc": "9天无理由退货",
+                        "desc_detail": "买家满足9天无理由退货申请条件，可以申请“9天无理由退货”"
+                    },
+                    {
+                        "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/f7d810cd1924d31bd35ed63984dd6ca91490337760_40_40.png",
+                        "imgHeight": "40",
+                        "imageWidth": "40",
+                        "imgScale": "1.0",
+                        "desc": "24小时发货",
+                        "desc_detail": "卖家承诺，买家付款成功后24小时内发货"
+                    },
+                    {
+                        "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/f7d810cd1924d31bd35ed63984dd6ca91490337760_40_40.png",
+                        "imgHeight": "40",
+                        "imageWidth": "40",
+                        "imgScale": "1.0",
+                        "desc": "交易保障",
+                        "desc_detail": ""
+                    }
+                ]
+            },
+            "high_price_points": 24,
+            "low_price_points": 24,
+            "points": "购买可返24积分",
+            "points_desc": "1、只限登录用户,未登录用户购买将不会获得积分\n2、积分在购买宝贝经过退款期以后可以使用",
+            "category": {
+                "first_category_id": "-1",
+                "first_category_name": "女装",
+                "second_category_id": "50010850",
+                "second_category_name": "连衣裙",
+                "third_category_id": "",
+                "third_category_name": "",
+                "fourth_category_id": "",
+                "fourth_category_name": ""
+            },
+            "buy_num": 19,
+            "question": {
+                "is_show": 1,
+                "list": null,
+                "count": 0,
+                "tips": "还在犹豫不决？问问买过的人吧！"
+            },
+            "activity_info": {
+                "activity_info_array": []
+            },
+            "best_comment": {},
+            "btnCtrlShow": {
+                "cartBtn": true,
+                "commissionBtn": true
+            },
+            "installment_info": {
+                "installment_icon": "",
+                "installment_content": "",
+                "installment_url": ""
+            },
+            "is_hb": false,
+            "shop_sign_info": {
+                "activity_info_array": [],
+                "activity_info_array_new": [
+                    {
+                        "title": "",
+                        "subTitle": "店主推荐",
+                        "tag": "#222222",
+                        "template": "CHUCHUITEM",
+                        "query": "{\"productId\":\"100152011066\",\"shopId\":\"15201\",\"static_id\":24,\"trackId\":\"\"}",
+                        "imgUrl": "http://shopcdn.chuchujie.com/Uploads/shop_deco/201704/acda3d4554cdf5a7eb64b8072de2c8ec_1491816589.png",
+                        "imgScale": "2.40"
+                    }
+                ]
+            },
+            "special_list": [
+                {
+                    "specialInfo": {
+                        "title": "店主推荐",
+                        "subTitle": "店主推荐",
+                        "description": "",
+                        "imgUrl": "",
+                        "imgWidth": "0",
+                        "imgHeight": "0",
+                        "imgScale": 0,
+                        "shopId": "15201",
+                        "tag": "专题"
+                    },
+                    "productList": [
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"10015201989\",\"shopId\":\"15201\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58d35d3e61ccd.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "2017夏装新款韩版大码女装春夏季中长裙子修身短袖显瘦格子连衣裙",
+                            "saleCount": 19,
+                            "stock": 100,
+                            "oldPrice": "99.00",
+                            "newPrice": "45.90",
+                            "discount": "0.46",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=10015201989",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "33"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"10015201760\",\"shopId\":\"15201\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201612/5858d9e7e1c2b.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "2015冬装新款韩版大码女装冬季新品修身中长款毛呢子大衣薄呢外套",
+                            "saleCount": 16,
+                            "stock": 100,
+                            "oldPrice": "199.00",
+                            "newPrice": "48.90",
+                            "discount": "0.24",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=10015201760",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "386"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"10015201656\",\"shopId\":\"15201\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201611/583d0ff9b39e2.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "2016秋冬装新款韩版大码女装秋冬季新品中长款修身毛呢大衣外套女",
+                            "saleCount": 173,
+                            "stock": 100,
+                            "oldPrice": "199.00",
+                            "newPrice": "55.90",
+                            "discount": "0.28",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=10015201656",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "133"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"1001520151\",\"shopId\":\"15201\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201604/5704c141139af.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "2016夏装新款韩版大码淑女装春夏季中长款拼接百搭雪纺衫蕾丝衫女",
+                            "saleCount": 11,
+                            "stock": 100,
+                            "oldPrice": "298.00",
+                            "newPrice": "45.00",
+                            "discount": "0.15",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=1001520151",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "50"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"1001520112\",\"shopId\":\"15201\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201603/56f67c6811762.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "2016春秋装新款韩版大码女士中长款秋季修身西服拼接小西装短外套",
+                            "saleCount": 40,
+                            "stock": 100,
+                            "oldPrice": "298.00",
+                            "newPrice": "59.00",
+                            "discount": "0.19",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=1001520112",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "68"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"10015201900\",\"shopId\":\"15201\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58ba4b635b25f.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "2017春秋装新款韩版大码春秋季新品修身中长款毛呢大衣呢子外套女",
+                            "saleCount": 15,
+                            "stock": 100,
+                            "oldPrice": "159.00",
+                            "newPrice": "49.90",
+                            "discount": "0.31",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=10015201900",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "188"
+                        }
+                    ],
+                    "page": 1,
+                    "hasNext": false,
+                    "totalCount": 6
+                }
+            ],
+            "shop_info": {
+                "cn_name": "纤衣楚楚旗舰店",
+                "shop_header_image_url": "http://shopcdn.chuchujie.com/Uploads/shop_head/201703/1488437035.jpg?imageView2/2/w/400",
+                "shop_header": "http://shopcdn.chuchujie.com/Uploads/shop_head/201703/1488437035.jpg?imageView2/2/w/400",
+                "shop_description": "",
+                "brand_story": "",
+                "service_qq": [
+                    "2850746712"
+                ],
+                "service_im_h5": "http://m.chuchujie.com/details/webIm.html",
+                "level": 0,
+                "delivery": "浙江省杭州市",
+                "perfact_scale": "89%",
+                "desc_scale": 9.5,
+                "ship_scale": 9.6,
+                "serv_scale": 9.6,
+                "all_product_quantity": 0,
+                "shop_type": 2,
+                "isFav": false,
+                "brandStory": {},
+                "chat_url": "http://m.chuchujie.com/im/kefuIM.html?mcc=1&shopId=15201",
+                "service_type": 2,
+                "chat_native": 15201
+            }
+        },
+        "faillist": {
+            "total": 0,
+            "with_img_count": 0,
+            "great_count": 1,
+            "general_count": 0,
+            "bad_count": 0,
+            "positive_rate": "",
+            "comment_tip": "木有更多评论了"
+        }
+    }
+}
