@@ -1,3 +1,5 @@
+<div ui-view></div>
+<div class="mines">
 <div ng-hide="change">
 	<div id="miner_top">
 		<a href="javascript:void(0)"></a>
@@ -5,17 +7,17 @@
 	</div>
 	<div id="miner_middle">
 		<ul>
-			<li><input type="text" name="" id="userName" placeholder="手机号" /></li>
-			<li><input type="" name="" id="passWord" placeholder="密码" /></li>
+			<li><input type="text" name="" id="userName" placeholder="手机号" ng-model="myInput1" /></li>
+			<li><input type="text" name="" id="passWord" placeholder="密码" ng-model="myInput2"/></li>
 		</ul>
-		<p>忘记密码?</p>
+		<p >忘记密码?</p>
 	</div>
 	<div id="miner_bottom">
-		<p><a href="">登录</a></p>
+		<p><a href="javascript:void(0)" ng-click="myBtn()">登录</a></p>
 		<p><a href="" ng-click="newAccount()">创建新账号</a></p>
 	</div>
 </div>
-<div ng-show="change">
+<div ng-show="changer">
 	<h3>注册 楚楚街 账号</h3>
 	<div id="mine_top">
 		<ul>
