@@ -1,0 +1,116 @@
+#content {
+	height: 100%;
+	z-index: 100001;
+	position: absolute;
+	background: #F7F7F7;
+}
+.pay_page{margin-bottom: 60px;}
+.pay_contain{margin-right: 10px;    margin-left: 10px;}
+.addres{    margin-top: 10px;
+    background: #fff url(imgs/qrdd_03.png) repeat-x;}
+    .dizhi{    padding: 20px 10px 8px;
+    border-bottom: solid 1px #faf4f4;}
+    .dizhi h1{font-weight: 400;font-style: normal;    width: 100%;
+    font-size: 16px;
+    color: #666;}
+    .add_addres{padding: 10px 0 10px 30px;
+    background: url(imgs/dwdz.png) no-repeat 10px center;
+    background-size: 16px 16px;
+    font-size: 16px;}
+ .add_addres img{    width: 9px;
+    height: 15px;
+    padding: 2px 10px 0 0;
+    float: right;}
+    .pay_chose{    margin-top: 10px;}
+    .pay_chose h2{    padding-left: 10px;
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    background: #fff;
+    border-bottom: solid 1px #f7f7f7;font-weight: 400;font-style: normal;}
+    .pay_chose ul{    width: 100%;    background: #FFF;font-size: 0px;}
+ .pay_chose ul li{padding: 10px 10px 10px 40px;
+    line-height: 30px;
+    color: #444;
+    border-bottom: solid 1px #f7f7f7;
+    position: relative;}
+    .pay_icon{    position: absolute;
+    top: 18px;
+    left: 10px;
+    width: 16px;
+    height: 16px;
+    background: url(imgs/noxz.png) no-repeat;
+    background-size: 100% 100%;}
+ .pay_chose ul li img{width: 30px;
+    height: 30px;
+    margin: 0 5px 2px 0;vertical-align: middle;}
+     .pay_chose ul li em{    font-style: normal;
+    font-weight: 400;font-size: 16px;}
+.shop_info{}
+
+.pay_shop{    padding: 0 10px;    background: #FFF;margin-top: 10px;}
+.pay_shop li{    padding: 10px 80px 8px 100px;
+    position: relative;}
+    .pay_shop_info img{    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    left: 10px;}
+    .pay_shop_price{line-height: 18px;
+    position: absolute;
+    top: 10px;
+    right: 10px;}
+    .p{    font-size: 14px;    display: block;
+    text-align: right;    color: #fe3355;}
+    .p em{font-size: 16px;font-weight: 400;font-style: normal;}
+    .p_count{    color: #c7bdbd;    display: block;
+    text-align: right;    font-size: 12px;}
+.p_count em{    font-size:14px;
+    padding-left: 4px;}
+.pay_shop_info h2{height: 36px;
+    line-height: 18px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    overflow: hidden;
+    color: #666;font-style: normal;
+    font-weight: 400;}
+.goods_classify{    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;    color: #CCC;}
+.sum_price{    padding: 10px;    background: #FFF;    font-size: 14px;margin: 1px 0;}
+.sum_price p{width: 100%;}
+.sum_price span{    color: #fe3355;}
+.message{background: #f7f7f7;
+    padding: 10px 10px 0;    margin-top: 10px;}
+    .message textarea{    width: 89%;
+    height: 25px;
+    background: url(imgs/srwb.png) no-repeat left 2px;
+    background-size: 12px 12px;
+    color: #CCC;
+    padding: 0 5px 5px 18px;    border: 0;
+    line-height: 20px;font-size: 14px;resize: none;outline: none;}
+.pay_foot{    width: 100%;
+    padding: 5px 0;
+    border-top: solid 1px #DDD;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99;background: white;}
+    .pay_foot>p{line-height: 40px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #83797c;}
+  .pay_foot>p span{color: #fe3355;}
+.pay_btn{    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    background: #df3130;
+    font-size: 16px;text-align: center;}
+.pay_btn a{    display: block;
+    color: #fff;}

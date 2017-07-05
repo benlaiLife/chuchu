@@ -1,1 +1,56 @@
-<p>购物车</p>
+
+<div ng-class="{true:'shopCar_no',false:'shopCar_no_none'}[shopNO]">
+	<img src="component/shopCar/imgs/shop_cart.png"/>
+	<p>购物车空空</p>
+	<a href="javascirpt:void(0)" ui-sref='home'>去逛逛</a>
+</div>
+
+<div ng-class="{true:'',false:'shopCar_no_none'}[shop]">
+	<div class="shop_box" >
+	<div class="shop_container">
+		<div class="shop">
+			购物车
+		</div>
+		<div class="dpin" ng-repeat="(key,item) in shopInfo">
+			<div class="dpin_content">
+				<div class="deleteBox" ng-click="deleteGoods(key)">
+					删除
+				</div>
+				<span ng-class="{true:'span_active',false:''}[goodsChose[$index]]"ng-click="storeItem($index)"></span>
+				<div class="shop_img">
+					<img src="{{item.image_urls_head[0]}}"/>
+				</div>
+				<ul>
+					<li>
+						<div class="min_height">
+							<h1>{{item.productTitle}}</h1>
+							<p>{{item.attr_keys[0].attr_values[2].name}}{{item.attr_keys[1].attr_values[2].name}}</p>
+						</div>
+						<div class="addPro">
+							<div class="p_num clearfix">
+								<div class="num_btn_dec" ng-click="dec($index,key)">-</div>
+								<div class="num_txt">
+									<input type="text" name="" id="" value="1" ng-model="shopInfo[key].num"/>
+								</div>
+								<div class="num_btn_add" ng-click='add($index,key)'>+</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<em class="shop_price">￥ <i> {{item.sales_price}}</i></em>
+			</div>
+		</div>
+		<div class="allGoods" ng-class="{true:'allGoods',false:'allGoods_no'}[allGoodsState]">
+			<span>共{{allCount}}件商品,合计 </span>
+			<em>￥{{allPrice}}</em>
+		</div>
+	</div>
+</div>
+<div class="anniu">
+	<ul class="anniu_bot">
+		<li><p class="qxuan"><span ng-class="{true:'span_active',false:''}[allChose]"ng-click="choseAll()"></span>全选</p></li>
+		<li class="all_price">合计: 	<em>￥{{allPrice}}</em></li>
+		<li class="pay" ng-click="toPay()">去支付</li>
+	</ul>
+</div>
+</div>

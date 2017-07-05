@@ -79,19 +79,11 @@
         </li>
     </ul>
     <div class="expo">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" ng-repeat="itemy in arr1.special_list[0].productList">
-                    <div class="cat">
-                        <img src="{{itemy.imgUrl}}" alt="">
-                        <p>{{"￥"+itemy.newPrice}}</p>
-                        <h2>{{itemy.title}}</h2>
-                    </div>
-                </div>
+            <div class="cat"  ng-repeat="itemy in arr1.special_list[0].productList">
+                <img src="{{itemy.imgUrl}}" alt="">
+                <p>{{"￥"+itemy.newPrice}}</p>
+                <h2>{{itemy.title}}</h2>
             </div>
-            <!-- 如果需要分页器 -->
-            <div class="swiper-pagination"></div>
-        </div>
     </div>
     <div class="tabs">
         <i class="bor"></i>
@@ -113,6 +105,35 @@
         </ul>
     </div>
     <div style="font-size: 12px" ui-view></div>
+    <div class="choose" ng-class="{true: 'block', false: 'none'}[isShow2]">
+        <div class="mes">
+            <div class="reset" ng-click="back()">x</div>
+            <img src="{{arr1.image_urls_head[0]}}" alt="">
+            <div>
+                <h4>{{arr1.title}}</h4>
+                <p>{{"￥"+arr1.high_price}}</p>
+            </div>
+        </div>
+        <div class="size">
+            <p>选择尺码</p>
+            <a href="" ></a>
+        </div>
+        <div class="color clearfix">
+            <p>选择颜色</p>
+            <a ng-repeat="color in arr1.attr_keys[1].attr_values" ng-click="col(color.name)">{{color.name}}</a>
+        </div>
+        <div class="count clearfix">
+            <p>数量</p>
+            <div class="b_num">
+                <a href="" class="reduce_num" ng-click="recd()">-</a>
+                <span class="t_num">{{numm}}</span>
+                <a href="" class="add_num" ng-click="add()">+</a>
+            </div>
+        </div>
+        <div class="button">
+            <a ng-click="commit(arr1,arr1.image_urls_head[0],numm,arr1.product_referred,arr1.high_price,color)">确定</a>
+        </div>
+    </div>
     <div class="addshopcar">
         <diiv class="service">
             <div class="pop">
@@ -123,8 +144,8 @@
             </div>
         </diiv>
         <span>
-            <a href="" class="alf">加入购物车</a>
-            <a href="" class="arg">立即购买</a>
+            <a href="" class="alf" ng-click="addShopCar()">加入购物车</a>
+            <a href="" class="arg" ng-click="sale()">立即购买</a>
         </span>
     </div>
 </div>

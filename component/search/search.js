@@ -57,7 +57,7 @@ define(['uiRouter'], function() {
 //将汉字转化成16进制
 function toUnicode(str) {　　　　
 	var val = "";　　　　
-	for(var i = 0; i < str.length; i++) {　　　　　　
+	for(var i = 0; i < str.length; i++) {　　　
 		if(val == ""){
 			val = str.charCodeAt(i).toString(16);　
 		}　　　
