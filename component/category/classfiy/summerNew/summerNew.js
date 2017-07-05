@@ -21,17 +21,15 @@ define(['uiRouter'], function() {
 			}
 			if($stateParams.num==0){
 				getData.get('component/category/classfiy/summerNew/summerNewF.json').then(function(res) {
-					console.log(res);
 					$scope.arr = res.data.data;	
 				})
 			}else if($stateParams.num==1){
 				getData.get('component/category/classfiy/summerNew/summerNewM.json').then(function(res) {
-					console.log(res);
 					$scope.arr = res.data.data;			
 				})
 			}
 			$scope.goDetails = function(){
-				$state.go('/9yuan9',{flag: 0,jsonUrl: 'component/category/classfiy/summerNew/detail/detailF.json'});
+				$state.go('9yuan9',{flag: 0,jsonUrl: 'component/category/classfiy/summerNew/detail/detailF.json'});
 			}
 				$scope.isActive1 = true;
 				$scope.isActive2 = false;
