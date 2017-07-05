@@ -4,6 +4,7 @@
 	position: absolute;
 	background: #F7F7F7;
 }
+.disNo{display: none;}
 .pay_page{margin-bottom: 60px;}
 .pay_contain{margin-right: 10px;    margin-left: 10px;}
 .addres{    margin-top: 10px;
