@@ -3,6 +3,7 @@
 	z-index: 100001;
 	position: absolute;
 	background: #F7F7F7;
+	    width: 100%;
 }
 .shopCar_no_none{display: none;}
 .shop{text-align: center;font-size: 16px;color: #DF3130;height: 30px;line-height: 30px;border-bottom: 1px solid #999999;}

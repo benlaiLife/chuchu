@@ -410,7 +410,7 @@
     z-index: 500;
     border-top: solid 1px #ccc;
     font-size: 16px;
-    background: #f0f0f0;
+    background: white;
 }
 .service{
     position: relative;
