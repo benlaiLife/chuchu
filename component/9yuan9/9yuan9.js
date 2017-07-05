@@ -17,6 +17,9 @@ define(['uiRouter'],function  () {
             $scope.isShow=true;
             $scope.isShow1= false;
             $scope.isShow2=false;
+            $scope.backHead=function () {
+                window.history.go(-1);
+            }
             $scope.back=function () {
                 $scope.isShow2=false;
             }
@@ -30,6 +33,7 @@ define(['uiRouter'],function  () {
                 $scope.numm--;
             }
             $scope.commit=function (a,a1,b,c,d,e) {
+                $scope.isShow2=false;
                 if(!window.localStorage){
                     alert("浏览器支持localstorage");
                     return false;
