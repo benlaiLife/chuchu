@@ -23,11 +23,14 @@ require.config({
         "evaluate":"component/9yuan9/evaluate/evaluate",
 <<<<<<< HEAD
 <<<<<<< HEAD
-        "recommend":"component/9yuan9/recommend/recommend",
-        "collection":"component/mine/collection/collection"
+<<<<<<< HEAD
 =======
+>>>>>>> 12d24948fa534bb5cc296fe48b8081d82d8ff0c3
+        "recommend":"component/9yuan9/recommend/recommend",
+        "collection":"component/mine/collection/collection",
         "pay":"component/pay/pay",
         "recommend":"component/9yuan9/recommend/recommend"
+<<<<<<< HEAD
 >>>>>>> 2ee015f22ac5a914d86ae2c7d56496626b757be6
 =======
 
@@ -35,6 +38,8 @@ require.config({
         "collection":"component/mine/collection/collection"
 
 >>>>>>> zhujianghong
+=======
+>>>>>>> 12d24948fa534bb5cc296fe48b8081d82d8ff0c3
 	},
 	shim: {
 		'uiRouter': {
@@ -58,9 +63,12 @@ require.config({
         "recommend":['uiRouter'],
 <<<<<<< HEAD
 <<<<<<< HEAD
-        'collection':['uiRouter'],
+<<<<<<< HEAD
 =======
+>>>>>>> 12d24948fa534bb5cc296fe48b8081d82d8ff0c3
+        'collection':['uiRouter'],
         "pay":['uiRouter'],
+<<<<<<< HEAD
         "classfiy":['uiRouter'],      
 >>>>>>> 2ee015f22ac5a914d86ae2c7d56496626b757be6
 =======
@@ -68,6 +76,9 @@ require.config({
         'collection':['uiRouter'],
 
 >>>>>>> zhujianghong
+=======
+        "classfiy":['uiRouter'],
+>>>>>>> 12d24948fa534bb5cc296fe48b8081d82d8ff0c3
 		'9yuan9': {
 			deps: ['uiRouter']
 },
