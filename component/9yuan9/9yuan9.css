@@ -407,7 +407,7 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 300000;
+    z-index: 500;
     border-top: solid 1px #ccc;
     font-size: 16px;
     background: #f0f0f0;
@@ -586,4 +586,37 @@
     text-align: center;
     border-radius: 3px;
     text-decoration: none;
+}
+.shoppp{
+    top: 10px;
+    right: 60px;
+    background: url(img/shops.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 10;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.homeaa{
+    top: 10px;
+    right: 10px;
+    background: url(img/homeaa.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 10;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.llff{
+    top: 10px;
+    left: 10px;
+    background: url(img/left.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 10;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: block;
 }

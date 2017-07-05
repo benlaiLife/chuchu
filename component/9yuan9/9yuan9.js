@@ -17,36 +17,27 @@ define(['uiRouter'],function  () {
             $scope.isShow=true;
             $scope.isShow1= false;
             $scope.isShow2=false;
+            $scope.backHead=function () {
+                window.history.go(-1);
+            }
             $scope.back=function () {
                 $scope.isShow2=false;
             }
             $scope.add=function () {
                 $scope.numm++;
             }
-            $scope.col=function (color) {
-                $scope.col=color;
-                console.log($scope.col);
+            $scope.col=function (coco) {
+                $scope.color=coco;
             }
             $scope.recd=function () {
                 $scope.numm--;
             }
             $scope.commit=function (a,a1,b,c,d,e) {
+                $scope.isShow2=false;
                 if(!window.localStorage){
                     alert("浏览器支持localstorage");
                     return false;
                 }else{
-                    console.log(a,a1,b,c,d,e);
-                    // var storage=window.localStorage;
-                    // var data={
-                    //     title:c,
-                    //     img:a,
-                    //     price:d,
-                    //     color:e,
-                    //     num:b
-                    // };
-                    // var d=JSON.stringify(data);
-                    // storage.setItem("data",d);
-                    // console.log(storage.data);
                     var obj2 = JSON.parse(localStorage.getItem('aaaa'));
                     //如果之前错过东西,那么这个obj就不为空,就直接往obj里面添加新的键值对
                     if(obj2){
@@ -97,6 +88,7 @@ define(['uiRouter'],function  () {
                     })
                 }
             }
+         
             $scope.change=function (num) {
                 if(num==0){
                     shops("component/9yuan9/json/detail.json");

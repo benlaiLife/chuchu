@@ -16,7 +16,7 @@ define(['uiRouter'], function() {
             $http.get("component/9yuan9/json/conment.json").then(function (mes) {
                 $scope.conment=mes.data.data.list;
                 console.log(mes.data.data.list)
-                $scope.chang=function (x) {
+                $scope.chang1=function (x) {
                     if(x==2){
                         for (var i = 0; i <  $scope.conment.length; i++) {
                             if($scope.conment[i].has_img==0){

@@ -1,4 +1,4 @@
-<div class="classfiyShow">
+<div class="classfiyShow" ui-view>
 	<div class="classfiytopBar clearfix2">
 		<img src="component/category/classfiy/img/leftArrow.png" ng-click="back()"/>
 		<div class="clearfix2 put" ui-sref='search'>
@@ -9,7 +9,7 @@
 		<div class="bgFFF mb10" ng-repeat="item in arr.bannerGroupList">
 			<h2 class="hot_biaoti">{{item.title}}</h2>	
 			<ul class="f_hot clearfix2">
-				<li ng-repeat="items in item.bannerList">
+				<li ng-repeat="items in item.bannerList" ui-sref=".summerNew" ng-click="getSex()">
 					<div class="item">
 						<img src="{{items.imgUrl}}" />
 						<p>{{items.title}}</p>

@@ -1,0 +1,742 @@
+{
+    "status": 0,
+    "info": "",
+    "data": {
+        "relevance_list": [],
+        "goodscheck": {},
+        "brandscheck": {},
+        "qualityCheck": null,
+        "coupon_tmpl": {},
+        "product": {
+            "product_id": "10008143702",
+            "taobao_id": "0",
+            "cid": "50000436",
+            "title": "合伙狼春夏新品个性印花男士纯棉短袖套装潮流男装套装",
+            "product_referred": "DQC12603",
+            "is_shipping": 0,
+            "status": "-1",
+            "shop_id": "8143",
+            "description": "http://image-shop.chuchujie.com/culiu.cdn/shop_staticHtml/detail/17/59/10008143702_detail.html?v=14841960982",
+            "original_price": "299",
+            "sales_price": 99,
+            "image_urls_head": [
+                "http://shopcdn.chuchujie.com/Uploads/detail_url/201604/570b9661caa64.jpg?imageView2/2/w/720",
+                "http://shopcdn.chuchujie.com/Uploads/detail_url/201604/570b9665bfed9.jpg?imageView2/2/w/720",
+                "http://shopcdn.chuchujie.com/Uploads/detail_url/201604/570b96687aa62.jpg?imageView2/2/w/720",
+                "http://shopcdn.chuchujie.com/Uploads/detail_url/201604/570b967c49f25.jpg?imageView2/2/w/720",
+                "http://shopcdn.chuchujie.com/Uploads/detail_url/201604/570b96782a096.jpg?imageView2/2/w/720"
+            ],
+            "version": "1",
+            "productTitle": "合伙狼春夏新品个性印花男士纯棉短袖套装潮流男装套装",
+            "attr_keys": [
+                {
+                    "id": "20509",
+                    "name": "尺码",
+                    "is_color_prop": "0",
+                    "attr_values": [
+                        {
+                            "id": "$1460377068648",
+                            "name": "M",
+                            "sort_order": 0
+                        },
+                        {
+                            "id": "$1460377070481",
+                            "name": "L",
+                            "sort_order": 1
+                        },
+                        {
+                            "id": "$1460377072569",
+                            "name": "XL",
+                            "sort_order": 2
+                        },
+                        {
+                            "id": "$1460377074625",
+                            "name": "XXL",
+                            "sort_order": 3
+                        },
+                        {
+                            "id": "$1460377076905",
+                            "name": "XXXL",
+                            "sort_order": 4
+                        }
+                    ],
+                    "sort_order": 0
+                },
+                {
+                    "id": "1627207",
+                    "name": "颜色",
+                    "is_color_prop": "1",
+                    "attr_values": [
+                        {
+                            "id": "28341",
+                            "name": "黑色",
+                            "sort_order": 0
+                        },
+                        {
+                            "id": "$1460377060633",
+                            "name": "灰色",
+                            "sort_order": 1
+                        }
+                    ],
+                    "sort_order": 1
+                }
+            ],
+            "sales_price_real": "99.00",
+            "salesPrice_backUp": "99.00",
+            "low_price": 99,
+            "high_price": 99,
+            "sku_array": [
+                {
+                    "sku_id": "22625779",
+                    "stock": 97,
+                    "price": 99,
+                    "original_price": 299,
+                    "paid_stock": 0,
+                    "completed_stock": 2,
+                    "code": "",
+                    "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/841a4f1ac0c43580875afbc1da3c4bc6_1460377243.jpg",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "$1460377068648",
+                        "1627207": "28341"
+                    },
+                    "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/841a4f1ac0c43580875afbc1da3c4bc6_1460377243.jpg",
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+99积分"
+                },
+                {
+                    "sku_id": "22625784",
+                    "stock": 99,
+                    "price": 99,
+                    "original_price": 299,
+                    "paid_stock": 0,
+                    "completed_stock": 1,
+                    "code": "",
+                    "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/f84f255eff5974de95bd6af80cfc7e9b_1460377246.jpg",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "$1460377068648",
+                        "1627207": "$1460377060633"
+                    },
+                    "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/f84f255eff5974de95bd6af80cfc7e9b_1460377246.jpg",
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+99积分"
+                },
+                {
+                    "sku_id": "22625780",
+                    "stock": 97,
+                    "price": 99,
+                    "original_price": 299,
+                    "paid_stock": 0,
+                    "completed_stock": 3,
+                    "code": "",
+                    "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/841a4f1ac0c43580875afbc1da3c4bc6_1460377243.jpg",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "$1460377070481",
+                        "1627207": "28341"
+                    },
+                    "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/841a4f1ac0c43580875afbc1da3c4bc6_1460377243.jpg",
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+99积分"
+                },
+                {
+                    "sku_id": "22625785",
+                    "stock": 98,
+                    "price": 99,
+                    "original_price": 299,
+                    "paid_stock": 0,
+                    "completed_stock": 1,
+                    "code": "",
+                    "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/f84f255eff5974de95bd6af80cfc7e9b_1460377246.jpg",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "$1460377070481",
+                        "1627207": "$1460377060633"
+                    },
+                    "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/f84f255eff5974de95bd6af80cfc7e9b_1460377246.jpg",
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+99积分"
+                },
+                {
+                    "sku_id": "22625781",
+                    "stock": 99,
+                    "price": 99,
+                    "original_price": 299,
+                    "paid_stock": 0,
+                    "completed_stock": 1,
+                    "code": "",
+                    "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/841a4f1ac0c43580875afbc1da3c4bc6_1460377243.jpg",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "$1460377072569",
+                        "1627207": "28341"
+                    },
+                    "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/841a4f1ac0c43580875afbc1da3c4bc6_1460377243.jpg",
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+99积分"
+                },
+                {
+                    "sku_id": "22625786",
+                    "stock": 100,
+                    "price": 99,
+                    "original_price": 299,
+                    "paid_stock": 0,
+                    "completed_stock": 0,
+                    "code": "",
+                    "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/f84f255eff5974de95bd6af80cfc7e9b_1460377246.jpg",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "$1460377072569",
+                        "1627207": "$1460377060633"
+                    },
+                    "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/f84f255eff5974de95bd6af80cfc7e9b_1460377246.jpg",
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+99积分"
+                },
+                {
+                    "sku_id": "22625782",
+                    "stock": 99,
+                    "price": 99,
+                    "original_price": 299,
+                    "paid_stock": 0,
+                    "completed_stock": 0,
+                    "code": "",
+                    "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/841a4f1ac0c43580875afbc1da3c4bc6_1460377243.jpg",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "$1460377074625",
+                        "1627207": "28341"
+                    },
+                    "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/841a4f1ac0c43580875afbc1da3c4bc6_1460377243.jpg",
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+99积分"
+                },
+                {
+                    "sku_id": "22625787",
+                    "stock": 98,
+                    "price": 99,
+                    "original_price": 299,
+                    "paid_stock": 0,
+                    "completed_stock": 1,
+                    "code": "",
+                    "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/f84f255eff5974de95bd6af80cfc7e9b_1460377246.jpg",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "$1460377074625",
+                        "1627207": "$1460377060633"
+                    },
+                    "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/f84f255eff5974de95bd6af80cfc7e9b_1460377246.jpg",
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+99积分"
+                },
+                {
+                    "sku_id": "22625783",
+                    "stock": 99,
+                    "price": 99,
+                    "original_price": 299,
+                    "paid_stock": 0,
+                    "completed_stock": 1,
+                    "code": "",
+                    "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/841a4f1ac0c43580875afbc1da3c4bc6_1460377243.jpg",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "$1460377076905",
+                        "1627207": "28341"
+                    },
+                    "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/841a4f1ac0c43580875afbc1da3c4bc6_1460377243.jpg",
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+99积分"
+                },
+                {
+                    "sku_id": "22625788",
+                    "stock": 100,
+                    "price": 99,
+                    "original_price": 299,
+                    "paid_stock": 0,
+                    "completed_stock": 0,
+                    "code": "",
+                    "sku_picture": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/f84f255eff5974de95bd6af80cfc7e9b_1460377246.jpg",
+                    "buy_limit": 0,
+                    "attrs": {
+                        "20509": "$1460377076905",
+                        "1627207": "$1460377060633"
+                    },
+                    "sku_pic": "http://shopcdn.chuchujie.com/Uploads/wap_description/201604/f84f255eff5974de95bd6af80cfc7e9b_1460377246.jpg",
+                    "sku_pic_tinysize": "?imageView2/2/w/120",
+                    "sku_pic_bigsize": "?imageView2/2/w/720",
+                    "points": "+99积分"
+                }
+            ],
+            "stocks": 986,
+            "cargo_src": "",
+            "cargo_src_name": "",
+            "brand_id": "0",
+            "delivery_type": "0",
+            "product_type": "normal",
+            "is_oversea_product": "0",
+            "rect_head_url": [],
+            "max_version": "1",
+            "time_limited_buying": {
+                "tlb_status": 0,
+                "tlb_restriction_status": 0,
+                "tlb_countdown_time": 0,
+                "second_kill_price": "0",
+                "server_time": 1499134211,
+                "restriction_max_number": -1,
+                "status": 0,
+                "type": 0,
+                "price": "0",
+                "tlb_recommend_wap_url": "http://wx.chuchujie.com/index.php?s=/Product/product_detail/product_id/10008143702",
+                "isMs": 0
+            },
+            "param_description": "",
+            "descriptionImgJson": "https://image-shop.chuchujie.com/culiu.cdn/shop_staticHtml/detailJsonCCJ/17/64/10008143702_detail.json?v=1484196098",
+            "descriptionShopJson": "https://image-shop.chuchujie.com/culiu.cdn/shop_staticHtml/cct_template_json/24/6/10008143702_cct_template.json?v=1499097600",
+            "edit_mode": 1,
+            "simple_edit_info": {
+                "image_text_array": null
+            },
+            "productSummaryInfo": {
+                "infoList": null
+            },
+            "size_params": [],
+            "image_urls_head_for_ios_share": "http://shopcdn.chuchujie.com/Uploads/detail_url/201604/570b9661caa64.jpg?imageView2/2/w/160",
+            "share_url": "https://m.chuchujie.com/details/detail.html?id=10008143702",
+            "share_url_args": "#share_uid/0",
+            "product_offline_time": "",
+            "product_sale_image": "",
+            "product_sale_text": "",
+            "commission": {
+                "title": "分享赚佣金",
+                "content": "分享赚佣金: ¥ 2.97元",
+                "description": "分享赚: ¥ 2.97元",
+                "value": 2.97
+            },
+            "is_validated_shop": 1,
+            "is_no_reason_return": 1,
+            "is_fast_delivery": 1,
+            "is_tested": 0,
+            "product_des": "楚楚街商城,完美的购物体验，你值得拥有!",
+            "is_show_but": 1,
+            "is_qualified": 1,
+            "is_compensated": 1,
+            "brand_commitment_url": "http://huodong.chuchujie.com/notice/brand.html",
+            "commitment_type": 1,
+            "product_service_info": [
+                "正品保障",
+                "假一赔五",
+                "24小时发货",
+                "9天无理由退货"
+            ],
+            "commitment_url": "http://shopcdn.chuchujie.com/Uploads/desc/201507/143643299364041.png",
+            "service_info_new": {
+                "item": {
+                    "icon": "",
+                    "imgHeight": "",
+                    "imageWidth": "",
+                    "template": "",
+                    "query": "",
+                    "imgScale": ""
+                },
+                "service_list": [
+                    {
+                        "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/f7d810cd1924d31bd35ed63984dd6ca91490337760_40_40.png",
+                        "imgHeight": "40",
+                        "imageWidth": "40",
+                        "imgScale": "1.0",
+                        "desc": "正品保障",
+                        "desc_detail": "100%正品，假一赔五"
+                    },
+                    {
+                        "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/f7d810cd1924d31bd35ed63984dd6ca91490337760_40_40.png",
+                        "imgHeight": "40",
+                        "imageWidth": "40",
+                        "imgScale": "1.0",
+                        "desc": "假一赔五",
+                        "desc_detail": ""
+                    },
+                    {
+                        "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/f7d810cd1924d31bd35ed63984dd6ca91490337760_40_40.png",
+                        "imgHeight": "40",
+                        "imageWidth": "40",
+                        "imgScale": "1.0",
+                        "desc": "24小时发货",
+                        "desc_detail": "卖家承诺，买家付款成功后24小时内发货"
+                    },
+                    {
+                        "icon": "http://image-shop.chuchujie.com/culiu.cdn/image/201703/24/f7d810cd1924d31bd35ed63984dd6ca91490337760_40_40.png",
+                        "imgHeight": "40",
+                        "imageWidth": "40",
+                        "imgScale": "1.0",
+                        "desc": "9天无理由退货",
+                        "desc_detail": ""
+                    }
+                ]
+            },
+            "high_price_points": 49,
+            "low_price_points": 49,
+            "points": "购买可返49积分",
+            "points_desc": "1、只限登录用户,未登录用户购买将不会获得积分\n2、积分在购买宝贝经过退款期以后可以使用",
+            "category": {
+                "first_category_id": "-13",
+                "first_category_name": "男装",
+                "second_category_id": "50000436",
+                "second_category_name": "T恤",
+                "third_category_id": "",
+                "third_category_name": "",
+                "fourth_category_id": "",
+                "fourth_category_name": ""
+            },
+            "buy_num": 12,
+            "question": {
+                "is_show": 1,
+                "list": null,
+                "count": 0,
+                "tips": "还在犹豫不决？问问买过的人吧！"
+            },
+            "activity_info": {
+                "activity_info_array": []
+            },
+            "best_comment": {
+                "total_num": 10,
+                "comment_list": [
+                    {
+                        "user_id": 46526035,
+                        "head_img": "http://shopcdn.chuchujie.com/Uploads/comment/201702/41915051c011c887819ef5b7a615cca6.jpg",
+                        "nick_name": "1***5",
+                        "content": "好看，，，，，，，，",
+                        "comment_img": []
+                    }
+                ]
+            },
+            "btnCtrlShow": {
+                "cartBtn": true,
+                "commissionBtn": true
+            },
+            "installment_info": {
+                "installment_icon": "",
+                "installment_content": "",
+                "installment_url": ""
+            },
+            "is_hb": false,
+            "shop_sign_info": {
+                "activity_info_array": [],
+                "activity_info_array_new": [
+                    {
+                        "title": "",
+                        "subTitle": "夏季特卖，买就送",
+                        "tag": "#222222",
+                        "template": "MSSHOPSPECIAL",
+                        "query": "{\"method\":\"get_special_list\",\"actId\":\"21203\",\"actName\":\"\\u590f\\u5b63\\u7279\\u5356\\uff0c\\u4e70\\u5c31\\u9001\",\"shopId\":\"8143\"}",
+                        "imgUrl": "http://shopcdn.chuchujie.com/Uploads/shop_deco/201704/25854aba627318797a070c458f258876_1491312670.jpg",
+                        "imgScale": "2.11",
+                        "priority": 4
+                    }
+                ]
+            },
+            "special_list": [
+                {
+                    "specialInfo": {
+                        "title": "潮流男装夏季新品",
+                        "subTitle": "潮流男装夏季新品",
+                        "description": "",
+                        "imgUrl": "",
+                        "imgWidth": "0",
+                        "imgHeight": "0",
+                        "imgScale": 0,
+                        "shopId": "8143",
+                        "tag": "专题"
+                    },
+                    "productList": [
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"100081432502\",\"shopId\":\"8143\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201704/58e50c62a3f61.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "合伙狼男装夏新品韩版修身t恤衫纯色上衣卫衣男士T恤MD701",
+                            "saleCount": 34,
+                            "stock": 100,
+                            "oldPrice": "399.00",
+                            "newPrice": "49.90",
+                            "discount": "0.12",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100081432502",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "5966"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"100081432499\",\"shopId\":\"8143\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201704/58e37faaf2554.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "合伙狼男装夏新品纯色印花圆领短袖t恤男士卫衣上衣男装T恤ZX707",
+                            "saleCount": 28,
+                            "stock": 100,
+                            "oldPrice": "399.00",
+                            "newPrice": "59.00",
+                            "discount": "0.14",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100081432499",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "4472"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"100081432485\",\"shopId\":\"8143\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58dcdc736f709.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "合伙狼男装春新品韩版修身时尚纯色男装短袖t恤男士T恤MD720",
+                            "saleCount": 37,
+                            "stock": 100,
+                            "oldPrice": "399.00",
+                            "newPrice": "49.90",
+                            "discount": "0.12",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100081432485",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "8963"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"100081432476\",\"shopId\":\"8143\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201703/58dbd294dfb59.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "合伙狼男装夏新品韩版纯色纯色短袖T恤男圆领t恤衫MD711",
+                            "saleCount": 16,
+                            "stock": 100,
+                            "oldPrice": "399.00",
+                            "newPrice": "59.00",
+                            "discount": "0.14",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100081432476",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "7185"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"100081432508\",\"shopId\":\"8143\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201704/58ea5512b481e.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "男装夏新品韩版圆领t恤卫衣纯色上衣潮流纯棉男装T恤DQC1655",
+                            "saleCount": 18,
+                            "stock": 100,
+                            "oldPrice": "399.00",
+                            "newPrice": "55.90",
+                            "discount": "0.14",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100081432508",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "5998"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"100081432505\",\"shopId\":\"8143\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201704/58e51c3912d64.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "合伙狼男装夏新品t恤衫大树印花纯色时尚圆领男装T恤ZX704",
+                            "saleCount": 15,
+                            "stock": 100,
+                            "oldPrice": "399.00",
+                            "newPrice": "59.00",
+                            "discount": "0.14",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100081432505",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "3000"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"100081432507\",\"shopId\":\"8143\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201704/58e51f33c0b99.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "合伙狼男装夏新品polo衫韩版翻领日韩纯色时尚男士T恤ZX901",
+                            "saleCount": 17,
+                            "stock": 100,
+                            "oldPrice": "399.00",
+                            "newPrice": "69.00",
+                            "discount": "0.17",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100081432507",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "3000"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"100081432504\",\"shopId\":\"8143\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201704/58e51a99945b6.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "合伙狼男装夏新品圆领时尚潮流t恤韩版个性T恤男ZX703",
+                            "saleCount": 14,
+                            "stock": 100,
+                            "oldPrice": "399.00",
+                            "newPrice": "69.00",
+                            "discount": "0.17",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100081432504",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "1999"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"100081432500\",\"shopId\":\"8143\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201704/58e3975891e37.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "合伙狼男装夏新品圆领纯色短袖t恤男卫衣上衣简约男装T恤ZX706",
+                            "saleCount": 17,
+                            "stock": 100,
+                            "oldPrice": "399.00",
+                            "newPrice": "59.00",
+                            "discount": "0.14",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100081432500",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "2983"
+                        },
+                        {
+                            "status": 0,
+                            "template": "CHUCHUITEM",
+                            "query": "{\"productId\":\"100081432501\",\"shopId\":\"8143\",\"trackId\":\"\",\"static_id\":28}",
+                            "imgUrl": "http://shopcdn.chuchujie.com/Uploads/detail_url/201704/58e398b602df2.jpg?imageView2/2/w/400",
+                            "imgWidth": 480,
+                            "imgHeight": 480,
+                            "title": "合伙狼男装夏新品韩版纯色个性卡通图t恤衫卫衣男装T恤ZX705",
+                            "saleCount": 11,
+                            "stock": 100,
+                            "oldPrice": "399.00",
+                            "newPrice": "59.00",
+                            "discount": "0.14",
+                            "description": "",
+                            "subTitle": "楚楚街",
+                            "tags": [
+                                "包邮"
+                            ],
+                            "product_type": "0",
+                            "product_detail_url": "https://m.chuchujie.com/details/detail.html?id=100081432501",
+                            "limited_buy": "",
+                            "coupon_grant_title": "",
+                            "debug_stocks": "4493"
+                        }
+                    ],
+                    "page": 1,
+                    "hasNext": false,
+                    "totalCount": 10
+                }
+            ],
+            "shop_info": {
+                "cn_name": "合伙狼男装旗舰店",
+                "shop_header_image_url": "http://shopcdn.chuchujie.com/Uploads/shop_head/201505/1431068870.jpg?imageView2/2/w/400",
+                "shop_header": "http://shopcdn.chuchujie.com/Uploads/shop_head/201505/1431068870.jpg?imageView2/2/w/400",
+                "shop_description": "",
+                "brand_story": "",
+                "service_qq": [
+                    "2850746712"
+                ],
+                "service_im_h5": "http://m.chuchujie.com/details/webIm.html",
+                "level": 0,
+                "delivery": "福建省泉州市",
+                "perfact_scale": "92%",
+                "desc_scale": 9.5,
+                "ship_scale": 9.6,
+                "serv_scale": 9.6,
+                "all_product_quantity": 0,
+                "shop_type": 1,
+                "isFav": false,
+                "brandStory": {},
+                "chat_url": "http://m.chuchujie.com/im/kefuIM.html?mcc=1&shopId=8143",
+                "service_type": 2,
+                "chat_native": 8143
+            }
+        },
+        "faillist": {
+            "total": 10,
+            "with_img_count": 0,
+            "great_count": 10,
+            "general_count": 0,
+            "bad_count": 0,
+            "positive_rate": "",
+            "comment_tip": "剩余6条为无评论内容好评"
+        }
+    }
+}
